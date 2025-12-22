@@ -1,0 +1,896 @@
+diseaseId,diseaseName,meshId,mesh_name,tree_number,level
+MONDO_0000430,mature T-cell and NK-cell non-Hodgkin lymphoma,D016411,"Lymphoma, T-Cell, Peripheral",C04.557.386.480.750.825,6.0
+MONDO_0000502,villous adenoma,D018253,"Adenoma, Villous",C04.557.470.035.185,5.0
+MONDO_0000920,duodenum cancer,D004379,Duodenal Neoplasms,C04.588.274.476.411.445,6.0
+MONDO_0001023,prolymphocytic leukemia,D015463,"Leukemia, Prolymphocytic",C04.557.337.428.565,5.0
+MONDO_0001256,arteriovenous hemangioma/malformation,D001165,,,
+MONDO_0001340,heart cancer,D006338,Heart Neoplasms,C04.588.894.309,4.0
+MONDO_0001398,ureter benign neoplasm,D014516,Ureteral Neoplasms,C04.588.945.947.940,5.0
+MONDO_0001402,vaginal cancer,D014625,Vaginal Neoplasms,C04.588.945.418.955,5.0
+MONDO_0001528,vulva cancer,D014846,Vulvar Neoplasms,C04.588.945.418.968,5.0
+MONDO_0001569,acoustic neuroma,D009464,"Neuroma, Acoustic",C04.557.465.625.650.595.610,7.0
+MONDO_0001569,acoustic neuroma,D009464,"Neuroma, Acoustic",C04.557.580.600.610.595.610,7.0
+MONDO_0001569,acoustic neuroma,D009464,"Neuroma, Acoustic",C04.557.580.625.650.595.610,7.0
+MONDO_0001569,acoustic neuroma,D009464,"Neuroma, Acoustic",C04.588.614.300.015,5.0
+MONDO_0001569,acoustic neuroma,D009464,"Neuroma, Acoustic",C04.588.614.596.240.015,6.0
+MONDO_0001572,leiomyoma,D007889,Leiomyoma,C04.557.450.590.450,5.0
+MONDO_0001657,brain cancer,D001932,Brain Neoplasms,C04.588.614.250.195,5.0
+MONDO_0002013,lymphangioma,D008202,Lymphangioma,C04.557.375.450,4.0
+MONDO_0002060,intraductal papilloma,D018300,"Papilloma, Intraductal",C04.557.470.615.670,5.0
+MONDO_0002071,supratentorial cancer,D015173,Supratentorial Neoplasms,C04.588.614.250.195.885,6.0
+MONDO_0002093,acanthoma,D049309,Acanthoma,C04.557.470.700.040,5.0
+MONDO_0002093,acanthoma,D049309,Acanthoma,C04.588.805.040,4.0
+MONDO_0002095,vascular cancer,D009383,"Neoplasms, Vascular Tissue",C04.557.645,3.0
+MONDO_0002120,neuroendocrine carcinoma,D018278,"Carcinoma, Neuroendocrine",C04.557.465.625.650.240,6.0
+MONDO_0002120,neuroendocrine carcinoma,D018278,"Carcinoma, Neuroendocrine",C04.557.470.200.025.370,6.0
+MONDO_0002120,neuroendocrine carcinoma,D018278,"Carcinoma, Neuroendocrine",C04.557.580.625.650.240,6.0
+MONDO_0002165,rectal neoplasm,D012004,Rectal Neoplasms,C04.588.274.476.411.307.790,7.0
+MONDO_0002171,giant cell tumor,D005870,Giant Cell Tumors,C04.557.450.565.380,5.0
+MONDO_0002191,syringoma,D018252,Syringoma,C04.557.470.035.175.800,6.0
+MONDO_0002191,syringoma,D018252,Syringoma,C04.557.470.550.175.800,6.0
+MONDO_0002236,ocular cancer,D005134,Eye Neoplasms,C04.588.364,3.0
+MONDO_0002334,hematopoietic and lymphoid system neoplasm,D019337,Hematologic Neoplasms,C04.588.448,3.0
+MONDO_0002360,chondroma,D002812,Chondroma,C04.557.450.565.265,5.0
+MONDO_0002363,papilloma,D010212,Papilloma,C04.557.470.700.600,5.0
+MONDO_0002367,kidney cancer,D007680,Kidney Neoplasms,C04.588.945.947.535,5.0
+MONDO_0002369,cystadenoma,D003537,Cystadenoma,C04.557.470.035.320,5.0
+MONDO_0002369,cystadenoma,D003537,Cystadenoma,C04.557.470.590.485,5.0
+MONDO_0002373,benign mesothelioma,D008654,Mesothelioma,C04.557.470.035.510,5.0
+MONDO_0002373,benign mesothelioma,D008654,Mesothelioma,C04.557.470.660.510,5.0
+MONDO_0002380,myoepithelial tumor,D009208,Myoepithelioma,C04.557.435.585,4.0
+MONDO_0002407,capillary hemangioma,D018324,"Hemangioma, Capillary",C04.557.645.375.380,5.0
+MONDO_0002422,adamantinoma,C562741,,,
+MONDO_0002422,adamantinoma,D050398,Adamantinoma,C04.588.149.030,4.0
+MONDO_0002450,prostatic adenoma,D011470,,,
+MONDO_0002512,papillary adenocarcinoma,D000231,"Adenocarcinoma, Papillary",C04.557.470.200.025.085,6.0
+MONDO_0002527,keratoacanthoma,D007636,,,
+MONDO_0002532,squamous cell neoplasm,D018307,"Neoplasms, Squamous Cell",C04.557.470.700,4.0
+MONDO_0002537,inverted papilloma,D018308,"Papilloma, Inverted",C04.557.470.700.600.610,6.0
+MONDO_0002547,nerve sheath neoplasm,D018317,Nerve Sheath Neoplasms,C04.557.580.600,4.0
+MONDO_0002564,jejunal neoplasm,D007580,Jejunal Neoplasms,C04.588.274.476.411.523,6.0
+MONDO_0002580,orbit rhabdomyosarcoma,C537605,,,
+MONDO_0002598,germinoma,D018237,Germinoma,C04.557.465.330,4.0
+MONDO_0002599,teratocarcinoma,D018243,Teratocarcinoma,C04.557.465.900,4.0
+MONDO_0002601,teratoma,D013724,Teratoma,C04.557.465.910,4.0
+MONDO_0002603,angiomyolipoma,D018207,Angiomyolipoma,C04.557.450.550.125,5.0
+MONDO_0002603,angiomyolipoma,D018207,Angiomyolipoma,C04.557.450.692.249,5.0
+MONDO_0002633,cranial nerve neoplasm,D003390,Cranial Nerve Neoplasms,C04.588.614.300,4.0
+MONDO_0002633,cranial nerve neoplasm,D003390,Cranial Nerve Neoplasms,C04.588.614.596.240,5.0
+MONDO_0002648,mammary Paget disease,D010144,"Paget's Disease, Mammary",C04.557.470.200.240.187.500,7.0
+MONDO_0002648,mammary Paget disease,D010144,"Paget's Disease, Mammary",C04.557.470.615.275.625,6.0
+MONDO_0002655,cutaneous Paget disease,D010145,"Paget Disease, Extramammary",C04.557.470.200.025.660,6.0
+MONDO_0002655,cutaneous Paget disease,D010145,"Paget Disease, Extramammary",C04.557.470.615.660,5.0
+MONDO_0002675,neurofibrosarcoma,D018319,Neurofibrosarcoma,C04.557.450.565.590.350.590,7.0
+MONDO_0002675,neurofibrosarcoma,D018319,Neurofibrosarcoma,C04.557.450.795.350.590,6.0
+MONDO_0002675,neurofibrosarcoma,D018319,Neurofibrosarcoma,C04.557.580.600.580.795,6.0
+MONDO_0002715,uterine cancer,D014594,Uterine Neoplasms,C04.588.945.418.948,5.0
+MONDO_0002785,skull base neoplasm,D019292,Skull Base Neoplasms,C04.588.149.721.828,5.0
+MONDO_0002814,adrenal carcinoma,D018268,Adrenocortical Carcinoma,C04.557.470.200.025.152,6.0
+MONDO_0002814,adrenal carcinoma,D018268,Adrenocortical Carcinoma,C04.588.322.078.265.750,6.0
+MONDO_0002817,adrenal gland cancer,D000310,Adrenal Gland Neoplasms,C04.588.322.078,4.0
+MONDO_0002872,trophoblastic neoplasm,D014328,Trophoblastic Neoplasms,C04.557.465.955,4.0
+MONDO_0002872,trophoblastic neoplasm,D014328,Trophoblastic Neoplasms,C04.850.908,3.0
+MONDO_0002878,uterine corpus adenosarcoma,C538232,,,
+MONDO_0002912,brainstem cancer,D020295,Brain Stem Neoplasms,C04.588.614.250.195.411.100,7.0
+MONDO_0002913,cerebellar neoplasm,D002528,Cerebellar Neoplasms,C04.588.614.250.195.411.211,7.0
+MONDO_0002928,carcinosarcoma,D002296,Carcinosarcoma,C04.557.435.290,4.0
+MONDO_0002928,carcinosarcoma,D002296,Carcinosarcoma,C04.557.450.795.290,5.0
+MONDO_0002989,benign fibrous histiocytoma,D018219,"Histiocytoma, Benign Fibrous",C04.557.450.565.590.425.350,7.0
+MONDO_0003001,seminoma,D018239,Seminoma,C04.557.465.330.800,5.0
+MONDO_0003002,dysgerminoma,D004407,Dysgerminoma,C04.557.465.330.300,5.0
+MONDO_0003008,hereditary renal cell carcinoma,C536851,,,
+MONDO_0003024,breast angiosarcoma,C536368,,,
+MONDO_0003036,mucoepidermoid carcinoma,D018298,Mucoepidermoid Tumor,C04.557.470.590.580,5.0
+MONDO_0003036,mucoepidermoid carcinoma,D018277,"Carcinoma, Mucoepidermoid",C04.557.470.200.025.340,6.0
+MONDO_0003036,mucoepidermoid carcinoma,D018277,"Carcinoma, Mucoepidermoid",C04.557.470.590.340,5.0
+MONDO_0003061,benign muscle neoplasm,D009214,Myoma,C04.557.450.590.540,5.0
+MONDO_0003079,mastocytoma,D034801,Mastocytoma,C04.557.450.565.465.249,6.0
+MONDO_0003107,infratentorial cancer,D015192,Infratentorial Neoplasms,C04.588.614.250.195.411,6.0
+MONDO_0003143,angiokeratoma,D000794,Angiokeratoma,C04.557.645.115,4.0
+MONDO_0003218,adenocarcinoma in situ,D065311,Adenocarcinoma in Situ,C04.557.470.200.025.014,6.0
+MONDO_0003218,adenocarcinoma in situ,D065311,Adenocarcinoma in Situ,C04.557.470.200.240.124,6.0
+MONDO_0003250,benign granular cell tumor,D009379,"Neoplasms, Muscle Tissue",C04.557.450.590,4.0
+MONDO_0003277,malignant ear neoplasm,D004428,Ear Neoplasms,C04.588.443.665.312,5.0
+MONDO_0003295,leiomyomatosis,D018231,Leiomyomatosis,C04.557.450.590.450.465,6.0
+MONDO_0003464,cystadenofibroma,D062625,Cystadenofibroma,C04.557.450.565.590.595.050.500,8.0
+MONDO_0003464,cystadenofibroma,D062625,Cystadenofibroma,C04.557.470.590.482,5.0
+MONDO_0003464,cystadenofibroma,D062625,Cystadenofibroma,C04.557.470.625.050.500,6.0
+MONDO_0003478,childhood ependymoma,C531673,,,
+MONDO_0003525,pancreatic gastrin-producing neuroendocrine tumor,D015408,Gastrinoma,C04.557.470.200.025.290.500,7.0
+MONDO_0003525,pancreatic gastrin-producing neuroendocrine tumor,D015408,Gastrinoma,C04.588.274.761.500.124,6.0
+MONDO_0003525,pancreatic gastrin-producing neuroendocrine tumor,D015408,Gastrinoma,C04.588.322.475.500.124,6.0
+MONDO_0003715,bladder urachal carcinoma,C536475,,,
+MONDO_0003825,kidney oncocytoma,C537750,,,
+MONDO_0004095,B-cell neoplasm,D016393,"Lymphoma, B-Cell",C04.557.386.480.150,5.0
+MONDO_0004180,benign urinary system neoplasm,D014571,Urologic Neoplasms,C04.588.945.947,4.0
+MONDO_0004255,Wolffian adnexal tumor,C536741,,,
+MONDO_0004331,bladder urachal adenocarcinoma,C536474,,,
+MONDO_0004334,non-functional pancreatic neuroendocrine tumor,C536126,,,
+MONDO_0004532,auditory system cancer,D004428,Ear Neoplasms,C04.588.443.665.312,5.0
+MONDO_0004631,tongue cancer,D014062,Tongue Neoplasms,C04.588.443.591.925,5.0
+MONDO_0004643,myeloid leukemia,D007951,"Leukemia, Myeloid",C04.557.337.539,4.0
+MONDO_0004647,in situ carcinoma,D002278,Carcinoma in Situ,C04.557.470.200.240,5.0
+MONDO_0004658,breast carcinoma in situ,D000071960,Breast Carcinoma In Situ,C04.557.470.200.240.187,6.0
+MONDO_0004658,breast carcinoma in situ,D000071960,Breast Carcinoma In Situ,C04.588.180.130,4.0
+MONDO_0004669,salivary gland cancer,D012468,Salivary Gland Neoplasms,C04.588.443.591.824,5.0
+MONDO_0004700,parotid gland cancer,D010307,Parotid Neoplasms,C04.588.443.591.824.695,6.0
+MONDO_0005094,hemangiopericytoma,D006393,Hemangiopericytoma,C04.557.645.380,4.0
+MONDO_0005184,pancreatic ductal adenocarcinoma,D021441,"Carcinoma, Pancreatic Ductal",C04.557.470.200.025.232.750,7.0
+MONDO_0005184,pancreatic ductal adenocarcinoma,D021441,"Carcinoma, Pancreatic Ductal",C04.557.470.615.132.750,6.0
+MONDO_0005184,pancreatic ductal adenocarcinoma,D021441,"Carcinoma, Pancreatic Ductal",C04.588.274.761.750,5.0
+MONDO_0005184,pancreatic ductal adenocarcinoma,D021441,"Carcinoma, Pancreatic Ductal",C04.588.322.475.750,5.0
+MONDO_0005232,large cell carcinoma,D018287,"Carcinoma, Large Cell",C04.557.470.200.260,5.0
+MONDO_0005374,bone marrow neoplasm,D019046,Bone Marrow Neoplasms,C04.588.448.200,4.0
+MONDO_0005508,hereditary multiple osteochondromas,D005097,"Exostoses, Multiple Hereditary",C04.557.450.565.575.610.615.325,8.0
+MONDO_0005508,hereditary multiple osteochondromas,D005097,"Exostoses, Multiple Hereditary",C04.700.330,3.0
+MONDO_0006058,Wilms tumor,D009396,Wilms Tumor,C04.557.435.595,4.0
+MONDO_0006058,Wilms tumor,D009396,Wilms Tumor,C04.588.945.947.535.585,6.0
+MONDO_0006058,Wilms tumor,D009396,Wilms Tumor,C04.700.900,3.0
+MONDO_0007154,arteriovenous malformations of the brain,D002538,,,
+MONDO_0007300,cerebral sarcoma,C537946,,,
+MONDO_0007329,"cirrhosis, familial",C566123,,,
+MONDO_0007540,multiple endocrine neoplasia type 1,D018761,Multiple Endocrine Neoplasia Type 1,C04.588.322.400.500,5.0
+MONDO_0007540,multiple endocrine neoplasia type 1,D018761,Multiple Endocrine Neoplasia Type 1,C04.651.600.500,4.0
+MONDO_0007540,multiple endocrine neoplasia type 1,D018761,Multiple Endocrine Neoplasia Type 1,C04.700.630.500,4.0
+MONDO_0007707,hemangiomas of small intestine,C564201,,,
+MONDO_0007909,familial multiple lipomatosis,D000071070,,,
+MONDO_0007925,myelodysplastic syndrome associated with isolated del(5q),C535323,,,
+MONDO_0007958,familial medullary thyroid carcinoma,C536911,,,
+MONDO_0008018,Muir-Torre syndrome,D055653,Muir-Torre Syndrome,C04.588.805.578.500,5.0
+MONDO_0008018,Muir-Torre syndrome,D055653,Muir-Torre Syndrome,C04.700.250.500.500,5.0
+MONDO_0008040,transient myeloproliferative syndrome,C563551,,,
+MONDO_0008082,multiple endocrine neoplasia type 2B,D018814,Multiple Endocrine Neoplasia Type 2b,C04.588.322.400.510,5.0
+MONDO_0008082,multiple endocrine neoplasia type 2B,D018814,Multiple Endocrine Neoplasia Type 2b,C04.651.600.510,4.0
+MONDO_0008082,multiple endocrine neoplasia type 2B,D018814,Multiple Endocrine Neoplasia Type 2b,C04.700.630.510,4.0
+MONDO_0008093,"nevus, epidermal",C580062,,,
+MONDO_0008139,OSLAM syndrome,C537138,,,
+MONDO_0008170,ovarian cancer,D010051,Ovarian Neoplasms,C04.588.322.455,4.0
+MONDO_0008233,pheochromocytoma,D010673,Pheochromocytoma,C04.557.465.625.650.700.725,7.0
+MONDO_0008233,pheochromocytoma,D010673,Pheochromocytoma,C04.557.580.625.650.700.725,7.0
+MONDO_0008234,multiple endocrine neoplasia type 2A,D018813,Multiple Endocrine Neoplasia Type 2a,C04.588.322.400.505,5.0
+MONDO_0008234,multiple endocrine neoplasia type 2A,D018813,Multiple Endocrine Neoplasia Type 2a,C04.651.600.505,4.0
+MONDO_0008234,multiple endocrine neoplasia type 2A,D018813,Multiple Endocrine Neoplasia Type 2a,C04.700.630.505,4.0
+MONDO_0008315,prostate cancer,D011471,Prostatic Neoplasms,C04.588.945.440.770,5.0
+MONDO_0008337,familial pterygium of the conjunctiva,C566740,,,
+MONDO_0008380,retinoblastoma,D012175,Retinoblastoma,C04.557.465.625.600.725,6.0
+MONDO_0008380,retinoblastoma,D012175,Retinoblastoma,C04.557.470.670.725,5.0
+MONDO_0008380,retinoblastoma,D012175,Retinoblastoma,C04.557.580.625.600.725,6.0
+MONDO_0008380,retinoblastoma,D012175,Retinoblastoma,C04.588.364.818.760,5.0
+MONDO_0008387,ring dermoid of cornea,C535684,,,
+MONDO_0008565,familial thyroglossal duct cyst,C536909,,,
+MONDO_0008566,"thyroid cancer, nonmedullary, 2",C572845,,,
+MONDO_0008627,ureter cancer,D014516,Ureteral Neoplasms,C04.588.945.947.940,5.0
+MONDO_0008734,"adrenocortical carcinoma, hereditary",C565972,,,
+MONDO_0008978,chordoma,D002817,Chordoma,C04.557.465.220,4.0
+MONDO_0009227,"myofibromatosis, infantile, 1",C562978,,,
+MONDO_0009330,"hemangiopericytoma, malignant",C562740,,,
+MONDO_0009397,neonatal severe primary hyperparathyroidism,C563375,,,
+MONDO_0009578,neurocutaneous melanocytosis,C537387,,,
+MONDO_0009646,monosomy 7 myelodysplasia and leukemia syndrome 1,C565370,,,
+MONDO_0009719,familial atrial myxoma,C538262,,,
+MONDO_0009837,choroid plexus papilloma,D020288,"Papilloma, Choroid Plexus",C04.588.614.250.195.205.200.500,8.0
+MONDO_0010127,"thymoma, familial",C564767,,,
+MONDO_0010621,CHILD syndrome,C562515,,,
+MONDO_0010768,gonadoblastoma,D018238,Gonadoblastoma,C04.557.465.420,4.0
+MONDO_0010768,gonadoblastoma,D018238,Gonadoblastoma,C04.557.475.395,4.0
+MONDO_0011121,pheochromocytoma/paraganglioma syndrome 2,C566646,,,
+MONDO_0011191,capillary infantile hemangioma,C535860,,,
+MONDO_0011260,"pancreatic lymphoma, familial",C566516,,,
+MONDO_0011500,Becker nevus syndrome,C565735,,,
+MONDO_0011544,pheochromocytoma/paraganglioma syndrome 3,C565335,,,
+MONDO_0011576,familial hyperaldosteronism type II,C565312,,,
+MONDO_0011578,familial papillary thyroid carcinoma with renal papillary neoplasia,C565310,,,
+MONDO_0011705,lymphangioleiomyomatosis,D018192,Lymphangioleiomyomatosis,C04.557.375.460.465,5.0
+MONDO_0011705,lymphangioleiomyomatosis,D018192,Lymphangioleiomyomatosis,C04.557.450.692.500,5.0
+MONDO_0011719,gastrointestinal stromal tumor,D046152,Gastrointestinal Stromal Tumors,C04.557.450.565.370,5.0
+MONDO_0011744,primary intraosseous venous malformation,C564648,,,
+MONDO_0011789,familial meningioma,C537443,,,
+MONDO_0011927,tufted angioma,C536924,,,
+MONDO_0011934,dermatofibrosarcoma protuberans,D018223,Dermatofibrosarcoma,C04.557.450.565.590.350.320,7.0
+MONDO_0011934,dermatofibrosarcoma protuberans,D018223,Dermatofibrosarcoma,C04.557.450.795.350.320,6.0
+MONDO_0012249,Lynch syndrome 2,D055847,Lynch Syndrome II,C04.700.250.500,4.0
+MONDO_0012252,rhabdoid tumor predisposition syndrome 1,C563738,,,
+MONDO_0012502,normophosphatemic familial tumoral calcinosis,C566473,,,
+MONDO_0012809,"histiocytoma, Angiomatoid fibrous",C563181,,,
+MONDO_0012825,extraskeletal myxoid chondrosarcoma,C563195,,,
+MONDO_0013038,CLOVES syndrome,C567863,,,
+MONDO_0013074,encephalocraniocutaneous lipomatosis,C535736,,,
+MONDO_0013196,Lynch syndrome 8,C567685,,,
+MONDO_0013224,rhabdoid tumor predisposition syndrome 2,C567643,,,
+MONDO_0013695,"colorectal cancer, hereditary nonpolyposis, type 6",C566039,,,
+MONDO_0015196,vein of Galen aneurysm,C536535,,,
+MONDO_0015278,familial pancreatic carcinoma,C535837,,,
+MONDO_0015459,nasopharyngeal carcinoma,D000077274,Nasopharyngeal Carcinoma,C04.557.470.200.623,5.0
+MONDO_0015459,nasopharyngeal carcinoma,D000077274,Nasopharyngeal Carcinoma,C04.588.443.665.710.650.500,7.0
+MONDO_0015459,nasopharyngeal carcinoma,D00007727,,,
+MONDO_0015459,nasopharyngeal carcinoma,C538339,,,
+MONDO_0015523,epithelioid hemangioendothelioma,D018323,"Hemangioendothelioma, Epithelioid",C04.557.645.375.370.380,6.0
+MONDO_0015528,congenital epulis,D005887,Gingival Neoplasms,C04.588.443.591.402,5.0
+MONDO_0015748,hereditary mucosal leukokeratosis,D053529,,,
+MONDO_0015758,primary cutaneous T-cell lymphoma,D016410,"Lymphoma, T-Cell, Cutaneous",C04.557.386.480.750.800,6.0
+MONDO_0015760,T-cell non-Hodgkin lymphoma,D016399,"Lymphoma, T-Cell",C04.557.386.480.750,5.0
+MONDO_0015798,inflammatory myofibroblastic tumor,D006104,,,
+MONDO_0015935,extragonadal germinoma,D018237,Germinoma,C04.557.465.330,4.0
+MONDO_0016236,kaposiform hemangioendothelioma,C537007,,,
+MONDO_0016238,solitary fibrous tumor,D054364,Solitary Fibrous Tumors,C04.557.450.565.590.797,6.0
+MONDO_0016238,solitary fibrous tumor,D006393,Hemangiopericytoma,C04.557.645.380,4.0
+MONDO_0016419,hereditary breast carcinoma,C562840,,,
+MONDO_0016611,lipoblastoma,D062689,Lipoblastoma,C04.557.450.550.400.500,6.0
+MONDO_0016642,meningioma,D008579,Meningioma,C04.557.580.520,4.0
+MONDO_0016642,meningioma,D008579,Meningioma,C04.557.645.520,4.0
+MONDO_0016642,meningioma,D008579,Meningioma,C04.588.614.250.580.500,6.0
+MONDO_0016718,choroid plexus carcinoma,C562943,,,
+MONDO_0016730,gangliocytoma,D005729,Ganglioneuroma,C04.557.465.625.600.355,6.0
+MONDO_0016730,gangliocytoma,D005729,Ganglioneuroma,C04.557.470.670.355,5.0
+MONDO_0016730,gangliocytoma,D005729,Ganglioneuroma,C04.557.580.625.600.355,6.0
+MONDO_0016748,hemangioblastoma,D018325,Hemangioblastoma,C04.557.645.375.380.370,6.0
+MONDO_0016824,infantile myofibromatosis,D018224,Myofibromatosis,C04.557.450.565.590.550,6.0
+MONDO_0017317,phakomatosis pigmentokeratotica,C537893,,,
+MONDO_0017349,myopericytoma,D000077777,Myopericytoma,C04.557.450.565.545,5.0
+MONDO_0017349,myopericytoma,D000077777,Myopericytoma,C04.557.645.380.500,5.0
+MONDO_0017795,ameloblastoma,D000564,Ameloblastoma,C04.557.695.065,4.0
+MONDO_0018079,thymic epithelial neoplasm,C536905,,,
+MONDO_0018184,gastric linitis plastica,D008039,Linitis Plastica,C04.557.470.200.025.095.410,7.0
+MONDO_0018327,glomus tumor,D005918,Glomus Tumor,C04.557.645.350,4.0
+MONDO_0018364,malignant epithelial tumor of ovary,C538090,,,
+MONDO_0018892,Wyburn-Mason syndrome,C536752,,,
+MONDO_0018906,follicular lymphoma,D008224,"Lymphoma, Follicular",C04.557.386.480.350,5.0
+MONDO_0018944,gestational trophoblastic neoplasm,D006828,Hydatidiform Mole,C04.557.465.955.416.812,6.0
+MONDO_0018944,gestational trophoblastic neoplasm,D006828,Hydatidiform Mole,C04.850.908.416.750,5.0
+MONDO_0019473,enteropathy-associated T-cell lymphoma,D058527,Enteropathy-Associated T-Cell Lymphoma,C04.557.386.480.750.099,6.0
+MONDO_0019479,histiocytic sarcoma,D054747,Histiocytic Sarcoma,C04.557.227.380,4.0
+MONDO_0019500,extragonadal teratoma,D013724,Teratoma,C04.557.465.910,4.0
+MONDO_0020077,myelodysplastic/myeloproliferative disease,D054437,,,
+MONDO_0020549,invasive hydatidiform mole,D002820,"Hydatidiform Mole, Invasive",C04.557.465.955.416.812.500,7.0
+MONDO_0020549,invasive hydatidiform mole,D002820,"Hydatidiform Mole, Invasive",C04.850.908.416.750.500,6.0
+MONDO_0020761,Bowen disease of the skin,D001913,Bowen's Disease,C04.557.470.200.400.130,6.0
+MONDO_0020761,Bowen disease of the skin,D001913,Bowen's Disease,C04.557.470.700.400.130,6.0
+MONDO_0021043,mixed neoplasm,D018193,"Neoplasms, Complex and Mixed",C04.557.435,3.0
+MONDO_0021053,carotid body paraganglioma,D002345,Carotid Body Tumor,C04.557.465.625.650.700.705.220,8.0
+MONDO_0021053,carotid body paraganglioma,D002345,Carotid Body Tumor,C04.557.580.625.650.700.705.220,8.0
+MONDO_0021065,pleural neoplasm,D010997,Pleural Neoplasms,C04.588.894.797.640,5.0
+MONDO_0021069,malignant endocrine neoplasm,D004701,Endocrine Gland Neoplasms,C04.588.322,3.0
+MONDO_0021072,sympathetic paraganglioma,C531777,,,
+MONDO_0021091,papillary cystadenoma,D018292,"Cystadenoma, Papillary",C04.557.470.035.320.230,6.0
+MONDO_0021091,papillary cystadenoma,D018292,"Cystadenoma, Papillary",C04.557.470.590.485.230,6.0
+MONDO_0021092,fallopian tube neoplasm,D005185,Fallopian Tube Neoplasms,C04.588.945.418.365,5.0
+MONDO_0021117,lung neoplasm,D008175,Lung Neoplasms,C04.588.894.797.520,5.0
+MONDO_0021121,hemangioendothelioma,D006390,Hemangioendothelioma,C04.557.645.375.370,5.0
+MONDO_0021143,melanocytic neoplasm,D018326,Nevi and Melanomas,C04.557.665,3.0
+MONDO_0021148,female reproductive system neoplasm,D005833,"Genital Neoplasms, Female",C04.588.945.418,4.0
+MONDO_0021192,odontogenic neoplasm,D009808,Odontogenic Tumors,C04.557.695,3.0
+MONDO_0021193,neuroepithelial neoplasm,D018302,"Neoplasms, Neuroepithelial",C04.557.465.625.600,5.0
+MONDO_0021193,neuroepithelial neoplasm,D018302,"Neoplasms, Neuroepithelial",C04.557.470.670,4.0
+MONDO_0021193,neuroepithelial neoplasm,D018302,"Neoplasms, Neuroepithelial",C04.557.580.625.600,5.0
+MONDO_0021224,iris neoplasm,D015811,Iris Neoplasms,C04.588.364.978.400,5.0
+MONDO_0021251,endometrium neoplasm,D016889,Endometrial Neoplasms,C04.588.945.418.948.585,6.0
+MONDO_0021533,intestinal neuroendocrine tumor G1,C562842,,,
+MONDO_0021545,myomatous neoplasm,D009379,"Neoplasms, Muscle Tissue",C04.557.450.590,4.0
+MONDO_0021545,myomatous neoplasm,D019042,Muscle Neoplasms,C04.588.839.500,4.0
+MONDO_0021581,connective tissue neoplasm,D009372,"Neoplasms, Connective Tissue",C04.557.450.565,4.0
+MONDO_0021659,combined carcinoid and adenocarcinoma,C538230,,,
+MONDO_0021662,bile duct neoplasm,D001650,Bile Duct Neoplasms,C04.588.274.120.250,5.0
+MONDO_0021726,abdominal cystic lymphangioma,C535553,,,
+MONDO_0022057,calcifying epithelial odontogenic tumor,C537961,,,
+MONDO_0022096,pyogenic granuloma,D017789,,,
+MONDO_0023119,familial myelofibrosis,C536848,,,
+MONDO_0023283,ovarian granulosa cell tumor,C537296,,,
+MONDO_0024503,digestive system neuroendocrine neoplasm,C535650,,,
+MONDO_0024653,skull neoplasm,D012888,Skull Neoplasms,C04.588.149.721,4.0
+MONDO_0024677,pancreatic insulinoma,D007340,Insulinoma,C04.557.470.035.100.852,6.0
+MONDO_0024677,pancreatic insulinoma,D007340,Insulinoma,C04.588.274.761.249.500,6.0
+MONDO_0024677,pancreatic insulinoma,D007340,Insulinoma,C04.588.322.475.249.500,6.0
+MONDO_0024686,"tenosynovial giant cell tumor, diffuse type",D013586,"Synovitis, Pigmented Villonodular",C04.557.450.565.380.690.500,7.0
+MONDO_0027026,Buschke Lowenstein tumor,D062688,Buschke-Lowenstein Tumor,C04.557.470.200.450.500,6.0
+MONDO_0027026,Buschke Lowenstein tumor,D062688,Buschke-Lowenstein Tumor,C04.557.470.700.450.500,6.0
+MONDO_0036591,adrenal cortex neoplasm,D000306,Adrenal Cortex Neoplasms,C04.588.322.078.265,5.0
+MONDO_0036688,rhabdomyoma,D012207,Rhabdomyoma,C04.557.450.590.540.700,6.0
+MONDO_0042487,uterine cervix carcinoma in situ,D018290,,,
+MONDO_0042491,cervical squamous intraepithelial neoplasia,D065310,Squamous Intraepithelial Lesions of the Cervix,C04.834.818.500,4.0
+MONDO_0044784,myxoma,D009232,Myxoma,C04.557.450.565.550,5.0
+MONDO_0700275,"prostate cancer, hereditary",C537243,,,
+MONDO_0800445,Birt-Hogg-Dube syndrome 1,D058249,Birt-Hogg-Dube Syndrome,C04.700.212,3.0
+EFO_0000095,chronic lymphocytic leukemia,D015451,"Leukemia, Lymphocytic, Chronic, B-Cell",C04.557.337.428.080.125,6.0
+EFO_0000174,Ewing sarcoma,D012512,"Sarcoma, Ewing",C04.557.450.565.575.650.800,7.0
+EFO_0000174,Ewing sarcoma,D012512,"Sarcoma, Ewing",C04.557.450.795.620.800,6.0
+EFO_0000181,head and neck squamous cell carcinoma,D000077195,Squamous Cell Carcinoma of Head and Neck,C04.557.470.200.400.565,6.0
+EFO_0000181,head and neck squamous cell carcinoma,D000077195,Squamous Cell Carcinoma of Head and Neck,C04.588.443.177,4.0
+EFO_0000181,head and neck squamous cell carcinoma,C535575,,,
+EFO_0000182,hepatocellular carcinoma,D006528,"Carcinoma, Hepatocellular",C04.557.470.200.025.255,6.0
+EFO_0000182,hepatocellular carcinoma,D006528,"Carcinoma, Hepatocellular",C04.588.274.623.160,5.0
+EFO_0000183,Hodgkins lymphoma,D006689,Hodgkin Disease,C04.557.386.355,4.0
+EFO_0000197,mucinous carcinoma,D002288,"Adenocarcinoma, Mucinous",C04.557.470.200.025.075,6.0
+EFO_0000197,mucinous carcinoma,D002288,"Adenocarcinoma, Mucinous",C04.557.470.590.075,5.0
+EFO_0000200,plasma cell neoplasm,D054219,"Neoplasms, Plasma Cell",C04.557.595,3.0
+EFO_0000216,acinar cell carcinoma,D018267,"Carcinoma, Acinar Cell",C04.557.470.200.025.215,6.0
+EFO_0000218,acute erythroleukemia,D004915,"Leukemia, Erythroblastic, Acute",C04.557.337.539.275.325,6.0
+EFO_0000221,acute monocytic leukemia,D007948,"Leukemia, Monocytic, Acute",C04.557.337.539.275.484,6.0
+EFO_0000222,acute myeloid leukemia,D015470,"Leukemia, Myeloid, Acute",C04.557.337.539.275,5.0
+EFO_0000224,acute promyelocytic leukemia,D015473,"Leukemia, Promyelocytic, Acute",C04.557.337.539.275.700,6.0
+EFO_0000228,adenocarcinoma,D000230,Adenocarcinoma,C04.557.470.200.025,5.0
+EFO_0000231,adenoid cystic carcinoma,D003528,"Carcinoma, Adenoid Cystic",C04.557.470.200.025.220,6.0
+EFO_0000232,adenoma,D000236,Adenoma,C04.557.470.035,4.0
+EFO_0000248,alveolar rhabdomyosarcoma,D018232,"Rhabdomyosarcoma, Alveolar",C04.557.450.590.550.660.665,7.0
+EFO_0000248,alveolar rhabdomyosarcoma,D018232,"Rhabdomyosarcoma, Alveolar",C04.557.450.795.550.660.665,7.0
+EFO_0000255,angioimmunoblastic T-cell lymphoma,D007119,,,
+EFO_0000272,astrocytoma,D001254,Astrocytoma,C04.557.465.625.600.380.080,7.0
+EFO_0000272,astrocytoma,D001254,Astrocytoma,C04.557.470.670.380.080,6.0
+EFO_0000272,astrocytoma,D001254,Astrocytoma,C04.557.580.625.600.380.080,7.0
+EFO_0000308,bronchoalveolar adenocarcinoma,D002282,"Adenocarcinoma, Bronchiolo-Alveolar",C04.557.470.200.025.022.500,7.0
+EFO_0000308,bronchoalveolar adenocarcinoma,D002282,"Adenocarcinoma, Bronchiolo-Alveolar",C04.588.894.797.520.055.500,7.0
+EFO_0000309,Burkitts lymphoma,D002051,Burkitt Lymphoma,C04.557.386.480.150.165,6.0
+EFO_0000313,carcinoma,D002277,Carcinoma,C04.557.470.200,4.0
+EFO_0000326,central nervous system cancer,D016543,Central Nervous System Neoplasms,C04.588.614.250,4.0
+EFO_0000331,chondroblastoma,D002804,Chondroblastoma,C04.557.450.565.250,5.0
+EFO_0000333,chondrosarcoma,D002813,Chondrosarcoma,C04.557.450.565.280,5.0
+EFO_0000333,chondrosarcoma,D002813,Chondrosarcoma,C04.557.450.795.300,5.0
+EFO_0000348,clear cell adenocarcinoma,D018262,"Adenocarcinoma, Clear Cell",C04.557.470.200.025.045,6.0
+EFO_0000403,diffuse large B-cell lymphoma,D016403,"Lymphoma, Large B-Cell, Diffuse",C04.557.386.480.150.585,6.0
+EFO_0000432,breast ductal carcinoma in situ,D002285,"Carcinoma, Intraductal, Noninfiltrating",C04.557.470.200.025.275,6.0
+EFO_0000432,breast ductal carcinoma in situ,D002285,"Carcinoma, Intraductal, Noninfiltrating",C04.557.470.200.240.187.250,7.0
+EFO_0000432,breast ductal carcinoma in situ,D002285,"Carcinoma, Intraductal, Noninfiltrating",C04.557.470.615.275,5.0
+EFO_0000479,essential thrombocythemia,D013920,,,
+EFO_0000500,ganglioneuroma,D005729,Ganglioneuroma,C04.557.465.625.600.355,6.0
+EFO_0000500,ganglioneuroma,D005729,Ganglioneuroma,C04.557.470.670.355,5.0
+EFO_0000500,ganglioneuroma,D005729,Ganglioneuroma,C04.557.580.625.600.355,6.0
+EFO_0000501,follicular thyroid carcinoma,D018263,"Adenocarcinoma, Follicular",C04.557.470.200.025.060,6.0
+EFO_0000502,ganglioneuroblastoma,D018305,Ganglioneuroblastoma,C04.557.465.625.600.590.650.550.300,9.0
+EFO_0000502,ganglioneuroblastoma,D018305,Ganglioneuroblastoma,C04.557.470.670.590.650.550.300,8.0
+EFO_0000502,ganglioneuroblastoma,D018305,Ganglioneuroblastoma,C04.557.580.625.600.590.650.550.300,9.0
+EFO_0000519,glioblastoma multiforme,D005909,Glioblastoma,C04.557.465.625.600.380.080.335,8.0
+EFO_0000519,glioblastoma multiforme,D005909,Glioblastoma,C04.557.470.670.380.080.335,7.0
+EFO_0000519,glioblastoma multiforme,D005909,Glioblastoma,C04.557.580.625.600.380.080.335,8.0
+EFO_0000558,Kaposi's sarcoma,D012514,"Sarcoma, Kaposi",C04.557.450.795.850,5.0
+EFO_0000558,Kaposi's sarcoma,D012514,"Sarcoma, Kaposi",C04.557.645.750,4.0
+EFO_0000564,leiomyosarcoma,D007890,Leiomyosarcoma,C04.557.450.590.455,5.0
+EFO_0000564,leiomyosarcoma,D007890,Leiomyosarcoma,C04.557.450.795.455,5.0
+EFO_0000565,leukemia,D007938,Leukemia,C04.557.337,3.0
+EFO_0000569,liposarcoma,D008080,Liposarcoma,C04.557.450.550.420,5.0
+EFO_0000569,liposarcoma,D008080,Liposarcoma,C04.557.450.795.465,5.0
+EFO_0000571,lung adenocarcinoma,D000077192,Adenocarcinoma of Lung,C04.557.470.200.025.022,6.0
+EFO_0000571,lung adenocarcinoma,D000077192,Adenocarcinoma of Lung,C04.588.894.797.520.055,6.0
+EFO_0000571,lung adenocarcinoma,C538231,,,
+EFO_0000574,lymphoma,D008223,Lymphoma,C04.557.386,3.0
+EFO_0000588,mesothelioma,D008654,Mesothelioma,C04.557.470.035.510,5.0
+EFO_0000588,mesothelioma,D008654,Mesothelioma,C04.557.470.660.510,5.0
+EFO_0000613,myxoid liposarcoma,D018208,"Liposarcoma, Myxoid",C04.557.450.550.420.425,6.0
+EFO_0000613,myxoid liposarcoma,D018208,"Liposarcoma, Myxoid",C04.557.450.795.465.425,6.0
+EFO_0000621,neuroblastoma,D009447,Neuroblastoma,C04.557.465.625.600.590.650.550,8.0
+EFO_0000621,neuroblastoma,D009447,Neuroblastoma,C04.557.470.670.590.650.550,7.0
+EFO_0000621,neuroblastoma,D009447,Neuroblastoma,C04.557.580.625.600.590.650.550,8.0
+EFO_0000622,neurofibroma,D009455,Neurofibroma,C04.557.580.600.580,5.0
+EFO_0000630,oligoastrocytoma,D009837,Oligodendroglioma,C04.557.465.625.600.380.590,7.0
+EFO_0000630,oligoastrocytoma,D009837,Oligodendroglioma,C04.557.470.670.380.590,6.0
+EFO_0000630,oligoastrocytoma,D009837,Oligodendroglioma,C04.557.580.625.600.380.590,7.0
+EFO_0000632,oligodendroglioma,D009837,Oligodendroglioma,C04.557.465.625.600.380.590,7.0
+EFO_0000632,oligodendroglioma,D009837,Oligodendroglioma,C04.557.470.670.380.590,6.0
+EFO_0000632,oligodendroglioma,D009837,Oligodendroglioma,C04.557.580.625.600.380.590,7.0
+EFO_0000637,osteosarcoma,D012516,Osteosarcoma,C04.557.450.565.575.650,6.0
+EFO_0000637,osteosarcoma,D012516,Osteosarcoma,C04.557.450.795.620,5.0
+EFO_0000639,papillary cystadenocarcinoma,D018283,"Cystadenocarcinoma, Papillary",C04.557.470.200.025.480.230,7.0
+EFO_0000639,papillary cystadenocarcinoma,D018283,"Cystadenocarcinoma, Papillary",C04.557.470.590.480.230,6.0
+EFO_0000653,phyllodes tumor,D003557,Phyllodes Tumor,C04.557.450.795.650,5.0
+EFO_0000658,plexiform neurofibroma,D018318,"Neurofibroma, Plexiform",C04.557.580.600.580.585,6.0
+EFO_0000678,pterygium,D011625,,,
+EFO_0000681,renal cell carcinoma,D002292,"Carcinoma, Renal Cell",C04.557.470.200.025.390,6.0
+EFO_0000681,renal cell carcinoma,D002292,"Carcinoma, Renal Cell",C04.588.945.947.535.160,6.0
+EFO_0000691,sarcoma,D012509,Sarcoma,C04.557.450.795,4.0
+EFO_0000693,schwannoma,D009442,Neurilemmoma,C04.557.465.625.650.595,6.0
+EFO_0000693,schwannoma,D009442,Neurilemmoma,C04.557.580.600.610.595,6.0
+EFO_0000693,schwannoma,D009442,Neurilemmoma,C04.557.580.625.650.595,6.0
+EFO_0000698,signet ring cell carcinoma,D018279,"Carcinoma, Signet Ring Cell",C04.557.470.200.025.415,6.0
+EFO_0000698,signet ring cell carcinoma,D018279,"Carcinoma, Signet Ring Cell",C04.557.470.590.415,5.0
+EFO_0000702,small cell lung carcinoma,D055752,Small Cell Lung Carcinoma,C04.588.894.797.520.109.220.624,8.0
+EFO_0000707,squamous cell carcinoma,D002294,"Carcinoma, Squamous Cell",C04.557.470.200.400,5.0
+EFO_0000707,squamous cell carcinoma,D002294,"Carcinoma, Squamous Cell",C04.557.470.700.400,5.0
+EFO_0000731,uterine fibroid,D047708,Myofibroma,C04.557.450.565.540,5.0
+EFO_0000756,melanoma,D008545,Melanoma,C04.557.465.625.650.510,6.0
+EFO_0000756,melanoma,D008545,Melanoma,C04.557.580.625.650.510,6.0
+EFO_0000756,melanoma,D008545,Melanoma,C04.557.665.510,4.0
+EFO_0000756,melanoma,D008545,Melanoma,C04.588.805.377,4.0
+EFO_0000759,lipoma,D008067,Lipoma,C04.557.450.550.400,5.0
+EFO_0000760,malignant peripheral nerve sheath tumor,D018319,Neurofibrosarcoma,C04.557.450.565.590.350.590,7.0
+EFO_0000760,malignant peripheral nerve sheath tumor,D018319,Neurofibrosarcoma,C04.557.450.795.350.590,6.0
+EFO_0000760,malignant peripheral nerve sheath tumor,D018319,Neurofibrosarcoma,C04.557.580.600.580.795,6.0
+EFO_0000760,malignant peripheral nerve sheath tumor,D018317,Nerve Sheath Neoplasms,C04.557.580.600,4.0
+EFO_0000762,hepatocellular adenoma,D018248,"Adenoma, Liver Cell",C04.557.470.035.120,5.0
+EFO_0000762,hepatocellular adenoma,D018248,"Adenoma, Liver Cell",C04.588.274.623.040,5.0
+EFO_0000768,idiopathic pulmonary fibrosis,D054990,,,
+EFO_0001376,synovial sarcoma,D013584,"Sarcoma, Synovial",C04.557.450.565.835,5.0
+EFO_0001376,synovial sarcoma,D013584,"Sarcoma, Synovial",C04.557.450.795.875,5.0
+EFO_0001378,multiple myeloma,D009101,Multiple Myeloma,C04.557.595.500,4.0
+EFO_0001422,cirrhosis of liver,D008103,,,
+EFO_0002087,fibrosarcoma,D005354,Fibrosarcoma,C04.557.450.565.590.350,6.0
+EFO_0002087,fibrosarcoma,D005354,Fibrosarcoma,C04.557.450.795.350,5.0
+EFO_0002423,osteoma,D010016,Osteoma,C04.557.450.565.575.625,6.0
+EFO_0002424,fibroma,D005350,Fibroma,C04.557.450.565.590.340,6.0
+EFO_0002429,polycythemia vera,D011087,Polycythemia Vera,C04.588.448.200.500,5.0
+EFO_0002430,primary myelofibrosis,D055728,,,
+EFO_0002431,tumour of cranial and spinal nerves,D010524,Peripheral Nervous System Neoplasms,C04.588.614.596,4.0
+EFO_0002496,actinic keratosis,D055623,"Keratosis, Actinic",C04.834.450,3.0
+EFO_0002621,prostate intraepithelial neoplasia,D019048,Prostatic Intraepithelial Neoplasia,C04.557.470.200.240.500,6.0
+EFO_0002893,choriocarcinoma,D002822,Choriocarcinoma,C04.557.465.955.207,5.0
+EFO_0002893,choriocarcinoma,D002822,Choriocarcinoma,C04.557.470.200.025.455,6.0
+EFO_0002893,choriocarcinoma,D002822,Choriocarcinoma,C04.850.908.208,4.0
+EFO_0002913,Cutaneous T-cell lymphoma,D016410,"Lymphoma, T-Cell, Cutaneous",C04.557.386.480.750.800,6.0
+EFO_0002918,rhabdomyosarcoma,D012208,Rhabdomyosarcoma,C04.557.450.590.550.660,6.0
+EFO_0002918,rhabdomyosarcoma,D012208,Rhabdomyosarcoma,C04.557.450.795.550.660,6.0
+EFO_0002939,medulloblastoma,D008527,Medulloblastoma,C04.557.465.625.600.380.515,7.0
+EFO_0002939,medulloblastoma,D008527,Medulloblastoma,C04.557.465.625.600.590.500,7.0
+EFO_0002939,medulloblastoma,D008527,Medulloblastoma,C04.557.470.670.380.515,6.0
+EFO_0002939,medulloblastoma,D008527,Medulloblastoma,C04.557.470.670.590.500,6.0
+EFO_0002939,medulloblastoma,D008527,Medulloblastoma,C04.557.580.625.600.380.515,7.0
+EFO_0002939,medulloblastoma,D008527,Medulloblastoma,C04.557.580.625.600.590.500,7.0
+EFO_0003025,acute megakaryoblastic leukaemia,D007947,"Leukemia, Megakaryoblastic, Acute",C04.557.337.539.275.450,6.0
+EFO_0003029,acute basophilic leukemia,D015471,"Leukemia, Basophilic, Acute",C04.557.337.539.275.125,6.0
+EFO_0003032,anaplastic large cell lymphoma,D017728,"Lymphoma, Large-Cell, Anaplastic",C04.557.386.480.750.399,6.0
+EFO_0003060,non-small cell lung carcinoma,D002289,"Carcinoma, Non-Small-Cell Lung",C04.588.894.797.520.109.220.249,8.0
+EFO_0003094,ganglioglioma,D018303,Ganglioglioma,C04.557.465.625.600.380.350,7.0
+EFO_0003094,ganglioglioma,D018303,Ganglioglioma,C04.557.470.670.380.350,6.0
+EFO_0003094,ganglioglioma,D018303,Ganglioglioma,C04.557.580.625.600.380.350,7.0
+EFO_0003104,adrenocortical adenoma,D018246,Adrenocortical Adenoma,C04.588.322.078.265.500,6.0
+EFO_0003769,endocrine neoplasm,D004701,Endocrine Gland Neoplasms,C04.588.322,3.0
+EFO_0003802,refractory anemia,D000753,,,
+EFO_0003811,refractory anemia with excess blasts,D000754,,,
+EFO_0003817,laryngeal neoplasm,D007822,Laryngeal Neoplasms,C04.588.443.665.481,5.0
+EFO_0003820,bone neoplasm,D001859,Bone Neoplasms,C04.588.149,3.0
+EFO_0003824,eye neoplasm,D005134,Eye Neoplasms,C04.588.364,3.0
+EFO_0003828,spinal cord neoplasm,D013120,Spinal Cord Neoplasms,C04.588.614.250.803,5.0
+EFO_0003833,brain neoplasm,D001932,Brain Neoplasms,C04.588.614.250.195,5.0
+EFO_0003835,anal neoplasm,D001005,Anus Neoplasms,C04.588.274.476.411.307.790.040,8.0
+EFO_0003841,thyroid neoplasm,D013964,Thyroid Neoplasms,C04.588.322.894,4.0
+EFO_0003841,thyroid neoplasm,D013964,Thyroid Neoplasms,C04.588.443.915,4.0
+EFO_0003844,ureteral neoplasm,D014516,Ureteral Neoplasms,C04.588.945.947.940,5.0
+EFO_0003846,urethral neoplasm,D014523,Urethral Neoplasms,C04.588.945.947.945,5.0
+EFO_0003849,palatal neoplasm,D010157,Palatal Neoplasms,C04.588.149.721.450.692,6.0
+EFO_0003849,palatal neoplasm,D010157,Palatal Neoplasms,C04.588.443.591.692,5.0
+EFO_0003850,adrenal gland neoplasm,D000310,Adrenal Gland Neoplasms,C04.588.322.078,4.0
+EFO_0003851,meningeal neoplasm,D008577,Meningeal Neoplasms,C04.588.614.250.580,5.0
+EFO_0003853,respiratory system neoplasm,D012142,Respiratory Tract Neoplasms,C04.588.894.797,4.0
+EFO_0003859,uterine neoplasm,D014594,Uterine Neoplasms,C04.588.945.418.948,5.0
+EFO_0003860,pancreatic neoplasm,D010190,Pancreatic Neoplasms,C04.588.274.761,4.0
+EFO_0003860,pancreatic neoplasm,D010190,Pancreatic Neoplasms,C04.588.322.475,4.0
+EFO_0003863,urogenital neoplasm,D014565,Urogenital Neoplasms,C04.588.945,3.0
+EFO_0003865,kidney neoplasm,D007680,Kidney Neoplasms,C04.588.945.947.535,5.0
+EFO_0003868,mouth neoplasm,D009062,Mouth Neoplasms,C04.588.443.591,4.0
+EFO_0003869,breast neoplasm,D001943,Breast Neoplasms,C04.588.180,3.0
+EFO_0003871,tongue neoplasm,D014062,Tongue Neoplasms,C04.588.443.591.925,5.0
+EFO_0003873,parotid neoplasm,D010307,Parotid Neoplasms,C04.588.443.591.824.695,6.0
+EFO_0003880,appendiceal neoplasm,D001063,Appendiceal Neoplasms,C04.588.274.476.411.184.290,7.0
+EFO_0003893,ovarian neoplasm,D010051,Ovarian Neoplasms,C04.588.322.455,4.0
+EFO_0003897,stomach neoplasm,D013274,Stomach Neoplasms,C04.588.274.476.767,5.0
+EFO_0003968,angiosarcoma,D006394,Hemangiosarcoma,C04.557.450.795.390,5.0
+EFO_0003968,angiosarcoma,D006394,Hemangiosarcoma,C04.557.645.390,4.0
+EFO_0004142,colorectal neoplasm,D015179,Colorectal Neoplasms,C04.588.274.476.411.307,6.0
+EFO_0004193,basal cell carcinoma,D002280,"Carcinoma, Basal Cell",C04.557.470.200.165,5.0
+EFO_0004193,basal cell carcinoma,D002280,"Carcinoma, Basal Cell",C04.557.470.565.165,5.0
+EFO_0004198,skin neoplasm,D012878,Skin Neoplasms,C04.588.805,3.0
+EFO_0004199,dysplastic nevus,D004416,Dysplastic Nevus Syndrome,C04.557.665.560.260,5.0
+EFO_0004199,dysplastic nevus,D004416,Dysplastic Nevus Syndrome,C04.700.305,3.0
+EFO_0004230,endometrial neoplasm,D016889,Endometrial Neoplasms,C04.588.945.418.948.585,6.0
+EFO_0004243,carcinoid tumor,D002276,Carcinoid Tumor,C04.557.465.625.650.200,6.0
+EFO_0004243,carcinoid tumor,D002276,Carcinoid Tumor,C04.557.470.200.025.200,6.0
+EFO_0004243,carcinoid tumor,D002276,Carcinoid Tumor,C04.557.580.625.650.200,6.0
+EFO_0004252,nasopharyngeal neoplasm,D009303,Nasopharyngeal Neoplasms,C04.588.443.665.710.650,6.0
+EFO_0004281,testicular neoplasm,C563236,,,
+EFO_0004281,testicular neoplasm,D013736,Testicular Neoplasms,C04.588.322.762,4.0
+EFO_0004281,testicular neoplasm,D013736,Testicular Neoplasms,C04.588.945.440.915,5.0
+EFO_0004288,colonic neoplasm,D003110,Colonic Neoplasms,C04.588.274.476.411.307.180,7.0
+EFO_0004289,lymphoid leukemia,D007945,"Leukemia, Lymphoid",C04.557.337.428,4.0
+EFO_0004606,gallbladder neoplasm,D005706,Gallbladder Neoplasms,C04.588.274.120.401,5.0
+EFO_0004986,embryonal carcinoma,D018236,"Carcinoma, Embryonal",C04.557.465.200,4.0
+EFO_0005088,testicular carcinoma,D013736,Testicular Neoplasms,C04.588.322.762,4.0
+EFO_0005088,testicular carcinoma,D013736,Testicular Neoplasms,C04.588.945.440.915,5.0
+EFO_0005221,cholangiocarcinoma,D018281,Cholangiocarcinoma,C04.557.470.200.025.450,6.0
+EFO_0005235,primitive neuroectodermal tumor,D017599,Neuroectodermal Tumors,C04.557.465.625,4.0
+EFO_0005235,primitive neuroectodermal tumor,D017599,Neuroectodermal Tumors,C04.557.580.625,4.0
+EFO_0005287,reticulum cell sarcoma,D008228,"Lymphoma, Non-Hodgkin",C04.557.386.480,4.0
+EFO_0005287,reticulum cell sarcoma,D054739,"Dendritic Cell Sarcoma, Interdigitating",C04.557.227.199,4.0
+EFO_0005537,triple-negative breast cancer,D064726,Triple Negative Breast Neoplasms,C04.588.180.788,4.0
+EFO_0005543,glioma,D005910,Glioma,C04.557.465.625.600.380,6.0
+EFO_0005543,glioma,D005910,Glioma,C04.557.470.670.380,5.0
+EFO_0005543,glioma,D005910,Glioma,C04.557.580.625.600.380,6.0
+EFO_0005561,histiocytoma,D051642,Histiocytoma,C04.557.450.565.590.425,6.0
+EFO_0005577,pharynx cancer,D010610,Pharyngeal Neoplasms,C04.588.443.665.710,5.0
+EFO_0005592,T-cell leukemia,D015458,"Leukemia, T-Cell",C04.557.337.428.580,5.0
+EFO_0005701,malignant rhabdoid tumour,D018335,Rhabdoid Tumor,C04.557.435.710,4.0
+EFO_0005716,retinal cancer,D019572,Retinal Neoplasms,C04.588.364.818,4.0
+EFO_0005784,embryonal neoplasm,D009373,"Neoplasms, Germ Cell and Embryonal",C04.557.465,3.0
+EFO_0005922,esophageal squamous cell carcinoma,C562729,,,
+EFO_0005922,esophageal squamous cell carcinoma,D000077277,Esophageal Squamous Cell Carcinoma,C04.557.470.200.400.330,6.0
+EFO_0005922,esophageal squamous cell carcinoma,D000077277,Esophageal Squamous Cell Carcinoma,C04.557.470.700.400.565,6.0
+EFO_0005922,esophageal squamous cell carcinoma,D000077277,Esophageal Squamous Cell Carcinoma,C04.588.274.476.205.500,6.0
+EFO_0005922,esophageal squamous cell carcinoma,D000077277,Esophageal Squamous Cell Carcinoma,C04.588.443.353.500,5.0
+EFO_0005952,non-Hodgkins lymphoma,D008228,"Lymphoma, Non-Hodgkin",C04.557.386.480,4.0
+EFO_0006318,breast ductal adenocarcinoma,D018270,"Carcinoma, Ductal, Breast",C04.557.470.200.025.232.500,7.0
+EFO_0006318,breast ductal adenocarcinoma,D018270,"Carcinoma, Ductal, Breast",C04.557.470.615.132.500,6.0
+EFO_0006318,breast ductal adenocarcinoma,D018270,"Carcinoma, Ductal, Breast",C04.588.180.390,4.0
+EFO_0006387,cystadenocarcinoma,D003536,Cystadenocarcinoma,C04.557.470.200.025.480,6.0
+EFO_0006387,cystadenocarcinoma,D003536,Cystadenocarcinoma,C04.557.470.590.480,5.0
+EFO_0006461,ovarian granulosa tumour,C537296,,,
+EFO_0006475,plasma cell leukemia,D007952,"Leukemia, Plasma Cell",C04.557.337.595,4.0
+EFO_0006475,plasma cell leukemia,D007952,"Leukemia, Plasma Cell",C04.557.595.500.500,5.0
+EFO_0006738,plasmacytoma,D010954,Plasmacytoma,C04.557.595.600,4.0
+EFO_0006858,epithelial neoplasm,D009375,"Neoplasms, Glandular and Epithelial",C04.557.470,3.0
+EFO_0006861,male breast carcinoma,D018567,"Breast Neoplasms, Male",C04.588.180.260,4.0
+EFO_0007133,adenomyoma,D018194,Adenomyoma,C04.557.435.110,4.0
+EFO_0007134,adenosarcoma,D018195,Adenosarcoma,C04.557.435.135,4.0
+EFO_0007134,adenosarcoma,D018195,Adenosarcoma,C04.557.450.795.135,5.0
+EFO_0007143,alveolar soft part sarcoma,D018234,"Sarcoma, Alveolar Soft Part",C04.557.450.590.775,5.0
+EFO_0007143,alveolar soft part sarcoma,D018234,"Sarcoma, Alveolar Soft Part",C04.557.450.795.775,5.0
+EFO_0007176,bone giant cell tumor,D018212,Giant Cell Tumor of Bone,C04.557.450.565.380.380,6.0
+EFO_0007176,bone giant cell tumor,D018212,Giant Cell Tumor of Bone,C04.557.450.565.575.420,6.0
+EFO_0007197,cecal benign neoplasm,D002430,Cecal Neoplasms,C04.588.274.476.411.184,6.0
+EFO_0007201,cerebral ventricle cancer,D002551,Cerebral Ventricle Neoplasms,C04.588.614.250.195.205,6.0
+EFO_0007206,choroid plexus cancer,D016545,Choroid Plexus Neoplasms,C04.588.614.250.195.205.200,7.0
+EFO_0007215,composite lymphoma,D058617,Composite Lymphoma,C04.557.386.150,4.0
+EFO_0007215,composite lymphoma,D058617,Composite Lymphoma,C04.557.435.295,4.0
+EFO_0007260,epidural abscess,D020802,,,
+EFO_0007270,femoral cancer,D005266,Femoral Neoplasms,C04.588.149.276,4.0
+EFO_0007271,fibroepithelial neoplasm,D018225,"Neoplasms, Fibroepithelial",C04.557.450.565.590.595,6.0
+EFO_0007271,fibroepithelial neoplasm,D018225,"Neoplasms, Fibroepithelial",C04.557.470.625,4.0
+EFO_0007276,follicular dendritic cell sarcoma,D054740,"Dendritic Cell Sarcoma, Follicular",C04.557.227.190,4.0
+EFO_0007321,hypopharynx cancer,D007012,Hypopharyngeal Neoplasms,C04.588.443.665.710.485,6.0
+EFO_0007329,interdigitating dendritic cell sarcoma,D054739,"Dendritic Cell Sarcoma, Interdigitating",C04.557.227.199,4.0
+EFO_0007330,intestinal cancer,D007414,Intestinal Neoplasms,C04.588.274.476.411,5.0
+EFO_0007331,islet cell tumor,D007516,"Adenoma, Islet Cell",C04.557.470.035.100,5.0
+EFO_0007331,islet cell tumor,D007516,"Adenoma, Islet Cell",C04.588.274.761.249,5.0
+EFO_0007331,islet cell tumor,D007516,"Adenoma, Islet Cell",C04.588.322.475.249,5.0
+EFO_0007333,jaw cancer,D007573,Jaw Neoplasms,C04.588.149.721.450,5.0
+EFO_0007336,Langerhans cell sarcoma,D054752,Langerhans Cell Sarcoma,C04.557.227.500,4.0
+EFO_0007355,male reproductive organ cancer,D005834,"Genital Neoplasms, Male",C04.588.945.440,4.0
+EFO_0007356,mandibular cancer,D008339,Mandibular Neoplasms,C04.588.149.721.450.583,6.0
+EFO_0007359,mast-cell leukemia,D007946,"Leukemia, Mast-Cell",C04.557.337.440,4.0
+EFO_0007359,mast-cell leukemia,D007946,"Leukemia, Mast-Cell",C04.557.337.539.275.440,6.0
+EFO_0007360,maxillary neoplasm,D008441,Maxillary Neoplasms,C04.588.149.721.450.601,6.0
+EFO_0007362,mediastinal cancer,D008479,Mediastinal Neoplasms,C04.588.894.479,4.0
+EFO_0007365,mesoblastic nephroma,D018201,"Nephroma, Mesoblastic",C04.557.435.600,4.0
+EFO_0007365,mesoblastic nephroma,D018201,"Nephroma, Mesoblastic",C04.588.945.947.535.790,6.0
+EFO_0007373,mixed cell type cancer,D018198,"Mixed Tumor, Malignant",C04.557.435.525,4.0
+EFO_0007378,mucinous cystadenocarcinoma,D018282,"Cystadenocarcinoma, Mucinous",C04.557.470.200.025.480.225,7.0
+EFO_0007378,mucinous cystadenocarcinoma,D018282,"Cystadenocarcinoma, Mucinous",C04.557.470.590.480.225,6.0
+EFO_0007392,nervous system cancer,D009423,Nervous System Neoplasms,C04.588.614,3.0
+EFO_0007408,orbital cancer,D009918,Orbital Neoplasms,C04.588.149.721.656,5.0
+EFO_0007408,orbital cancer,D009918,Orbital Neoplasms,C04.588.364.659,4.0
+EFO_0007409,ornithine carbamoyltransferase deficiency,D020163,,,
+EFO_0007412,ossifying fibroma,D018214,"Fibroma, Ossifying",C04.557.450.565.575.400,6.0
+EFO_0007412,ossifying fibroma,D018214,"Fibroma, Ossifying",C04.557.450.565.590.340.360,7.0
+EFO_0007416,pancreatic endocrine carcinoma,D018273,"Carcinoma, Islet Cell",C04.557.470.200.025.290,6.0
+EFO_0007416,pancreatic endocrine carcinoma,D018273,"Carcinoma, Islet Cell",C04.588.274.761.500,5.0
+EFO_0007416,pancreatic endocrine carcinoma,D018273,"Carcinoma, Islet Cell",C04.588.322.475.500,5.0
+EFO_0007456,pseudomyxoma peritonei,D011553,Pseudomyxoma Peritonei,C04.557.470.200.025.075.500,7.0
+EFO_0007456,pseudomyxoma peritonei,D011553,Pseudomyxoma Peritonei,C04.557.470.590.075.500,6.0
+EFO_0007458,pulmonary blastoma,D018202,Pulmonary Blastoma,C04.557.435.675,4.0
+EFO_0007458,pulmonary blastoma,D018202,Pulmonary Blastoma,C04.588.894.797.520.867,6.0
+EFO_0007463,renal tuberculosis,D014398,,,
+EFO_0007466,retroperitoneal cancer,D012186,Retroperitoneal Neoplasms,C04.588.033.731,4.0
+EFO_0007478,scirrhous adenocarcinoma,D002293,"Adenocarcinoma, Scirrhous",C04.557.470.200.025.095,6.0
+EFO_0007491,spleen cancer,D013160,Splenic Neoplasms,C04.588.842,3.0
+EFO_0007531,urogenital tuberculosis,D014401,,,
+EFO_0007535,verrucous carcinoma,D018289,"Carcinoma, Verrucous",C04.557.470.200.450,5.0
+EFO_0007535,verrucous carcinoma,D018289,"Carcinoma, Verrucous",C04.557.470.700.450,5.0
+EFO_0008498,clear cell sarcoma,D018227,"Sarcoma, Clear Cell",C04.557.450.565.800,5.0
+EFO_0008498,clear cell sarcoma,D018227,"Sarcoma, Clear Cell",C04.557.450.795.800,5.0
+EFO_0008524,small cell carcinoma,D018288,"Carcinoma, Small Cell",C04.557.470.200.380,5.0
+EFO_0008549,digestive system neoplasm,D005770,Gastrointestinal Neoplasms,C04.588.274.476,4.0
+EFO_0009001,Mastocytosis,D008415,Mastocytosis,C04.557.450.565.465,5.0
+EFO_0009052,Pleuropulmonary blastoma,C537516,,,
+EFO_0009082,Pilomatrixoma,D018296,Pilomatrixoma,C04.557.470.565.625,5.0
+EFO_0009254,optic nerve glioblastoma,D020339,Optic Nerve Glioma,C04.557.465.625.600.380.795,7.0
+EFO_0009254,optic nerve glioblastoma,D020339,Optic Nerve Glioma,C04.557.470.670.380.795,6.0
+EFO_0009254,optic nerve glioblastoma,D020339,Optic Nerve Glioma,C04.557.580.625.600.380.795,7.0
+EFO_0009254,optic nerve glioblastoma,D020339,Optic Nerve Glioma,C04.588.614.300.600.600,6.0
+EFO_0009254,optic nerve glioblastoma,D020339,Optic Nerve Glioma,C04.588.614.596.240.240.500,7.0
+EFO_0009255,cecal neoplasm,D002430,Cecal Neoplasms,C04.588.274.476.411.184,6.0
+EFO_0009441,Waldenstrom macroglobulinemia,D008258,Waldenstrom Macroglobulinemia,C04.557.595.925,4.0
+EFO_0009448,pulmonary fibrosis,D011658,,,
+EFO_0009662,common wart,D014860,,,
+EFO_0009675,melanocytic nevus,D009506,Nevus,C04.557.665.560,4.0
+EFO_0009907,Desmoid-type fibromatosis,D018222,Desmoid Tumors,C04.557.450.565.590.340.410,7.0
+EFO_0022194,EGFR-related lung cancer,130014,,,
+EFO_0700020,Birt-Hogg-Dube syndrome,D058249,Birt-Hogg-Dube Syndrome,C04.700.212,3.0
+EFO_1000015,aldosterone-producing adenoma,D018246,Adrenocortical Adenoma,C04.588.322.078.265.500,6.0
+EFO_1000026,diffuse intrinsic pontine glioma,D000080443,Diffuse Intrinsic Pontine Glioma,C04.557.465.625.600.380.185,7.0
+EFO_1000026,diffuse intrinsic pontine glioma,D000080443,Diffuse Intrinsic Pontine Glioma,C04.557.470.670.380.185,6.0
+EFO_1000026,diffuse intrinsic pontine glioma,D000080443,Diffuse Intrinsic Pontine Glioma,C04.557.580.625.600.380.185,7.0
+EFO_1000026,diffuse intrinsic pontine glioma,D000080443,Diffuse Intrinsic Pontine Glioma,C04.588.614.250.195.411.100.500,8.0
+EFO_1000028,ependymoma,D004806,Ependymoma,C04.557.465.625.600.380.290,7.0
+EFO_1000028,ependymoma,D004806,Ependymoma,C04.557.470.670.380.290,6.0
+EFO_1000028,ependymoma,D004806,Ependymoma,C04.557.580.625.600.380.290,7.0
+EFO_1000032,granulosa cell tumor,D006106,Granulosa Cell Tumor,C04.557.475.750.656,5.0
+EFO_1000032,granulosa cell tumor,D006106,Granulosa Cell Tumor,C04.588.322.455.398,5.0
+EFO_1000039,meningeal tuberculosis,D014390,,,
+EFO_1000052,sex cord-stromal tumor,D018312,Sex Cord-Gonadal Stromal Tumors,C04.557.475.750,4.0
+EFO_1000058,nasopharyngeal squamous cell carcinoma,C538339,,,
+EFO_1000068,Acute Leukemia,C564112,,,
+EFO_1000070,Adenofibroma,D000232,Adenofibroma,C04.557.450.565.590.595.050,7.0
+EFO_1000070,Adenofibroma,D000232,Adenofibroma,C04.557.470.625.050,5.0
+EFO_1000072,Adenomatoid Odontogenic Tumor,C538229,,,
+EFO_1000073,Adenosquamous Carcinoma,D018196,"Carcinoma, Adenosquamous",C04.557.435.250,4.0
+EFO_1000073,Adenosquamous Carcinoma,D018196,"Carcinoma, Adenosquamous",C04.557.470.200.150,5.0
+EFO_1000074,Adrenal Gland Myelolipoma,D018209,Myelolipoma,C04.557.450.550.710,5.0
+EFO_1000084,Angioleiomyoma,D018229,Angiomyoma,C04.557.450.590.450.125,6.0
+EFO_1000085,Angiolipoma,D018206,Angiolipoma,C04.557.450.550.100,5.0
+EFO_1000087,Angiomyxoma,D009232,Myxoma,C04.557.450.565.550,5.0
+EFO_1000095,Askin Tumor,C563168,,,
+EFO_1000102,B-Cell Prolymphocytic Leukemia,D054403,"Leukemia, Prolymphocytic, B-Cell",C04.557.337.428.080.562,6.0
+EFO_1000102,B-Cell Prolymphocytic Leukemia,D054403,"Leukemia, Prolymphocytic, B-Cell",C04.557.337.428.565.745,6.0
+EFO_1000123,Bile Duct Adenoma,D002759,"Adenoma, Bile Duct",C04.557.470.035.085,5.0
+EFO_1000131,"Blast Phase Chronic Myelogenous Leukemia, BCR-ABL1 Positive",D001752,Blast Crisis,C04.557.337.539.250.100,6.0
+EFO_1000131,"Blast Phase Chronic Myelogenous Leukemia, BCR-ABL1 Positive",D001752,Blast Crisis,C04.697.098.500.110,5.0
+EFO_1000151,Cavernous Hemangioma,D006392,"Hemangioma, Cavernous",C04.557.645.375.385,5.0
+EFO_1000179,Chronic Neutrophilic Leukemia,D015467,,,
+EFO_1000209,Craniopharyngioma,D003397,Craniopharyngioma,C04.557.465.625.200,5.0
+EFO_1000209,Craniopharyngioma,D003397,Craniopharyngioma,C04.557.580.625.200,5.0
+EFO_1000229,Eccrine Porocarcinoma,D057090,Eccrine Porocarcinoma,C04.557.470.200.025.500,6.0
+EFO_1000249,Extramammary Paget Disease,D010145,"Paget Disease, Extramammary",C04.557.470.200.025.660,6.0
+EFO_1000249,Extramammary Paget Disease,D010145,"Paget Disease, Extramammary",C04.557.470.615.660,5.0
+EFO_1000256,Fibrolamellar Carcinoma,C537258,,,
+EFO_1000284,Granular Cell Tumor,C535558,,,
+EFO_1000284,Granular Cell Tumor,D016586,Granular Cell Tumor,C04.557.450.590.350,5.0
+EFO_1000292,Hepatoblastoma,D018197,Hepatoblastoma,C04.557.435.380,4.0
+EFO_1000298,Hydatidiform Mole,D006828,Hydatidiform Mole,C04.557.465.955.416.812,6.0
+EFO_1000298,Hydatidiform Mole,D006828,Hydatidiform Mole,C04.850.908.416.750,5.0
+EFO_1000309,Juvenile Myelomonocytic Leukemia,D054429,"Leukemia, Myelomonocytic, Juvenile",C04.557.337.539.525,5.0
+EFO_1000316,Krukenberg Tumor,D007725,Krukenberg Tumor,C04.557.470.200.025.415.410,7.0
+EFO_1000316,Krukenberg Tumor,D007725,Krukenberg Tumor,C04.557.470.590.415.410,6.0
+EFO_1000321,Leydig Cell Tumor,D007984,Leydig Cell Tumor,C04.557.475.750.847.249,6.0
+EFO_1000321,Leydig Cell Tumor,D007984,Leydig Cell Tumor,C04.588.322.762.500.249,6.0
+EFO_1000321,Leydig Cell Tumor,D007984,Leydig Cell Tumor,C04.588.945.440.915.500.249,7.0
+EFO_1000332,Lung Giant Cell Carcinoma,D018286,"Carcinoma, Giant Cell",C04.557.470.200.220,5.0
+EFO_1000334,Lung Lymphangioleiomyomatosis,D018192,Lymphangioleiomyomatosis,C04.557.375.460.465,5.0
+EFO_1000334,Lung Lymphangioleiomyomatosis,D018192,Lymphangioleiomyomatosis,C04.557.450.692.500,5.0
+EFO_1000337,Lung Sclerosing Hemangioma,D047868,Pulmonary Sclerosing Hemangioma,C04.588.894.797.520.933,6.0
+EFO_1000339,Lymphangiosarcoma,D008204,Lymphangiosarcoma,C04.557.375.480,4.0
+EFO_1000339,Lymphangiosarcoma,D008204,Lymphangiosarcoma,C04.557.450.795.480,5.0
+EFO_1000350,Malignant Bone Neoplasm,D001859,Bone Neoplasms,C04.588.149,3.0
+EFO_1000355,Malignant Mesothelioma,C562839,,,
+EFO_1000355,Malignant Mesothelioma,D000086002,"Mesothelioma, Malignant",C04.557.470.035.510.757,6.0
+EFO_1000355,Malignant Mesothelioma,D000086002,"Mesothelioma, Malignant",C04.557.470.660.510.757,6.0
+EFO_1000355,Malignant Mesothelioma,D000086002,"Mesothelioma, Malignant",C04.588.894.797.520.173,6.0
+EFO_1000355,Malignant Mesothelioma,D000086002,"Mesothelioma, Malignant",C04.588.894.797.640.350,6.0
+EFO_1000356,Malignant Mixed Neoplasm,D018198,"Mixed Tumor, Malignant",C04.557.435.525,4.0
+EFO_1000364,Mast Cell Sarcoma,D012515,Mast-Cell Sarcoma,C04.557.450.565.465.124,6.0
+EFO_1000388,Myelodysplastic/Myeloproliferative Neoplasm,D054437,,,
+EFO_1000389,Myofibroma,D047708,Myofibroma,C04.557.450.565.540,5.0
+EFO_1000394,Neurothekeoma,D018321,Neurothekeoma,C04.557.450.565.550.625,6.0
+EFO_1000394,Neurothekeoma,D018321,Neurothekeoma,C04.557.580.600.625,5.0
+EFO_1000396,Nevus of Ota,D009507,Nevus of Ota,C04.557.665.560.615.585,6.0
+EFO_1000406,Odontogenic Cyst,D009807,Odontogenic Cysts,C04.182.089.530.690,5.0
+EFO_1000407,Olfactory Neuroblastoma,D018304,"Esthesioneuroblastoma, Olfactory",C04.557.465.625.600.590.650.550.150,9.0
+EFO_1000407,Olfactory Neuroblastoma,D018304,"Esthesioneuroblastoma, Olfactory",C04.557.470.670.590.650.550.150,8.0
+EFO_1000407,Olfactory Neuroblastoma,D018304,"Esthesioneuroblastoma, Olfactory",C04.557.580.625.600.590.650.550.150,9.0
+EFO_1000438,Palmar Fibromatosis,D004387,Dupuytren Contracture,C04.557.450.565.590.340.173,7.0
+EFO_1000453,Paraganglioma,D010235,Paraganglioma,C04.557.465.625.650.700,6.0
+EFO_1000453,Paraganglioma,D010235,Paraganglioma,C04.557.580.625.650.700,6.0
+EFO_1000464,PEComa,D054973,Perivascular Epithelioid Cell Neoplasms,C04.557.450.692,4.0
+EFO_1000481,Plantar Fibromatosis,C537000,,,
+EFO_1000491,Primary Effusion Lymphoma,D054685,"Lymphoma, Primary Effusion",C04.557.386.480.150.592,6.0
+EFO_1000496,Prolactin-Producing Pituitary Gland Adenoma,D015175,Prolactinoma,C04.557.470.035.625,5.0
+EFO_1000496,Prolactin-Producing Pituitary Gland Adenoma,D015175,Prolactinoma,C04.588.322.609.792,5.0
+EFO_1000527,Sinonasal Undifferentiated Carcinoma,C537344,,,
+EFO_1000529,Skin Basosquamous Cell Carcinoma,D002281,"Carcinoma, Basosquamous",C04.557.470.200.170,5.0
+EFO_1000529,Skin Basosquamous Cell Carcinoma,D002281,"Carcinoma, Basosquamous",C04.557.470.565.170,5.0
+EFO_1000552,Subcutaneous Panniculitis-Like T-Cell Lymphoma,C537503,,,
+EFO_1000553,Subependymoma,D018315,"Glioma, Subependymal",C04.557.465.625.600.380.290.390,8.0
+EFO_1000553,Subependymoma,D018315,"Glioma, Subependymal",C04.557.470.670.380.290.390,7.0
+EFO_1000553,Subependymoma,D018315,"Glioma, Subependymal",C04.557.580.625.600.380.290.390,8.0
+EFO_1000557,Synovial Chondromatosis,D015838,,,
+EFO_1000560,T-Cell Prolymphocytic Leukemia,D015461,"Leukemia, Prolymphocytic, T-Cell",C04.557.337.428.565.750,6.0
+EFO_1000560,T-Cell Prolymphocytic Leukemia,D015461,"Leukemia, Prolymphocytic, T-Cell",C04.557.337.428.580.075,6.0
+EFO_1000566,Testicular Germ Cell Tumor,C563236,,,
+EFO_1000581,Thymoma,D013945,Thymoma,C04.557.435.850,4.0
+EFO_1000581,Thymoma,D013945,Thymoma,C04.588.894.949.500,5.0
+EFO_1000585,Thyroglossal Duct Cyst,D013955,Thyroglossal Cyst,C04.182.902,3.0
+EFO_1000595,Thyroid Gland Undifferentiated (Anaplastic) Carcinoma,D065646,"Thyroid Carcinoma, Anaplastic",C04.557.470.200.725,5.0
+EFO_1000601,Transitional Cell Carcinoma,D002295,"Carcinoma, Transitional Cell",C04.557.470.200.430,5.0
+EFO_1000613,Uterine Carcinosarcoma,D012192,,,
+EFO_1000616,Uveal Melanoma,C536494,,,
+EFO_1000625,Warthin Tumor,D000235,Adenolymphoma,C04.557.435.075,4.0
+EFO_1000634,hamartoma,D006222,Hamartoma,C04.445,2.0
+EFO_1000635,hemangioma,D006391,Hemangioma,C04.557.645.375,4.0
+EFO_1000646,papillary carcinoma,D002291,"Carcinoma, Papillary",C04.557.470.200.360,5.0
+EFO_1000646,papillary carcinoma,D002291,"Carcinoma, Papillary",C04.557.470.700.360,5.0
+EFO_1000667,adiposis dolorosa,D000274,,,
+EFO_1000728,lipomatosis,D008068,,,
+EFO_1000748,pelvic lipomatosis,C535549,,,
+EFO_1000785,Sezary's disease,D012751,Sezary Syndrome,C04.557.386.480.750.800.775,7.0
+EFO_1000791,acidophil adenoma,D000239,"Adenoma, Acidophil",C04.557.465.625.650.025,6.0
+EFO_1000791,acidophil adenoma,D000239,"Adenoma, Acidophil",C04.557.470.035.025,5.0
+EFO_1000791,acidophil adenoma,D000239,"Adenoma, Acidophil",C04.557.580.625.650.025,6.0
+EFO_1000798,adrenal rest tumor,D000314,Adrenal Rest Tumor,C04.557.470.035.232,5.0
+EFO_1000802,alcoholic liver cirrhosis,D008104,,,
+EFO_1000804,anal gland neoplasm,D000694,Anal Gland Neoplasms,C04.588.083,3.0
+EFO_1000804,anal gland neoplasm,D000694,Anal Gland Neoplasms,C04.588.274.476.411.307.790.040.040,9.0
+EFO_1000806,angiomyoma,D018229,Angiomyoma,C04.557.450.590.450.125,6.0
+EFO_1000828,B- and T-cell mixed leukemia,D015456,"Leukemia, Biphenotypic, Acute",C04.557.337.428.100,5.0
+EFO_1000834,basophil adenoma,D000237,"Adenoma, Basophil",C04.557.465.625.650.075,6.0
+EFO_1000834,basophil adenoma,D000237,"Adenoma, Basophil",C04.557.470.035.075,5.0
+EFO_1000834,basophil adenoma,D000237,"Adenoma, Basophil",C04.557.580.625.650.075,6.0
+EFO_1000835,benign fibrous mesothelioma,D054363,"Solitary Fibrous Tumor, Pleural",C04.557.450.565.590.797.750,7.0
+EFO_1000835,benign fibrous mesothelioma,D054363,"Solitary Fibrous Tumor, Pleural",C04.588.894.797.640.800,6.0
+EFO_1000841,blue nevus,D018329,"Nevus, Blue",C04.557.665.560.615.550,6.0
+EFO_1000848,breast cyst,D047688,Breast Cyst,C04.182.156,3.0
+EFO_1000849,bronchial neoplasm,D001984,Bronchial Neoplasms,C04.588.894.797.520.109,6.0
+EFO_1000856,central neurocytoma,D018306,Neurocytoma,C04.557.465.625.600.580,6.0
+EFO_1000856,central neurocytoma,D018306,Neurocytoma,C04.557.470.670.580,5.0
+EFO_1000856,central neurocytoma,D018306,Neurocytoma,C04.557.580.625.600.580,6.0
+EFO_1000856,central neurocytoma,D018306,Neurocytoma,C04.588.614.250.195.648,6.0
+EFO_1000858,cerebellum cancer,D002528,Cerebellar Neoplasms,C04.588.614.250.195.411.211,7.0
+EFO_1000866,choroid cancer,D002830,Choroid Neoplasms,C04.588.364.978.223,5.0
+EFO_1000867,chromophobe adenoma,D000238,"Adenoma, Chromophobe",C04.557.465.625.650.095,6.0
+EFO_1000867,chromophobe adenoma,D000238,"Adenoma, Chromophobe",C04.557.470.035.095,5.0
+EFO_1000867,chromophobe adenoma,D000238,"Adenoma, Chromophobe",C04.557.580.625.650.095,6.0
+EFO_1000876,common bile duct neoplasm,D003138,Common Bile Duct Neoplasms,C04.588.274.120.250.250,6.0
+EFO_1000884,cranial nerve malignant neoplasm,D003390,Cranial Nerve Neoplasms,C04.588.614.300,4.0
+EFO_1000884,cranial nerve malignant neoplasm,D003390,Cranial Nerve Neoplasms,C04.588.614.596.240,5.0
+EFO_1000886,cutaneous mastocytosis,D034701,"Mastocytosis, Cutaneous",C04.557.450.565.465.500,6.0
+EFO_1000886,cutaneous mastocytosis,D034701,"Mastocytosis, Cutaneous",C04.588.805.309,4.0
+EFO_1000888,cystic lymphangioma,D018191,"Lymphangioma, Cystic",C04.557.375.450.450,5.0
+EFO_1000889,"cystic, mucinous, and serous neoplasm",D018297,"Neoplasms, Cystic, Mucinous, and Serous",C04.557.470.590,4.0
+EFO_1000894,dermoid cyst,D003884,Dermoid Cyst,C04.182.201,3.0
+EFO_1000894,dermoid cyst,D003884,Dermoid Cyst,C04.557.465.910.250,5.0
+EFO_1000895,desmoplastic small round cell tumor,D058405,Desmoplastic Small Round Cell Tumor,C04.557.450.795.315,5.0
+EFO_1000907,duodenal benign neoplasm,D004379,Duodenal Neoplasms,C04.588.274.476.411.445,6.0
+EFO_1000912,eccrine acrospiroma,D018250,Acrospiroma,C04.557.470.035.175.125,6.0
+EFO_1000912,eccrine acrospiroma,D018250,Acrospiroma,C04.557.470.550.175.125,6.0
+EFO_1000913,ehrlich tumor carcinoma,D002286,"Carcinoma, Ehrlich Tumor",C04.557.470.200.200,5.0
+EFO_1000913,ehrlich tumor carcinoma,D002286,"Carcinoma, Ehrlich Tumor",C04.619.169,3.0
+EFO_1000919,endometrial stromal sarcoma,D018203,"Sarcoma, Endometrial Stromal",C04.557.435.775,4.0
+EFO_1000919,endometrial stromal sarcoma,D018203,"Sarcoma, Endometrial Stromal",C04.557.450.795.332.500,6.0
+EFO_1000920,endometrial stromal tumor,D036821,Endometrial Stromal Tumors,C04.557.450.565.325,5.0
+EFO_1000920,endometrial stromal tumor,D036821,Endometrial Stromal Tumors,C04.557.450.795.332,5.0
+EFO_1000921,endomyocardial fibrosis,D004719,,,
+EFO_1000923,epidural neoplasm,D015174,Epidural Neoplasms,C04.588.614.250.803.342,6.0
+EFO_1000925,epithelioid and spindle cell nevus,D018332,"Nevus, Epithelioid and Spindle Cell",C04.557.665.560.615.625.585,7.0
+EFO_1000934,eyelid neoplasm,D005142,Eyelid Neoplasms,C04.588.443.392.500,5.0
+EFO_1000950,giant cell reparative granuloma,D006101,,,
+EFO_1000953,gonadal tissue neoplasm,D018309,"Neoplasms, Gonadal Tissue",C04.557.475,3.0
+EFO_1000956,hairy cell leukemia,D007943,"Leukemia, Hairy Cell",C04.557.337.415,4.0
+EFO_1000958,halo nevus,D055882,"Nevus, Halo",C04.557.665.560.580,5.0
+EFO_1000967,hidrocystoma,D018251,Hidrocystoma,C04.557.470.035.175.375,6.0
+EFO_1000967,hidrocystoma,D018251,Hidrocystoma,C04.557.470.550.175.375,6.0
+EFO_1000979,hypothalamic neoplasm,D007029,Hypothalamic Neoplasms,C04.588.614.250.195.885.500,7.0
+EFO_1000981,ileal neoplasm,D007078,Ileal Neoplasms,C04.588.274.476.411.501,6.0
+EFO_1000984,inflammatory breast carcinoma,D058922,Inflammatory Breast Neoplasms,C04.588.180.576,4.0
+EFO_1000995,intradermal nevus,D018330,"Nevus, Intradermal",C04.557.665.560.590,5.0
+EFO_1000996,iris cancer,D015811,Iris Neoplasms,C04.588.364.978.400,5.0
+EFO_1001000,juxtacortical osteosarcoma,D018217,"Osteosarcoma, Juxtacortical",C04.557.450.565.575.650.655,7.0
+EFO_1001000,juxtacortical osteosarcoma,D018217,"Osteosarcoma, Juxtacortical",C04.557.450.795.620.655,6.0
+EFO_1001005,Klatskin's tumor,D018285,Klatskin Tumor,C04.557.470.200.025.450.500,7.0
+EFO_1001007,krebs 2 carcinoma,D002287,"Carcinoma, Krebs 2",C04.557.470.200.255,5.0
+EFO_1001007,krebs 2 carcinoma,D002287,"Carcinoma, Krebs 2",C04.619.214,3.0
+EFO_1001012,leptomeningeal metastasis,D055756,Meningeal Carcinomatosis,C04.588.614.250.580.150,6.0
+EFO_1001013,lethal midline granuloma,D006103,,,
+EFO_1001014,leukemoid reaction,D007955,,,
+EFO_1001019,lip cancer,D008048,Lip Neoplasms,C04.588.443.591.550,5.0
+EFO_1001027,lymphangiomyoma,D008203,Lymphangiomyoma,C04.557.375.460,4.0
+EFO_1001030,male genital tuberculosis,D014389,,,
+EFO_1001035,maxillary sinus neoplasm,D008444,Maxillary Sinus Neoplasms,C04.588.443.665.650.693.575,7.0
+EFO_1001038,melanotic neuroectodermal tumor,D017600,"Neuroectodermal Tumor, Melanotic",C04.557.465.625.630,5.0
+EFO_1001038,melanotic neuroectodermal tumor,D017600,"Neuroectodermal Tumor, Melanotic",C04.557.580.625.630,5.0
+EFO_1001041,mesenchymal chondrosarcoma,D018211,"Chondrosarcoma, Mesenchymal",C04.557.450.565.280.280,6.0
+EFO_1001041,mesenchymal chondrosarcoma,D018211,"Chondrosarcoma, Mesenchymal",C04.557.450.795.300.280,6.0
+EFO_1001042,mesenchymoma,D008637,Mesenchymoma,C04.557.435.500,4.0
+EFO_1001044,mesothelial neoplasm,D018301,"Neoplasms, Mesothelial",C04.557.470.660,4.0
+EFO_1001048,mucinous cystadenoma,D018291,"Cystadenoma, Mucinous",C04.557.470.035.320.225,6.0
+EFO_1001048,mucinous cystadenoma,D018291,"Cystadenoma, Mucinous",C04.557.470.590.485.225,6.0
+EFO_1001051,mycosis fungoides,D009182,Mycosis Fungoides,C04.557.386.480.750.800.550,7.0
+EFO_1001052,myeloid sarcoma,D023981,"Sarcoma, Myeloid",C04.557.337.539.775,5.0
+EFO_1001052,myeloid sarcoma,D023981,"Sarcoma, Myeloid",C04.557.450.795.853,5.0
+EFO_1001056,myxosarcoma,D009236,Myxosarcoma,C04.557.450.565.560,5.0
+EFO_1001056,myxosarcoma,D009236,Myxosarcoma,C04.557.450.795.560,5.0
+EFO_1001064,non-gestational choriocarcinoma,D031954,"Choriocarcinoma, Non-gestational",C04.557.465.955.207.438,6.0
+EFO_1001064,non-gestational choriocarcinoma,D031954,"Choriocarcinoma, Non-gestational",C04.557.470.200.025.455.750,7.0
+EFO_1001064,non-gestational choriocarcinoma,D031954,"Choriocarcinoma, Non-gestational",C04.850.908.208.438,5.0
+EFO_1001073,optic nerve neoplasm,D019574,Optic Nerve Neoplasms,C04.588.614.300.600,5.0
+EFO_1001073,optic nerve neoplasm,D019574,Optic Nerve Neoplasms,C04.588.614.596.240.240,6.0
+EFO_1001077,orbital plasma cell granuloma,D016727,,,
+EFO_1001079,oxyphilic adenoma,D018249,"Adenoma, Oxyphilic",C04.557.470.035.140,5.0
+EFO_1001080,Pancoast tumor,D010178,Pancoast Syndrome,C04.588.894.797.520.734,6.0
+EFO_1001083,papillary follicular thyroid adenocarcinoma,D018265,"Carcinoma, Papillary, Follicular",C04.557.470.200.025.060.225,7.0
+EFO_1001083,papillary follicular thyroid adenocarcinoma,D018265,"Carcinoma, Papillary, Follicular",C04.557.470.200.025.085.225,7.0
+EFO_1001094,penile neoplasm,D010412,Penile Neoplasms,C04.588.945.440.715,5.0
+EFO_1001100,peritoneal neoplasm,D010534,Peritoneal Neoplasms,C04.588.033.513,4.0
+EFO_1001100,peritoneal neoplasm,D010534,Peritoneal Neoplasms,C04.588.274.780,4.0
+EFO_1001105,pigmented spindle cell nevus,D018331,"Nevus, Spindle Cell",C04.557.665.560.615.625,6.0
+EFO_1001111,placental site trophoblastic tumor,D018245,"Trophoblastic Tumor, Placental Site",C04.557.465.955.207.875,6.0
+EFO_1001111,placental site trophoblastic tumor,D018245,"Trophoblastic Tumor, Placental Site",C04.557.470.200.025.455.875,7.0
+EFO_1001111,placental site trophoblastic tumor,D018245,"Trophoblastic Tumor, Placental Site",C04.850.908.208.875,5.0
+EFO_1001171,sebaceous adenocarcinoma,D018266,"Adenocarcinoma, Sebaceous",C04.557.470.200.025.105,6.0
+EFO_1001171,sebaceous adenocarcinoma,D018266,"Adenocarcinoma, Sebaceous",C04.557.470.550.105,5.0
+EFO_1001172,sebaceous gland neoplasm,D012626,Sebaceous Gland Neoplasms,C04.588.805.578,4.0
+EFO_1001181,sigmoid neoplasm,D012811,Sigmoid Neoplasms,C04.588.274.476.411.307.180.800,8.0
+EFO_1001183,skin appendage carcinoma,D018280,"Carcinoma, Skin Appendage",C04.557.470.200.025.420,6.0
+EFO_1001183,skin appendage carcinoma,D018280,"Carcinoma, Skin Appendage",C04.557.470.550.420,5.0
+EFO_1001184,small cell sarcoma,D018228,"Sarcoma, Small Cell",C04.557.450.565.825,5.0
+EFO_1001184,small cell sarcoma,D018228,"Sarcoma, Small Cell",C04.557.450.795.870,5.0
+EFO_1001185,smooth muscle tumor,D018235,Smooth Muscle Tumor,C04.557.450.590.800,5.0
+EFO_1001187,somatostatinoma,D013005,Somatostatinoma,C04.557.465.625.650.240.695,7.0
+EFO_1001187,somatostatinoma,D013005,Somatostatinoma,C04.557.470.200.025.370.695,7.0
+EFO_1001187,somatostatinoma,D013005,Somatostatinoma,C04.588.274.761.500.500,6.0
+EFO_1001187,somatostatinoma,D013005,Somatostatinoma,C04.588.322.475.500.500,6.0
+EFO_1001192,struma ovarii,D013330,Struma Ovarii,C04.557.465.910.850,5.0
+EFO_1001197,subependymal glioma,D018315,"Glioma, Subependymal",C04.557.465.625.600.380.290.390,8.0
+EFO_1001197,subependymal glioma,D018315,"Glioma, Subependymal",C04.557.470.670.380.290.390,7.0
+EFO_1001197,subependymal glioma,D018315,"Glioma, Subependymal",C04.557.580.625.600.380.290.390,8.0
+EFO_1001204,sweat gland neoplasm,D013544,Sweat Gland Neoplasms,C04.588.805.776,4.0
+EFO_1001214,tonsil cancer,D014067,Tonsillar Neoplasms,C04.588.443.665.710.684.800,7.0
+EFO_1001230,uveal cancer,D014604,Uveal Neoplasms,C04.588.364.978,4.0
+EFO_1001256,"ACTH Syndrome, Ectopic",D000182,"ACTH Syndrome, Ectopic",C04.730.713.317,4.0
+EFO_1001257,acute erythroblastic leukemia,D004915,"Leukemia, Erythroblastic, Acute",C04.557.337.539.275.325,6.0
+EFO_1001258,"Adenomatosis, Pulmonary",D018255,"Adenomatosis, Pulmonary",C04.557.470.035.210,5.0
+EFO_1001277,Branchioma,D001935,Branchioma,C04.182.117,3.0
+EFO_1001325,abdominal fibromatosis,D018221,"Fibromatosis, Abdominal",C04.557.450.565.590.340.400,7.0
+EFO_1001341,Heavy Chain Disease,D006362,,,
+EFO_1001343,"Hemangioma, Cavernous, Central Nervous System",D020786,"Hemangioma, Cavernous, Central Nervous System",C04.557.645.375.385.500,6.0
+EFO_1001350,Immunoblastic Lymphadenopathy,D007119,,,
+EFO_1001356,"Leiomyoma, Epithelioid",D018230,"Leiomyoma, Epithelioid",C04.557.450.590.450.455,6.0
+EFO_1001360,"Leukoplakia, Hairy",D017733,"Leukoplakia, Hairy",C04.588.443.591.545.500,6.0
+EFO_1001360,"Leukoplakia, Hairy",D017733,"Leukoplakia, Hairy",C04.834.512.513.500,5.0
+EFO_1001365,"Lymphoma, AIDS-Related",D016483,"Lymphoma, AIDS-Related",C04.557.386.480.150.450,6.0
+EFO_1001368,Mediastinal Cyst,D008476,Mediastinal Cyst,C04.182.444,3.0
+EFO_1001371,"Mixed Tumor, Mesodermal",D018199,"Mixed Tumor, Mesodermal",C04.557.435.530,4.0
+EFO_1001371,"Mixed Tumor, Mesodermal",D018199,"Mixed Tumor, Mesodermal",C04.557.450.795.530,5.0
+EFO_1001394,Peritoneal Fibrosis,D056627,,,
+EFO_1001424,skin epithelioid hemangioma,D000796,,,
+EFO_1001430,Sublingual Gland Neoplasms,D013362,Sublingual Gland Neoplasms,C04.588.443.591.824.882,6.0
+EFO_1001437,Tracheal neoplasm,D014134,Tracheal Neoplasms,C04.588.443.925,4.0
+EFO_1001437,Tracheal neoplasm,D014134,Tracheal Neoplasms,C04.588.894.797.760,5.0
+EFO_1001443,"Tuberculosis, Cutaneous",D014382,,,
+EFO_1001465,gliosarcoma,D018316,Gliosarcoma,C04.557.465.625.600.380.400,7.0
+EFO_1001465,gliosarcoma,D018316,Gliosarcoma,C04.557.470.670.380.400,6.0
+EFO_1001465,gliosarcoma,D018316,Gliosarcoma,C04.557.580.625.600.380.400,7.0
+EFO_1001469,Mantle cell lymphoma,D020522,"Lymphoma, Mantle-Cell",C04.557.386.480.525,5.0
+EFO_1001471,Merkel cell skin cancer,D015266,"Carcinoma, Merkel Cell",C04.557.465.625.650.240.325,7.0
+EFO_1001471,Merkel cell skin cancer,D015266,"Carcinoma, Merkel Cell",C04.557.470.200.025.370.325,7.0
+EFO_1001471,Merkel cell skin cancer,D015266,"Carcinoma, Merkel Cell",C04.557.580.625.650.240.325,7.0
+EFO_1001486,primary biliary cirrhosis,D008105,,,
+EFO_1001513,liver neoplasm,D008113,Liver Neoplasms,C04.588.274.623,4.0
+EFO_1001755,accelerated phase myeloid leukemia,D015465,"Leukemia, Myeloid, Accelerated Phase",C04.557.337.539.250.300,6.0
+EFO_1001760,aneurysmal bone cyst,D017824,"Bone Cysts, Aneurysmal",C04.182.089.265,4.0
+EFO_1001761,Angiofibroma,D018322,Angiofibroma,C04.557.645.100,4.0
+EFO_1001763,basal cell neoplasm,D018295,"Neoplasms, Basal Cell",C04.557.470.565,4.0
+EFO_1001767,brain stem neoplasm,D020295,Brain Stem Neoplasms,C04.588.614.250.195.411.100,7.0
+EFO_1001769,carcinoid heart disease,D002275,Carcinoid Heart Disease,C04.557.465.625.650.200.500.205,8.0
+EFO_1001769,carcinoid heart disease,D002275,Carcinoid Heart Disease,C04.557.470.200.025.200.500.205,8.0
+EFO_1001769,carcinoid heart disease,D002275,Carcinoid Heart Disease,C04.557.580.625.650.200.500.205,8.0
+EFO_1001770,"Carcinoma, Lewis Lung",D018827,"Carcinoma, Lewis Lung",C04.557.470.200.280,5.0
+EFO_1001770,"Carcinoma, Lewis Lung",D018827,"Carcinoma, Lewis Lung",C04.619.230,3.0
+EFO_1001779,chronic myelomonocytic leukemia,D015477,"Leukemia, Myelomonocytic, Chronic",C04.557.337.539.522,5.0
+EFO_1001783,desmoplastic fibroma,D018220,"Fibroma, Desmoplastic",C04.557.450.565.590.340.345,7.0
+EFO_1001786,erythroplasia,D004919,Erythroplasia,C04.834.288,3.0
+EFO_1001796,Glomus Jugulare Tumor,D005925,Glomus Jugulare Tumor,C04.557.465.625.650.700.705.340,8.0
+EFO_1001796,Glomus Jugulare Tumor,D005925,Glomus Jugulare Tumor,C04.557.580.625.650.700.705.340,8.0
+EFO_1001826,Poroma,D057091,Poroma,C04.557.470.035.175.588,6.0
+EFO_1001826,Poroma,D057091,Poroma,C04.557.470.550.175.588,6.0
+EFO_1001844,skin mastocytoma,D054705,"Mastocytoma, Skin",C04.557.450.565.465.249.500,7.0
+EFO_1001844,skin mastocytoma,D054705,"Mastocytoma, Skin",C04.557.450.565.465.500.500,7.0
+EFO_1001844,skin mastocytoma,D054705,"Mastocytoma, Skin",C04.588.805.309.500,5.0
+EFO_1001848,squamous odontogenic tumor,D051527,"Odontogenic Tumor, Squamous",C04.557.695.607,4.0
+EFO_1001853,submandibular gland neoplasm,D013365,Submandibular Gland Neoplasms,C04.588.443.591.824.885,6.0
+EFO_1001858,Tarlov Cysts,D052958,Tarlov Cysts,C04.182.872,3.0
+EFO_1001901,neuroendocrine neoplasm,D018358,Neuroendocrine Tumors,C04.557.465.625.650,5.0
+EFO_1001901,neuroendocrine neoplasm,D018358,Neuroendocrine Tumors,C04.557.580.625.650,5.0
+EFO_1001931,oropharynx cancer,D009959,Oropharyngeal Neoplasms,C04.588.443.665.710.684,6.0
+EFO_1001937,amelanotic melanoma,D018328,"Melanoma, Amelanotic",C04.557.465.625.650.510.515,7.0
+EFO_1001937,amelanotic melanoma,D018328,"Melanoma, Amelanotic",C04.557.580.625.650.510.515,7.0
+EFO_1001937,amelanotic melanoma,D018328,"Melanoma, Amelanotic",C04.557.665.510.515,5.0
+EFO_1001942,bronchogenic carcinoma,D002283,"Carcinoma, Bronchogenic",C04.588.894.797.520.109.220,7.0
+EFO_1001959,hilar cholangiocarcinoma,D018285,Klatskin Tumor,C04.557.470.200.025.450.500,7.0
+EFO_1001972,undifferentiated pleomorphic sarcoma,D051677,"Histiocytoma, Malignant Fibrous",C04.557.450.565.590.425.360,7.0
+EFO_1001972,undifferentiated pleomorphic sarcoma,D051677,"Histiocytoma, Malignant Fibrous",C04.557.450.795.400,5.0
+Orphanet_122,Birt-Hogg-Dubé syndrome,D058249,Birt-Hogg-Dube Syndrome,C04.700.212,3.0
+Orphanet_140944,CLOVE syndrome,C567863,,,
+Orphanet_145,Hereditary breast and ovarian cancer syndrome,D061325,Hereditary Breast and Ovarian Cancer Syndrome,C04.588.180.483,4.0
+Orphanet_145,Hereditary breast and ovarian cancer syndrome,D061325,Hereditary Breast and Ovarian Cancer Syndrome,C04.588.322.455.431,5.0
+Orphanet_145,Hereditary breast and ovarian cancer syndrome,D061325,Hereditary Breast and Ovarian Cancer Syndrome,C04.700.517,3.0
+Orphanet_227535,Hereditary breast cancer,C562840,,,
+Orphanet_2669,Nephrosis - deafness - urinary tract - digital malformations,C536402,,,
+Orphanet_321,Multiple osteochondromas,D005097,"Exostoses, Multiple Hereditary",C04.557.450.565.575.610.615.325,8.0
+Orphanet_321,Multiple osteochondromas,D005097,"Exostoses, Multiple Hereditary",C04.700.330,3.0
+Orphanet_3341,Torticollis - keloids - cryptorchidism - renal dysplasia,C536970,,,
+Orphanet_654,Nephroblastoma,D009396,Wilms Tumor,C04.557.435.595,4.0
+Orphanet_654,Nephroblastoma,D009396,Wilms Tumor,C04.588.945.947.535.585,6.0
+Orphanet_654,Nephroblastoma,D009396,Wilms Tumor,C04.700.900,3.0
+Orphanet_73217,Müllerian aplasia,C537371,,,

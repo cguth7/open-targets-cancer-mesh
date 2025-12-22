@@ -1,0 +1,101 @@
+mesh_id,mesh_name,tree_number,level
+D009369,Neoplasms,C04,1
+D009371,Neoplasms by Site,C04.588,2
+D009370,Neoplasms by Histologic Type,C04.557,2
+D003560,Cysts,C04.182,2
+D006222,Hamartoma,C04.445,2
+D009378,Neoplasms Experimental,C04.619,2
+D009376,Neoplasms Hormone-Dependent,C04.626,2
+D009378,Neoplasms Multiple Primary,C04.651,2
+D018261,Neoplasms Post-Traumatic,C04.666,2
+D009381,Neoplasms Radiation-Induced,C04.682,2
+D016609,Neoplasms Second Primary,C04.692,2
+D063646,Neoplastic Processes,C04.697,2
+D009386,Neoplastic Syndromes Hereditary,C04.700,2
+D010257,Paraneoplastic Syndromes,C04.730,2
+D011230,Precancerous Conditions,C04.834,2
+D011252,Pregnancy Complications Neoplastic,C04.850,2
+D000008,Abdominal Neoplasms,C04.588.033,3
+D001005,Anal Gland Neoplasms,C04.588.083,3
+D001859,Bone Neoplasms,C04.588.149,3
+D001943,Breast Neoplasms,C04.588.180,3
+D004067,Digestive System Neoplasms,C04.588.274,3
+D004701,Endocrine Gland Neoplasms,C04.588.322,3
+D005134,Eye Neoplasms,C04.588.364,3
+D006258,Head and Neck Neoplasms,C04.588.443,3
+D019337,Hematologic Neoplasms,C04.588.448,3
+D015674,Mammary Neoplasms Animal,C04.588.531,3
+D009380,Nervous System Neoplasms,C04.588.614,3
+D010386,Pelvic Neoplasms,C04.588.699,3
+D012878,Skin Neoplasms,C04.588.805,3
+D012983,Soft Tissue Neoplasms,C04.588.839,3
+D013160,Splenic Neoplasms,C04.588.842,3
+D013899,Thoracic Neoplasms,C04.588.894,3
+D014565,Urogenital Neoplasms,C04.588.945,3
+D054537,Histiocytic Disorders Malignant,C04.557.227,3
+D007938,Leukemia,C04.557.337,3
+D009379,Neoplasm Lymphatic Tissue,C04.557.375,3
+D008223,Lymphoma,C04.557.386,3
+D018198,Neoplasms Complex and Mixed,C04.557.435,3
+D018204,Neoplasms Connective and Soft Tissue,C04.557.450,3
+D009373,Neoplasms Germ Cell and Embryonal,C04.557.465,3
+D009375,Neoplasms Glandular and Epithelial,C04.557.470,3
+D018309,Neoplasms Gonadal Tissue,C04.557.475,3
+D018317,Neoplasms Nerve Tissue,C04.557.580,3
+D010954,Neoplasms Plasma Cell,C04.557.595,3
+D019043,Neoplasms Vascular Tissue,C04.557.645,3
+D009508,Nevi and Melanomas,C04.557.665,3
+D009807,Odontogenic Tumors,C04.557.695,3
+D001661,Biliary Tract Neoplasms,C04.588.274.120,4
+D005770,Gastrointestinal Neoplasms,C04.588.274.476,4
+D008113,Liver Neoplasms,C04.588.274.623,4
+D010190,Pancreatic Neoplasms,C04.588.274.761,4
+D010534,Peritoneal Neoplasms,C04.588.274.780,4
+D006331,Heart Neoplasms,C04.588.894.309,4
+D008479,Mediastinal Neoplasms,C04.588.894.479,4
+D012142,Respiratory Tract Neoplasms,C04.588.894.797,4
+D013945,Thymus Neoplasms,C04.588.894.949,4
+D005833,Genital Neoplasms Female,C04.588.945.418,4
+D005834,Genital Neoplasms Male,C04.588.945.440,4
+D014571,Urologic Neoplasms,C04.588.945.947,4
+D000077358,Squamous Cell Carcinoma of Head and Neck,C04.588.443.177,4
+D004938,Esophageal Neoplasms,C04.588.443.353,4
+D005153,Facial Neoplasms,C04.588.443.392,4
+D009062,Mouth Neoplasms,C04.588.443.591,4
+D010039,Otorhinolaryngologic Neoplasms,C04.588.443.665,4
+D010282,Parathyroid Neoplasms,C04.588.443.680,4
+D013964,Thyroid Neoplasms,C04.588.443.915,4
+D014134,Tracheal Neoplasms,C04.588.443.925,4
+D058725,Blastic Plasmacytoid Dendritic Cell Neoplasm,C04.588.448.001,4
+D019046,Bone Marrow Neoplasms,C04.588.448.200,4
+D018275,Breast Carcinoma In Situ,C04.588.180.130,4
+D018567,Breast Neoplasms Male,C04.588.180.260,4
+D018270,Carcinoma Ductal Breast,C04.588.180.390,4
+D002282,Carcinoma Lobular,C04.588.180.437,4
+D061325,Hereditary Breast and Ovarian Cancer Syndrome,C04.588.180.483,4
+D058922,Inflammatory Breast Neoplasms,C04.588.180.576,4
+D064726,Triple Negative Breast Neoplasms,C04.588.180.788,4
+D000078267,Unilateral Breast Neoplasms,C04.588.180.800,4
+D000170,Acanthoma,C04.588.805.040,4
+D017728,Mastocytosis Cutaneous,C04.588.805.309,4
+D008545,Melanoma,C04.588.805.377,4
+D064804,Melanoma Cutaneous Malignant,C04.588.805.444,4
+D012627,Sebaceous Gland Neoplasms,C04.588.805.578,4
+D013544,Sweat Gland Neoplasms,C04.588.805.776,4
+D004997,Enzootic Bovine Leukosis,C04.557.337.100,4
+D007951,Leukemia Experimental,C04.557.337.372,4
+D016198,Leukemia Feline,C04.557.337.385,4
+D007943,Leukemia Hairy Cell,C04.557.337.415,4
+D007945,Leukemia Lymphoid,C04.557.337.428,4
+D007953,Leukemia Mast-Cell,C04.557.337.440,4
+D007951,Leukemia Myeloid,C04.557.337.539,4
+D007952,Leukemia Plasma Cell,C04.557.337.595,4
+D007954,Leukemia Radiation-Induced,C04.557.337.650,4
+D017458,Composite Lymphoma,C04.557.386.150,4
+D006689,Hodgkin Disease,C04.557.386.355,4
+D007078,Immunoproliferative Small Intestinal Disease,C04.557.386.390,4
+D058447,Intraocular Lymphoma,C04.557.386.435,4
+D008228,Lymphoma Non-Hodgkin,C04.557.386.480,4
+D008579,Meningioma,C04.557.580.520,4
+D018317,Nerve Sheath Neoplasms,C04.557.580.600,4
+D017599,Neuroectodermal Tumors,C04.557.580.625,4

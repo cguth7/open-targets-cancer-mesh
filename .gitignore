@@ -1,0 +1,40 @@
+# Data files (large, downloadable via scripts)
+data/opentargets/
+data/mesh/d2025.bin
+data/mondo/mondo.json
+
+# Large processed outputs (regenerable)
+data/processed/*.csv
+data/processed/*.parquet
+data/opentargets/association_by_datasource_direct/*.csv
+data/opentargets/association_by_datasource_direct/*.parquet
+
+# Keep small reference files
+!data/mesh/*.csv
+!data/mondo/mondo_mesh_crosswalk.csv
+!data/processed/summary_by_mesh_level.csv
+!data/processed/mesh_term_summary.csv
+!data/processed/mesh_level_4_5_summary.csv
+!data/processed/cancer_mesh_crosswalk.csv
+!data/processed/cancer_mesh_crosswalk_site_only.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Claude Code config
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
