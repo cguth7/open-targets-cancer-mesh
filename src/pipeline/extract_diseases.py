@@ -134,7 +134,7 @@ def run(config: dict | None = None, verbose: bool = True) -> pd.DataFrame:
         print(f"    {with_mesh:,} with MeSH ({with_mesh/len(result)*100:.1f}%)")
 
     # Save output
-    output_dir = ensure_dir(Path(config["paths"]["processed_dir"]))
+    output_dir = ensure_dir(Path(config["paths"]["processed_dir"]) / "intermediate")
     output_path = output_dir / "cancer_diseases_mesh_crosswalk.parquet"
     result.to_parquet(output_path, index=False)
 

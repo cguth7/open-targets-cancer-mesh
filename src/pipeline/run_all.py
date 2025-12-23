@@ -5,10 +5,10 @@ Run the complete Open Targets Cancer MeSH pipeline.
 Steps:
 1. Extract cancer diseases from Open Targets
 2. Extract MeSH C04.588 hierarchy & build crosswalk
-3. Add Entrez Gene IDs & produce final 4-column output
+3. Add Entrez Gene IDs & produce final 5-column output
 
 Final output: gene_disease_mesh_final.tsv
-Columns: disease_mesh_id, gene_entrez_id, ot_score, evidence_count
+Columns: disease_mesh_id, gene_entrez_id, mesh_level, ot_score, evidence_count
 """
 
 import sys
@@ -45,7 +45,7 @@ def main():
     print("=" * 60)
     print("\nFinal output: data/processed/gene_disease_mesh_final.tsv")
     print(f"  {len(final):,} rows")
-    print(f"  Columns: disease_mesh_id, gene_entrez_id, ot_score, evidence_count")
+    print(f"  Columns: disease_mesh_id, gene_entrez_id, mesh_level, ot_score, evidence_count")
     print("\nCrosswalks: data/processed/crosswalks/")
     print("  - disease_mesh_crosswalk.csv")
     print("  - ensembl_entrez.csv")

@@ -57,7 +57,7 @@ EFO_0007206,choroid plexus cancer,D016545,Choroid Plexus Neoplasms,C04.588.614.2
 EFO_0007270,femoral cancer,D005266,Femoral Neoplasms,C04.588.149.276,4
 EFO_0007321,hypopharynx cancer,D007012,Hypopharyngeal Neoplasms,C04.588.443.665.710.485,6
 EFO_0007330,intestinal cancer,D007414,Intestinal Neoplasms,C04.588.274.476.411,5
-EFO_0007331,islet cell tumor,D007516,"Adenoma, Islet Cell",C04.588.274.761.249,5
+EFO_0007331,islet cell tumor,D007516,"Adenoma, Islet Cell",C04.588.322.475.249,5
 EFO_0007333,jaw cancer,D007573,Jaw Neoplasms,C04.588.149.721.450,5
 EFO_0007355,male reproductive organ cancer,D005834,"Genital Neoplasms, Male",C04.588.945.440,4
 EFO_0007356,mandibular cancer,D008339,Mandibular Neoplasms,C04.588.149.721.450.583,6
@@ -144,14 +144,14 @@ MONDO_0002912,brainstem cancer,D020295,Brain Stem Neoplasms,C04.588.614.250.195.
 MONDO_0002913,cerebellar neoplasm,D002528,Cerebellar Neoplasms,C04.588.614.250.195.411.211,7
 MONDO_0003107,infratentorial cancer,D015192,Infratentorial Neoplasms,C04.588.614.250.195.411,6
 MONDO_0003277,malignant ear neoplasm,D004428,Ear Neoplasms,C04.588.443.665.312,5
-MONDO_0003525,pancreatic gastrin-producing neuroendocrine tumor,D015408,Gastrinoma,C04.588.274.761.500.124,6
+MONDO_0003525,pancreatic gastrin-producing neuroendocrine tumor,D015408,Gastrinoma,C04.588.322.475.500.124,6
 MONDO_0004180,benign urinary system neoplasm,D014571,Urologic Neoplasms,C04.588.945.947,4
 MONDO_0004532,auditory system cancer,D004428,Ear Neoplasms,C04.588.443.665.312,5
 MONDO_0004631,tongue cancer,D014062,Tongue Neoplasms,C04.588.443.591.925,5
 MONDO_0004658,breast carcinoma in situ,D000071960,Breast Carcinoma In Situ,C04.588.180.130,4
 MONDO_0004669,salivary gland cancer,D012468,Salivary Gland Neoplasms,C04.588.443.591.824,5
 MONDO_0004700,parotid gland cancer,D010307,Parotid Neoplasms,C04.588.443.591.824.695,6
-MONDO_0005184,pancreatic ductal adenocarcinoma,D021441,"Carcinoma, Pancreatic Ductal",C04.588.274.761.750,5
+MONDO_0005184,pancreatic ductal adenocarcinoma,D021441,"Carcinoma, Pancreatic Ductal",C04.588.322.475.750,5
 MONDO_0005374,bone marrow neoplasm,D019046,Bone Marrow Neoplasms,C04.588.448.200,4
 MONDO_0006058,Wilms tumor,D009396,Wilms Tumor,C04.588.945.947.535.585,6
 MONDO_0007540,multiple endocrine neoplasia type 1,D018761,Multiple Endocrine Neoplasia Type 1,C04.588.322.400.500,5
@@ -176,7 +176,7 @@ MONDO_0021251,endometrium neoplasm,D016889,Endometrial Neoplasms,C04.588.945.418
 MONDO_0021545,myomatous neoplasm,D019042,Muscle Neoplasms,C04.588.839.500,4
 MONDO_0021662,bile duct neoplasm,D001650,Bile Duct Neoplasms,C04.588.274.120.250,5
 MONDO_0024653,skull neoplasm,D012888,Skull Neoplasms,C04.588.149.721,4
-MONDO_0024677,pancreatic insulinoma,D007340,Insulinoma,C04.588.322.475.249.500,6
+MONDO_0024677,pancreatic insulinoma,D007340,Insulinoma,C04.588.274.761.249.500,6
 MONDO_0036591,adrenal cortex neoplasm,D000306,Adrenal Cortex Neoplasms,C04.588.322.078.265,5
 Orphanet_145,Hereditary breast and ovarian cancer syndrome,D061325,Hereditary Breast and Ovarian Cancer Syndrome,C04.588.180.483,4
 Orphanet_654,Nephroblastoma,D009396,Wilms Tumor,C04.588.945.947.535.585,6

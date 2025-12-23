@@ -6,11 +6,12 @@ This module:
 1. Downloads gene2ensembl from NCBI (if not cached)
 2. Filters to human genes (tax_id=9606)
 3. Maps Ensembl Gene IDs → Entrez Gene IDs
-4. Produces final 4-column TSV for patent matching
+4. Produces final 5-column TSV for patent matching
 
 Final output columns:
 - disease_mesh_id: MeSH descriptor ID (e.g., D001943)
 - gene_entrez_id: NCBI Entrez Gene ID (e.g., 7157)
+- mesh_level: MeSH hierarchy depth (2-9, lower = broader)
 - ot_score: Open Targets association score (0-1)
 - evidence_count: Number of evidence sources
 """
@@ -126,9 +127,9 @@ def run(config: dict | None = None, verbose: bool = True) -> pd.DataFrame:
     # Convert Entrez to int
     df['entrezGeneId'] = df['entrezGeneId'].astype(int)
 
-    # Create final 4-column output
-    final = df[['meshId', 'entrezGeneId', 'score', 'evidenceCount']].copy()
-    final.columns = ['disease_mesh_id', 'gene_entrez_id', 'ot_score', 'evidence_count']
+    # Create final 5-column output
+    final = df[['meshId', 'entrezGeneId', 'meshLevel', 'score', 'evidenceCount']].copy()
+    final.columns = ['disease_mesh_id', 'gene_entrez_id', 'mesh_level', 'ot_score', 'evidence_count']
 
     # Sort by score descending
     final = final.sort_values('ot_score', ascending=False).reset_index(drop=True)

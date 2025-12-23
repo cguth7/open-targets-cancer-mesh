@@ -22,7 +22,7 @@ from src.pipeline.extract_mesh import run as extract_mesh_hierarchy
 
 def load_cancer_diseases(config: dict) -> pd.DataFrame:
     """Load cancer diseases from Step 1 output."""
-    path = Path(config["paths"]["processed_dir"]) / "cancer_diseases_mesh_crosswalk.parquet"
+    path = Path(config["paths"]["processed_dir"]) / "intermediate" / "cancer_diseases_mesh_crosswalk.parquet"
     if not path.exists():
         raise FileNotFoundError(f"Run Step 1 first: {path}")
     return pd.read_parquet(path)
@@ -71,11 +71,11 @@ def build_disease_mesh_crosswalk(
         how="inner"  # Only keep diseases that match C04.588 hierarchy
     )
 
-    # Dedupe: one row per (disease, meshId), keep lowest level (most specific)
-    crosswalk = crosswalk.sort_values('level', ascending=False)
+    # Dedupe: one row per (disease, meshId), keep most general (lowest level number)
+    crosswalk = crosswalk.sort_values('level', ascending=True)
     crosswalk = crosswalk.drop_duplicates(
         subset=['diseaseId', 'meshId'],
-        keep='last'
+        keep='first'
     ).sort_values(['diseaseId', 'level'])
 
     return crosswalk
@@ -84,16 +84,18 @@ def build_disease_mesh_crosswalk(
 def build_final_dataset(
     associations: pd.DataFrame,
     cancer_diseases: pd.DataFrame,
-    crosswalk: pd.DataFrame
+    crosswalk: pd.DataFrame,
+    mesh_hierarchy: pd.DataFrame
 ) -> pd.DataFrame:
     """
     Build final gene-mesh dataset aggregated by (gene, mesh).
 
-    Returns 4-column output:
+    Returns 5-column output:
     - meshId (disease)
     - targetId (gene - Ensembl)
     - score (max across diseases)
     - evidenceCount (sum across diseases)
+    - meshLevel (hierarchy depth, 2-9)
     """
     # Filter associations to cancer diseases with MeSH
     disease_ids = set(crosswalk["diseaseId"])
@@ -111,6 +113,11 @@ def build_final_dataset(
         "score": "max",
         "evidenceCount": "sum"
     }).reset_index()
+
+    # Add mesh level (min level for meshIds with multiple tree positions)
+    mesh_levels = mesh_hierarchy.groupby('mesh_id')['level'].min().reset_index()
+    mesh_levels.columns = ['meshId', 'meshLevel']
+    final = final.merge(mesh_levels, on='meshId', how='left')
 
     return final
 
@@ -169,7 +176,7 @@ def run(config: dict | None = None, verbose: bool = True) -> dict:
     # Build final aggregated dataset
     if verbose:
         print("  Building gene-mesh dataset...")
-    final = build_final_dataset(associations, cancer_diseases, crosswalk)
+    final = build_final_dataset(associations, cancer_diseases, crosswalk, mesh_hierarchy)
     if verbose:
         print(f"    {len(final):,} gene-mesh pairs")
 
