@@ -1,210 +1,202 @@
 # Open Targets Cancer Gene-MeSH Pipeline
 
-## TL;DR for Colleagues
+## TL;DR
 
-The final site-only output has **174,965 gene-mesh pairs** across **158 anatomical cancer sites** (https://meshb.nlm.nih.gov/record/ui?ui=D009371) (lung, breast, prostate, etc.) - covering **62% of the MeSH C04.588 hierarchy** (146/236 terms; missing ones are rare syndromes, animal models, and umbrella terms with no OT mappings).
+Maps cancer gene-disease associations from Open Targets to MeSH vocabulary with Entrez Gene IDs for patent matching.
 
-**Key processing decisions:**
-- **Polyhierarchy handling:** Same MeSH term can appear in multiple tree locations; we deduplicated to one row per (disease, meshId), keeping the most specific level
-- **Multi-disease aggregation:** Multiple OT diseases often map to the same MeSH term (e.g., "ureter cancer" + "ureteral neoplasm" → "Ureteral Neoplasms"); we aggregated by (gene, meshId) using **MAX score** and **SUM evidenceCount**
-
-Each row = one gene + one cancer site + aggregated association score. Use the `level` column to control granularity. MeSH provides standardized cancer vocabulary that maps across literature, clinical trials, and pharma research.
-
-| Metric | Value |
-|--------|-------|
-| Gene-MeSH pairs (final output) | 174,965 |
-| Unique genes | ~19,000 |
-| MeSH cancer sites | 158 |
-| MeSH hierarchy coverage | 62% (146/236) |
-| OT diseases with MeSH | 627 of 3,395 (18.5%) |
-
----
-
-## What This Pipeline Does
-
-Takes Open Targets gene-disease associations and maps them to MeSH (Medical Subject Headings) cancer terms, enabling analysis of pharmaceutical "search behavior" in cancer drug development.
-
-**Input:**
-- Open Targets disease index + gene-disease associations
-- MeSH 2025 neoplasm hierarchy (C04)
-
-**Output:**
-- `cancer_gene_disease_mesh_site_only.parquet` - 174,965 rows, one per (gene, MeSH cancer site)
-- Each row has: gene ID, MeSH term, hierarchy level, max association score, total evidence count
-
----
-
-## Key Numbers
+**Final Output:** `gene_disease_mesh_final.tsv`
+```
+disease_mesh_id    gene_entrez_id    ot_score    evidence_count
+D018761            4221              0.865       3007
+D001943            675               0.843       455
+```
 
 | Metric | Value |
 |--------|-------|
-| Cancer diseases in Open Targets | 3,395 |
-| Diseases with MeSH mappings | 627 (18.5%) |
-| Unique MeSH site terms | 158 |
-| Gene-MeSH pairs (final output) | 174,965 |
-| Unique genes | ~19,000 |
+| Gene-MeSH pairs | 171,856 |
+| Unique Entrez genes | 19,275 |
+| Unique MeSH terms | 146 |
+| Entrez coverage | 98.2% |
+
+---
+
+## Data Funnel
+
+| Stage | Diseases | Associations | % of OT |
+|-------|----------|--------------|---------|
+| **Total OT** | 46,960 | 4,492,971 | 100% |
+| **Cancer only** | 3,395 (7.2%) | 1,023,182 | 22.8% |
+| **With MeSH** | 627 (18.5% of cancer) | — | — |
+| **Final output** | 146 MeSH terms | 171,856 pairs | 3.8% |
 
 ---
 
 ## Pipeline Steps
 
-### Phase 1: Extract Cancer Diseases
-1. Load Open Targets disease index (~23K diseases)
-2. Filter to cancer by checking if `ancestors` contains `EFO_0000616` (neoplasm)
-3. Extract MeSH IDs from `dbXRefs` field (Open Targets' own cross-references)
-4. Result: 3,395 cancer diseases, 627 with MeSH mappings
+### Step 1: Extract Cancer Diseases
+**Script:** `src/pipeline/extract_diseases.py`
 
-### Phase 2: Build Gene-Disease-MeSH Dataset
-1. Load gene-disease associations (`association_overall_direct`)
-2. Load MeSH C04 (neoplasms) hierarchy with tree numbers and levels
-3. Join associations with MeSH hierarchy
-4. Filter to site-only (C04.588 anatomical hierarchy)
-5. Deduplicate and aggregate (see below)
-6. Output final dataset
+1. Load OT disease index (46,960 diseases)
+2. Filter where `ancestors` contains `EFO_0000616` (neoplasm) → 3,395 cancer diseases
+3. Extract MeSH IDs from `dbXRefs` field → 627 have mappings (18.5%)
+4. Save to `intermediate/cancer_diseases_mesh_crosswalk.parquet`
+
+### Step 2: Extract MeSH Hierarchy & Build Crosswalk
+**Script:** `src/pipeline/build_crosswalk.py`
+
+1. **Extract MeSH C04.588 LIVE** from `d2025.bin` (MeSH 2025 raw file)
+   - Parse ASCII descriptor file
+   - Filter to C04.588 (Neoplasms by Site) branch
+   - Output: 271 tree paths, 236 unique terms
+2. Load gene-disease associations (4.5M rows)
+3. Join diseases with MeSH hierarchy
+4. Dedupe: one row per (disease, meshId), keep most specific level
+5. Aggregate by (gene, meshId): MAX score, SUM evidenceCount
+6. Save to `intermediate/gene_mesh_pre_entrez.parquet`
+
+### Step 3: Add Entrez Gene IDs
+**Script:** `src/pipeline/add_entrez.py`
+
+1. Download `gene2ensembl.gz` from NCBI (~278 MB)
+2. Filter to human (tax_id=9606) → 38,278 mappings
+3. Map Ensembl → Entrez (98.2% coverage)
+4. Drop unmapped genes (mostly lncRNAs and pseudogenes)
+5. Output final 4-column TSV
 
 ---
 
-## Key Decisions & Rationale
+## Key Decisions
 
-### 1. MeSH Source: Open Targets dbXRefs Only
-**Decision:** Use MeSH IDs from Open Targets' `dbXRefs` field, not external crosswalks.
+### 1. MeSH Source: Live Extraction from d2025.bin
+**Decision:** Extract C04.588 hierarchy directly from raw MeSH 2025 file at pipeline runtime.
 
-**Rationale:** OT already curates disease-to-MeSH mappings. Using their mappings ensures consistency with the association data. External crosswalks (UMLS, etc.) would add complexity without clear benefit.
+**Rationale:** Reproducible, no stale pre-extracted CSVs, easy to update when MeSH releases new version.
 
-**Trade-off:** Only 18.5% of cancer diseases have MeSH mappings. This is expected - research ontologies (EFO/MONDO) are more granular than clinical vocabulary (MeSH).
+### 2. Site-Only Hierarchy (C04.588)
+**Decision:** Filter to anatomical site classification only.
 
-### 2. Direct Associations Only (not Indirect)
-**Decision:** Use `association_overall_direct` instead of `association_overall_indirect`.
+**Rationale:** MeSH has parallel hierarchies:
+- **C04.588:** By anatomical site (lung, breast, liver)
+- **C04.557:** By histologic type (carcinoma, sarcoma)
 
-**Rationale:**
-- **Direct:** Evidence explicitly links gene to that specific disease
-- **Indirect:** Inherited from parent diseases in ontology (gene linked to "Breast Cancer" also counts for parent "Neoplasms")
+For pharma/patent matching, anatomical site is more relevant.
 
-Direct is stricter and avoids inflated counts from ontology inheritance.
+### 3. Entrez Gene IDs (not Ensembl)
+**Decision:** Map Ensembl → Entrez as final gene identifier.
 
-### 3. Site-Only Hierarchy (C04.588)
-**Decision:** Primary output filters to C04.588 (anatomical site) hierarchy only.
+**Rationale:** Patents and NCBI databases use Entrez IDs. Ensembl IDs are less common outside genomics.
 
-**Rationale:** MeSH has two parallel cancer classifications:
-- **C04.588:** By anatomical site (lung, breast, liver, prostate...)
-- **C04.557:** By histologic type (carcinoma, sarcoma, adenoma...)
-
-For pharma research focused on organ-specific drug development, anatomical site is more relevant. The same MeSH term can appear in both hierarchies (polyhierarchy).
-
-### 4. Deduplication: One Row per (Disease, MeSH)
-**Decision:** Remove duplicate rows where same disease-MeSH pair appears with different tree numbers.
-
-**Rationale:** A single MeSH concept (e.g., "Pancreatic Neoplasms" D010190) can have multiple tree numbers:
-- C04.588.274.761 (Digestive System path)
-- C04.588.322.475 (Endocrine Glands path)
-
-These are the same concept, just classified in two places. We keep the most specific (lowest level number). Might be more accurate to call this "broadest" but kind of spltting hairs. 
-
-### 5. Aggregation: Multiple OT Diseases → One MeSH
-**Decision:** When multiple Open Targets diseases map to the same MeSH term, aggregate by (gene, meshId) with MAX score and SUM evidenceCount.
-
-**Rationale:** OT has redundant disease definitions from different ontologies:
-- "ureter cancer" (MONDO_0008627)
-- "ureteral neoplasm" (EFO_0003844)
-- Both → "Ureteral Neoplasms" (D014516)
-
-These represent the same clinical concept. Aggregating captures total evidence for that gene-cancer site relationship:
-- **MAX score:** If gene strongly associated with ANY variant, it's relevant
-- **SUM evidenceCount:** Total evidence across all disease definitions
-
-### 6. Recommended Granularity: Level 5
-**Decision:** Recommend MeSH level 5 for most analyses.
+### 4. dbXRefs Only (No External Crosswalks)
+**Decision:** Use MeSH IDs from OT's `dbXRefs` field only.
 
 **Rationale:**
-- Level 3-4: Too broad ("Digestive System Neoplasms")
-- Level 5: Clinical trial level ("Lung Neoplasms", "Prostatic Neoplasms")
-- Level 6+: Research-specific ("Small Cell Lung Carcinoma")
+- Curated mappings from Open Targets
+- External crosswalks (MONDO) provide <1% additional coverage
+- Vocabulary mismatch is fundamental, not fixable
 
-Level 5 balances specificity with sufficient sample sizes. Users can filter by `level` column as needed.
+### 5. Aggregation Strategy
+**Decision:** Multiple OT diseases → same MeSH term: MAX score, SUM evidenceCount.
+
+**Rationale:** OT has redundant diseases from different ontologies (e.g., "ureter cancer" + "ureteral neoplasm" → "Ureteral Neoplasms"). Aggregating captures total evidence.
 
 ---
 
 ## Output Schema
 
-### Site-Only Final Dataset (`cancer_gene_disease_mesh_site_only.parquet`)
+### Final Output: `gene_disease_mesh_final.tsv`
 
-| Column | Type | Description |
-|--------|------|-------------|
-| `targetId` | string | Ensembl gene ID (e.g., ENSG00000141510) |
-| `meshId` | string | MeSH descriptor ID (e.g., D008175) |
-| `mesh_name` | string | MeSH term name (e.g., "Lung Neoplasms") |
-| `tree_number` | string | MeSH hierarchy path (e.g., C04.588.894.797.520) |
-| `level` | int | Hierarchy depth, 3-9 (5 recommended) |
-| `score` | float | MAX association score across OT diseases (0-1) |
-| `evidenceCount` | int | SUM of evidence counts across OT diseases |
+| Column | Type | Description | Example |
+|--------|------|-------------|---------|
+| `disease_mesh_id` | string | MeSH descriptor ID | D001943 |
+| `gene_entrez_id` | int | NCBI Entrez Gene ID | 7157 |
+| `ot_score` | float | Max association score (0-1) | 0.843 |
+| `evidence_count` | int | Sum of evidence sources | 455 |
 
-### Site-Only Crosswalk (`cancer_mesh_crosswalk_site_only.csv`)
+### Crosswalks
 
-| Column | Type | Description |
-|--------|------|-------------|
-| `diseaseId` | string | Open Targets disease ID |
-| `diseaseName` | string | Disease name |
-| `meshId` | string | MeSH descriptor ID |
-| `mesh_name` | string | MeSH term name |
-| `tree_number` | string | MeSH hierarchy path |
-| `level` | int | Hierarchy depth |
+| File | Description |
+|------|-------------|
+| `crosswalks/disease_mesh_crosswalk.csv` | OT disease → MeSH mapping |
+| `crosswalks/ensembl_entrez.csv` | Ensembl → Entrez gene mapping |
 
 ---
 
-## Granularity Examples by Level
+## Evidence Count Distribution
 
-| Level | Example Terms | Use Case |
-|-------|---------------|----------|
-| 3 | Breast Neoplasms, Nervous System Neoplasms | Very broad categories |
-| 4 | Melanoma, Ovarian Neoplasms, Liver Neoplasms | Organ-level |
-| 5 | Lung Neoplasms, Prostatic Neoplasms, Stomach Neoplasms | **Clinical trial level** |
-| 6 | Colorectal Neoplasms, Renal Cell Carcinoma | Specific subtypes |
-| 7+ | Small Cell Lung Carcinoma, Non-Small Cell Lung Carcinoma | Research-specific |
+Classic power law - most pairs have few sources, heavy tail has monsters:
+
+| Bucket | Count | % |
+|--------|-------|---|
+| 1 source | 74,979 | 43.6% |
+| 2-5 | 55,589 | 32.3% |
+| 6-10 | 16,317 | 9.5% |
+| 11-50 | 19,408 | 11.3% |
+| 51-100 | 2,900 | 1.7% |
+| 100+ | 2,663 | 1.5% |
+
+Max: 25,065 sources (likely EGFR + lung cancer)
 
 ---
 
-## How to Use
+## Entrez Mapping Coverage
 
-```python
-import pandas as pd
+| Metric | Value |
+|--------|-------|
+| Before Entrez | 174,965 pairs |
+| After Entrez | 171,856 pairs |
+| Coverage | 98.2% |
+| Lost | 3,109 pairs (1.8%) |
 
-# Load the dataset
-df = pd.read_parquet("data/processed/cancer_gene_disease_mesh_site_only.parquet")
+Unmapped genes are mostly non-coding:
+- lncRNA: 1,038 (64%)
+- Pseudogenes: 361 (22%)
+- Protein-coding: 67 (4%)
 
-# Filter to level 5 for clinical trial granularity
-level5 = df[df['level'] == 5]
+---
 
-# Get top genes for lung cancer
-lung = df[df['mesh_name'] == 'Lung Neoplasms'].sort_values('score', ascending=False)
-print(lung.head(20))
+## Running the Pipeline
 
-# Aggregate to broader categories (level 4)
-level4 = df[df['level'] == 4].groupby('mesh_name').agg({
-    'targetId': 'nunique',
-    'score': 'mean'
-})
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Download data
+make download-all   # OT data + gene2ensembl + MeSH (~5.5 GB)
+
+# Run pipeline
+make pipeline       # Produces gene_disease_mesh_final.tsv
+
+# Or run steps individually
+python -m src.pipeline.extract_diseases
+python -m src.pipeline.build_crosswalk
+python -m src.pipeline.add_entrez
 ```
 
 ---
 
-## Regenerating the Data
+## File Structure
 
-```bash
-# Phase 1: Download (~200MB)
-./scripts/download_phase1.sh
-python scripts/explore_data.py
-
-# Phase 2: Download (~5GB) and build
-./scripts/download_phase2.sh
-python scripts/build_mesh_crosswalk.py
+```
+data/processed/
+├── gene_disease_mesh_final.tsv     ← PRIMARY OUTPUT (6.1 MB)
+├── crosswalks/
+│   ├── disease_mesh_crosswalk.csv
+│   └── ensembl_entrez.csv
+├── intermediate/
+│   ├── cancer_diseases_mesh_crosswalk.parquet
+│   └── gene_mesh_pre_entrez.parquet
+├── summaries/
+└── audit/
 ```
 
 ---
 
 ## Known Limitations
 
-1. **18.5% MeSH coverage:** Most OT cancer diseases lack MeSH mappings because research ontologies are more granular than clinical vocabulary. This is a fundamental vocabulary mismatch, not a data quality issue.
+1. **18.5% MeSH coverage:** Research ontologies (EFO/MONDO) are more granular than clinical vocabulary (MeSH). This is expected, not fixable.
 
-2. **No drug data:** This dataset links genes to cancers, not drugs. For drug info, would need to join with additional OT data (e.g., ChEMBL).
+2. **1.8% gene loss:** Ensembl genes without Entrez IDs (mostly lncRNAs/pseudogenes) are dropped.
 
-3. **Score interpretation:** The 0-1 score combines multiple evidence types. Higher = stronger association, but threshold depends on use case.
+3. **No time dimension:** OT is a snapshot, not historical. For temporal analysis, use historical OT releases.
+
+4. **Score interpretation:** The 0-1 score combines multiple evidence types. Higher = stronger, but threshold depends on use case.

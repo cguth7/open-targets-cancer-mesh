@@ -1,0 +1,549 @@
+meshId,mesh_name,level,genes,diseases,associations,mean_score,max_score
+D000077192,Adenocarcinoma of Lung,6.0,10430,1,20860,0.0437,0.7732
+D000077277,Esophageal Squamous Cell Carcinoma,6.0,6669,1,20007,0.0538,0.5507
+D005909,Glioblastoma,8.0,9770,1,19540,0.0299,0.6538
+D005910,Glioma,6.0,9559,1,19118,0.041,0.7249
+D008545,Melanoma,4.0,9287,1,18574,0.048,0.8294
+D008545,Melanoma,6.0,9287,1,18574,0.048,0.8294
+D002294,"Carcinoma, Squamous Cell",5.0,6932,1,13864,0.0264,0.5666
+D008527,Medulloblastoma,7.0,3433,1,13732,0.026,0.7958
+D006528,"Carcinoma, Hepatocellular",5.0,13701,1,13701,0.0533,0.7964
+D006528,"Carcinoma, Hepatocellular",6.0,13701,1,13701,0.0533,0.7964
+D010051,Ovarian Neoplasms,4.0,9796,2,13204,0.0461,0.8107
+D009447,Neuroblastoma,8.0,6433,1,12866,0.0189,0.8073
+D002289,"Carcinoma, Non-Small-Cell Lung",8.0,11000,1,11000,0.0514,0.8495
+D001254,Astrocytoma,7.0,5330,1,10660,0.0265,0.4802
+D021441,"Carcinoma, Pancreatic Ductal",5.0,5111,1,10222,0.0462,0.4685
+D023981,"Sarcoma, Myeloid",5.0,5110,1,10220,0.0164,0.3786
+D005909,Glioblastoma,7.0,9770,1,9770,0.0299,0.6538
+D011471,Prostatic Neoplasms,5.0,9611,1,9611,0.0366,0.7995
+D005910,Glioma,5.0,9559,1,9559,0.041,0.7249
+D002292,"Carcinoma, Renal Cell",6.0,4772,1,9544,0.0321,0.7029
+D015470,"Leukemia, Myeloid, Acute",5.0,8594,1,8594,0.0492,0.8333
+D064726,Triple Negative Breast Neoplasms,4.0,7502,1,7502,0.0297,0.5096
+D012516,Osteosarcoma,5.0,7266,1,7266,0.0383,0.6883
+D012516,Osteosarcoma,6.0,7266,1,7266,0.0383,0.6883
+D002277,Carcinoma,4.0,6975,1,6975,0.0141,0.5146
+D008527,Medulloblastoma,6.0,3433,1,6866,0.026,0.7958
+D000077195,Squamous Cell Carcinoma of Head and Neck,4.0,6786,1,6786,0.0478,0.7771
+D000077195,Squamous Cell Carcinoma of Head and Neck,6.0,6786,1,6786,0.0478,0.7771
+D007938,Leukemia,3.0,6750,1,6750,0.0224,0.6072
+D000077277,Esophageal Squamous Cell Carcinoma,5.0,6669,1,6669,0.0538,0.5507
+D009447,Neuroblastoma,7.0,6433,1,6433,0.0189,0.8073
+D001943,Breast Neoplasms,3.0,6071,1,6071,0.0229,0.8432
+D009837,Oligodendroglioma,7.0,2696,2,5984,0.0132,0.3977
+D001932,Brain Neoplasms,5.0,4437,2,5895,0.0189,0.5811
+D013584,"Sarcoma, Synovial",5.0,2930,1,5860,0.0187,0.3936
+D009101,Multiple Myeloma,4.0,5604,1,5604,0.0564,0.704
+D008223,Lymphoma,3.0,5441,1,5441,0.0242,0.6843
+D018358,Neuroendocrine Tumors,5.0,2704,1,5408,0.0378,0.5681
+D001254,Astrocytoma,6.0,5330,1,5330,0.0265,0.4802
+D000230,Adenocarcinoma,5.0,5192,1,5192,0.0123,0.5622
+D055752,Small Cell Lung Carcinoma,8.0,5191,1,5191,0.0493,0.7139
+D000077274,Nasopharyngeal Carcinoma,5.0,5139,1,5139,0.0276,0.6955
+D000077274,Nasopharyngeal Carcinoma,7.0,5139,1,5139,0.0276,0.6955
+D021441,"Carcinoma, Pancreatic Ductal",7.0,5111,1,5111,0.0462,0.4685
+D021441,"Carcinoma, Pancreatic Ductal",6.0,5111,1,5111,0.0462,0.4685
+D004806,Ependymoma,7.0,2504,1,5008,0.0309,0.3696
+D015266,"Carcinoma, Merkel Cell",7.0,1667,1,5001,0.0937,0.584
+D008579,Meningioma,4.0,2369,1,4738,0.0336,0.6444
+D016403,"Lymphoma, Large B-Cell, Diffuse",6.0,4706,1,4706,0.0555,0.72
+D015451,"Leukemia, Lymphocytic, Chronic, B-Cell",6.0,4633,1,4633,0.0622,0.7334
+D008654,Mesothelioma,5.0,2282,2,4578,0.0172,0.5474
+D012509,Sarcoma,4.0,4089,1,4089,0.0183,0.6197
+D012175,Retinoblastoma,5.0,2022,1,4044,0.0296,0.8411
+D012175,Retinoblastoma,6.0,2022,1,4044,0.0296,0.8411
+D007680,Kidney Neoplasms,5.0,3176,2,3942,0.0587,0.4688
+D018281,Cholangiocarcinoma,6.0,3911,1,3911,0.0247,0.6367
+D000086002,"Mesothelioma, Malignant",6.0,975,1,3900,0.0133,0.6562
+D002280,"Carcinoma, Basal Cell",5.0,1889,1,3778,0.0591,0.7681
+D017599,Neuroectodermal Tumors,4.0,1883,1,3766,0.0099,0.369
+D000236,Adenoma,4.0,3744,1,3744,0.0117,0.495
+D012208,Rhabdomyosarcoma,6.0,1853,1,3706,0.0273,0.6358
+D013964,Thyroid Neoplasms,4.0,1801,1,3602,0.0538,0.6002
+D010673,Pheochromocytoma,7.0,1717,1,3434,0.0107,0.8087
+D003110,Colonic Neoplasms,7.0,3241,1,3241,0.0215,0.7245
+D015179,Colorectal Neoplasms,6.0,3231,1,3231,0.0165,0.6185
+D008228,"Lymphoma, Non-Hodgkin",4.0,2732,2,3078,0.0335,0.6136
+D002285,"Carcinoma, Intraductal, Noninfiltrating",7.0,3006,1,3006,0.0151,0.4126
+D002285,"Carcinoma, Intraductal, Noninfiltrating",6.0,3006,1,3006,0.0151,0.4126
+D002285,"Carcinoma, Intraductal, Noninfiltrating",5.0,3006,1,3006,0.0151,0.4126
+D009837,Oligodendroglioma,6.0,2696,2,2992,0.0132,0.3977
+D005729,Ganglioneuroma,6.0,1405,2,2922,0.0099,0.1883
+D009442,Neurilemmoma,6.0,942,1,2826,0.0233,0.689
+D002813,Chondrosarcoma,5.0,1366,1,2732,0.0211,0.7436
+D002278,Carcinoma in Situ,5.0,2660,1,2660,0.0121,0.2788
+D006689,Hodgkin Disease,4.0,2596,1,2596,0.0755,0.5824
+D002276,Carcinoid Tumor,6.0,838,1,2514,0.0246,0.5312
+D004806,Ependymoma,6.0,2504,1,2504,0.0309,0.3696
+D007951,"Leukemia, Myeloid",4.0,2402,1,2402,0.0174,0.686
+D008579,Meningioma,6.0,2369,1,2369,0.0336,0.6444
+D007890,Leiomyosarcoma,5.0,1153,1,2306,0.0474,0.5714
+D018319,Neurofibrosarcoma,6.0,1114,2,2306,0.0231,0.6915
+D015473,"Leukemia, Promyelocytic, Acute",6.0,2278,1,2278,0.015,0.6095
+D013274,Stomach Neoplasms,5.0,2273,1,2273,0.0138,0.6319
+D010235,Paraganglioma,6.0,1135,1,2270,0.0302,0.6966
+D013945,Thymoma,4.0,2260,1,2260,0.015,0.2999
+D013945,Thymoma,5.0,2260,1,2260,0.015,0.2999
+D065310,Squamous Intraepithelial Lesions of the Cervix,4.0,2243,1,2243,0.0123,0.3779
+D002051,Burkitt Lymphoma,6.0,2228,1,2228,0.0466,0.6301
+D020522,"Lymphoma, Mantle-Cell",5.0,2193,1,2193,0.0519,0.6865
+D018278,"Carcinoma, Neuroendocrine",6.0,727,1,2181,0.0328,0.4273
+D046152,Gastrointestinal Stromal Tumors,5.0,2133,1,2133,0.0649,0.8906
+D008080,Liposarcoma,5.0,1063,1,2126,0.0215,0.3905
+D012878,Skin Neoplasms,3.0,2098,1,2098,0.0416,0.5995
+D010190,Pancreatic Neoplasms,4.0,1040,1,2080,0.0491,0.6881
+D016543,Central Nervous System Neoplasms,4.0,2033,1,2033,0.0383,0.5742
+D012512,"Sarcoma, Ewing",6.0,1965,1,1965,0.0203,0.5212
+D012512,"Sarcoma, Ewing",7.0,1965,1,1965,0.0203,0.5212
+D005354,Fibrosarcoma,6.0,1911,1,1911,0.0063,0.1856
+D005354,Fibrosarcoma,5.0,1911,1,1911,0.0063,0.1856
+D009236,Myxosarcoma,5.0,943,1,1886,0.0088,0.0517
+D018232,"Rhabdomyosarcoma, Alveolar",7.0,928,1,1856,0.0671,0.6433
+D016399,"Lymphoma, T-Cell",5.0,1785,1,1785,0.0118,0.5067
+D018270,"Carcinoma, Ductal, Breast",4.0,1746,1,1746,0.1218,0.4055
+D018270,"Carcinoma, Ductal, Breast",6.0,1746,1,1746,0.1218,0.4055
+D018270,"Carcinoma, Ductal, Breast",7.0,1746,1,1746,0.1218,0.4055
+D009396,Wilms Tumor,6.0,1377,2,1711,0.0171,0.6086
+D009396,Wilms Tumor,4.0,1377,2,1711,0.0171,0.6086
+D009396,Wilms Tumor,3.0,1377,2,1711,0.0171,0.6086
+D001859,Bone Neoplasms,3.0,1359,2,1685,0.0146,0.3862
+D018236,"Carcinoma, Embryonal",4.0,1592,1,1592,0.0057,0.0606
+D005770,Gastrointestinal Neoplasms,4.0,1576,1,1576,0.0148,0.5736
+D005729,Ganglioneuroma,5.0,1405,2,1461,0.0099,0.1883
+D007889,Leiomyoma,5.0,1450,1,1450,0.0196,0.5296
+D018248,"Adenoma, Liver Cell",5.0,721,1,1442,0.0279,0.7056
+D055623,"Keratosis, Actinic",3.0,1382,1,1382,0.0726,0.5911
+D007822,Laryngeal Neoplasms,5.0,1372,1,1372,0.0143,0.3772
+D002291,"Carcinoma, Papillary",5.0,678,1,1356,0.0076,0.3871
+D018197,Hepatoblastoma,4.0,1356,1,1356,0.045,0.584
+D014062,Tongue Neoplasms,5.0,1113,2,1320,0.017,0.3146
+D051677,"Histiocytoma, Malignant Fibrous",5.0,1291,1,1291,0.0998,0.3741
+D051677,"Histiocytoma, Malignant Fibrous",7.0,1291,1,1291,0.0998,0.3741
+D018192,Lymphangioleiomyomatosis,5.0,584,2,1288,0.0172,0.8035
+D014594,Uterine Neoplasms,5.0,1098,2,1286,0.0134,0.6206
+D008175,Lung Neoplasms,5.0,1204,1,1204,0.019,0.398
+D011087,Polycythemia Vera,5.0,1204,1,1204,0.0484,0.7986
+D017728,"Lymphoma, Large-Cell, Anaplastic",6.0,1187,1,1187,0.0326,0.4791
+D008224,"Lymphoma, Follicular",5.0,1172,1,1172,0.0321,0.6009
+D018239,Seminoma,5.0,1169,1,1169,0.0099,0.2946
+D019048,Prostatic Intraepithelial Neoplasia,6.0,1157,1,1157,0.0097,0.3831
+D006394,Hemangiosarcoma,4.0,1155,1,1155,0.0955,0.5304
+D006394,Hemangiosarcoma,5.0,1155,1,1155,0.0955,0.5304
+D018319,Neurofibrosarcoma,7.0,1114,2,1153,0.0231,0.6915
+D065646,"Thyroid Carcinoma, Anaplastic",5.0,1148,1,1148,0.0608,0.4558
+D015458,"Leukemia, T-Cell",5.0,1137,1,1137,0.0059,0.076
+D016410,"Lymphoma, T-Cell, Cutaneous",6.0,1104,2,1119,0.0243,0.5185
+D018317,Nerve Sheath Neoplasms,4.0,1100,2,1116,0.0238,0.6915
+D018246,Adrenocortical Adenoma,6.0,977,2,1112,0.0227,0.5455
+D058922,Inflammatory Breast Neoplasms,4.0,1087,1,1087,0.0184,0.4198
+D009303,Nasopharyngeal Neoplasms,6.0,1083,1,1083,0.0271,0.6185
+D006828,Hydatidiform Mole,6.0,878,2,1074,0.0263,0.6965
+D006828,Hydatidiform Mole,5.0,878,2,1074,0.0263,0.6965
+D012514,"Sarcoma, Kaposi",4.0,1066,1,1066,0.0214,0.5406
+D012514,"Sarcoma, Kaposi",5.0,1066,1,1066,0.0214,0.5406
+D013724,Teratoma,4.0,1056,2,1057,0.013,0.3234
+D008113,Liver Neoplasms,4.0,1057,1,1057,0.0076,0.3367
+D002282,"Adenocarcinoma, Bronchiolo-Alveolar",7.0,526,1,1052,0.0945,0.4473
+D018827,"Carcinoma, Lewis Lung",3.0,1042,1,1042,0.0051,0.0344
+D018827,"Carcinoma, Lewis Lung",5.0,1042,1,1042,0.0051,0.0344
+D016586,Granular Cell Tumor,5.0,1027,1,1027,0.0116,0.2813
+D018263,"Adenocarcinoma, Follicular",6.0,1024,1,1024,0.0388,0.7176
+D004915,"Leukemia, Erythroblastic, Acute",6.0,1004,2,1020,0.0447,0.4064
+D007516,"Adenoma, Islet Cell",5.0,332,1,996,0.0102,0.1032
+D018316,Gliosarcoma,7.0,476,1,952,0.041,0.4214
+D010212,Papilloma,5.0,935,1,935,0.0103,0.3844
+D018262,"Adenocarcinoma, Clear Cell",6.0,928,1,928,0.0147,0.2954
+D017824,"Bone Cysts, Aneurysmal",4.0,923,1,923,0.0119,0.3884
+D000080443,Diffuse Intrinsic Pontine Glioma,7.0,449,1,898,0.0198,0.3409
+D002288,"Adenocarcinoma, Mucinous",6.0,890,1,890,0.0065,0.2961
+D002288,"Adenocarcinoma, Mucinous",5.0,890,1,890,0.0065,0.2961
+D007945,"Leukemia, Lymphoid",4.0,889,1,889,0.0634,0.619
+D047708,Myofibroma,5.0,852,2,869,0.0982,0.6756
+D016411,"Lymphoma, T-Cell, Peripheral",6.0,866,1,866,0.0162,0.123
+D015461,"Leukemia, Prolymphocytic, T-Cell",6.0,426,1,852,0.1294,0.5684
+D018243,Teratocarcinoma,4.0,850,1,850,0.0048,0.1183
+D002295,"Carcinoma, Transitional Cell",5.0,840,1,840,0.0126,0.4733
+D009182,Mycosis Fungoides,7.0,838,1,838,0.0273,0.5512
+D019337,Hematologic Neoplasms,3.0,834,1,834,0.0099,0.5991
+D016889,Endometrial Neoplasms,6.0,755,2,828,0.0185,0.5377
+D007414,Intestinal Neoplasms,5.0,810,1,810,0.0068,0.5042
+D006391,Hemangioma,4.0,780,1,780,0.019,0.5192
+D018288,"Carcinoma, Small Cell",5.0,779,1,779,0.0334,0.3788
+D002822,Choriocarcinoma,6.0,738,1,738,0.0071,0.4355
+D002822,Choriocarcinoma,4.0,738,1,738,0.0071,0.4355
+D002822,Choriocarcinoma,5.0,738,1,738,0.0071,0.4355
+D010954,Plasmacytoma,4.0,734,1,734,0.0251,0.3415
+D003537,Cystadenoma,5.0,352,1,704,0.0045,0.0192
+D003528,"Carcinoma, Adenoid Cystic",6.0,698,1,698,0.0178,0.3696
+D000564,Ameloblastoma,4.0,691,1,691,0.0186,0.451
+D003397,Craniopharyngioma,5.0,340,1,680,0.0163,0.3459
+D018238,Gonadoblastoma,4.0,337,1,674,0.0315,0.0902
+D015477,"Leukemia, Myelomonocytic, Chronic",5.0,663,1,663,0.0728,0.6873
+D006393,Hemangiopericytoma,4.0,560,2,657,0.0234,0.3778
+D006106,Granulosa Cell Tumor,5.0,328,1,656,0.0066,0.039
+D007943,"Leukemia, Hairy Cell",4.0,651,1,651,0.0558,0.5083
+D012751,Sezary Syndrome,7.0,641,1,641,0.0222,0.4798
+D009455,Neurofibroma,5.0,640,1,640,0.0167,0.6576
+D018234,"Sarcoma, Alveolar Soft Part",5.0,317,1,634,0.0338,0.3793
+D009959,Oropharyngeal Neoplasms,6.0,621,1,621,0.0283,0.447
+D018303,Ganglioglioma,7.0,305,1,610,0.0226,0.459
+D018277,"Carcinoma, Mucoepidermoid",5.0,606,1,606,0.0101,0.2843
+D018277,"Carcinoma, Mucoepidermoid",6.0,606,1,606,0.0101,0.2843
+D018298,Mucoepidermoid Tumor,5.0,606,1,606,0.0101,0.2843
+D010145,"Paget Disease, Extramammary",6.0,602,1,602,0.1027,0.3883
+D010145,"Paget Disease, Extramammary",5.0,602,1,602,0.1027,0.3883
+D012004,Rectal Neoplasms,7.0,595,1,595,0.0337,0.6327
+D001913,Bowen's Disease,6.0,296,1,592,0.0074,0.2833
+D005834,"Genital Neoplasms, Male",4.0,579,1,579,0.1465,0.4806
+D054685,"Lymphoma, Primary Effusion",6.0,575,1,575,0.0095,0.2806
+D018325,Hemangioblastoma,6.0,558,1,558,0.1986,0.4419
+D018304,"Esthesioneuroblastoma, Olfactory",9.0,276,1,552,0.0873,0.3764
+D005833,"Genital Neoplasms, Female",4.0,551,1,551,0.0071,0.2593
+D000310,Adrenal Gland Neoplasms,4.0,531,2,544,0.0059,0.0623
+D008067,Lipoma,5.0,535,1,535,0.032,0.4705
+D054739,"Dendritic Cell Sarcoma, Interdigitating",4.0,531,2,532,0.0175,0.3281
+D000306,Adrenal Cortex Neoplasms,5.0,522,1,522,0.0117,0.3728
+D013736,Testicular Neoplasms,5.0,483,2,521,0.0398,0.4935
+D013736,Testicular Neoplasms,4.0,483,2,521,0.0398,0.4935
+D018287,"Carcinoma, Large Cell",5.0,509,1,509,0.0044,0.0562
+D054219,"Neoplasms, Plasma Cell",3.0,499,1,499,0.0256,0.4007
+D018249,"Adenoma, Oxyphilic",5.0,490,1,490,0.0065,0.3326
+D054364,Solitary Fibrous Tumors,6.0,486,1,486,0.0279,0.3778
+D057090,Eccrine Porocarcinoma,6.0,485,1,485,0.1525,0.3052
+D002296,Carcinosarcoma,4.0,481,1,481,0.0189,0.3696
+D002296,Carcinosarcoma,5.0,481,1,481,0.0189,0.3696
+D018207,Angiomyolipoma,5.0,238,1,476,0.0085,0.462
+D018316,Gliosarcoma,6.0,476,1,476,0.041,0.4214
+D054429,"Leukemia, Myelomonocytic, Juvenile",5.0,472,1,472,0.037,0.8267
+D008415,Mastocytosis,5.0,470,1,470,0.0293,0.7075
+D018208,"Liposarcoma, Myxoid",6.0,234,1,468,0.0079,0.1998
+D000080443,Diffuse Intrinsic Pontine Glioma,8.0,449,1,449,0.0198,0.3409
+D018196,"Carcinoma, Adenosquamous",5.0,449,1,449,0.0084,0.2804
+D018196,"Carcinoma, Adenosquamous",4.0,449,1,449,0.0084,0.2804
+D000080443,Diffuse Intrinsic Pontine Glioma,6.0,449,1,449,0.0198,0.3409
+D016393,"Lymphoma, B-Cell",5.0,436,1,436,0.0136,0.3708
+D018335,Rhabdoid Tumor,4.0,429,1,429,0.0117,0.4059
+D018305,Ganglioneuroblastoma,9.0,213,1,426,0.0496,0.4033
+D009232,Myxoma,5.0,387,2,423,0.0135,0.3812
+D015471,"Leukemia, Basophilic, Acute",6.0,422,1,422,0.0202,0.3858
+D018227,"Sarcoma, Clear Cell",5.0,205,1,410,0.0366,0.3785
+D012468,Salivary Gland Neoplasms,5.0,408,1,408,0.0155,0.1151
+D018212,Giant Cell Tumor of Bone,6.0,202,1,404,0.0081,0.3731
+D018761,Multiple Endocrine Neoplasia Type 1,4.0,199,1,398,0.0208,0.8653
+D018306,Neurocytoma,6.0,132,1,396,0.013,0.2786
+D005870,Giant Cell Tumors,5.0,396,1,396,0.0092,0.5364
+D034801,Mastocytoma,6.0,392,1,392,0.0052,0.1899
+D008258,Waldenstrom Macroglobulinemia,4.0,389,1,389,0.0373,0.5385
+D009423,Nervous System Neoplasms,3.0,384,1,384,0.0394,0.5488
+D018273,"Carcinoma, Islet Cell",5.0,186,1,372,0.0263,0.3364
+D018267,"Carcinoma, Acinar Cell",6.0,369,1,369,0.0057,0.0865
+D007947,"Leukemia, Megakaryoblastic, Acute",6.0,363,1,363,0.0342,0.4064
+D007984,Leydig Cell Tumor,6.0,180,1,360,0.0048,0.0452
+D018224,Myofibromatosis,6.0,351,1,351,0.0122,0.7284
+D018203,"Sarcoma, Endometrial Stromal",6.0,350,1,350,0.0382,0.3766
+D018203,"Sarcoma, Endometrial Stromal",4.0,350,1,350,0.0382,0.3766
+D018285,Klatskin Tumor,7.0,290,2,348,0.0179,0.1109
+D054403,"Leukemia, Prolymphocytic, B-Cell",6.0,171,1,342,0.1777,0.3738
+D065311,Adenocarcinoma in Situ,6.0,170,1,340,0.004,0.0277
+D014565,Urogenital Neoplasms,3.0,338,1,338,0.0502,0.3993
+D018223,Dermatofibrosarcoma,7.0,335,1,335,0.0303,0.4914
+D018223,Dermatofibrosarcoma,6.0,335,1,335,0.0303,0.4914
+D009464,"Neuroma, Acoustic",7.0,111,1,333,0.0101,0.6103
+D004416,Dysplastic Nevus Syndrome,3.0,331,1,331,0.019,0.3843
+D004416,Dysplastic Nevus Syndrome,5.0,331,1,331,0.019,0.3843
+D018279,"Carcinoma, Signet Ring Cell",5.0,330,1,330,0.0058,0.1909
+D018279,"Carcinoma, Signet Ring Cell",6.0,330,1,330,0.0058,0.1909
+D007340,Insulinoma,6.0,109,1,327,0.0628,0.3696
+D012515,Mast-Cell Sarcoma,6.0,316,1,316,0.0373,0.2796
+D058249,Birt-Hogg-Dube Syndrome,3.0,169,3,307,0.0407,0.806
+D018303,Ganglioglioma,6.0,305,1,305,0.0226,0.459
+D018324,"Hemangioma, Capillary",5.0,304,1,304,0.0199,0.3696
+D018302,"Neoplasms, Neuroepithelial",5.0,151,1,302,0.0102,0.2772
+D061325,Hereditary Breast and Ovarian Cancer Syndrome,4.0,295,1,295,0.1398,0.8279
+D061325,Hereditary Breast and Ovarian Cancer Syndrome,3.0,295,1,295,0.1398,0.8279
+D061325,Hereditary Breast and Ovarian Cancer Syndrome,5.0,295,1,295,0.1398,0.8279
+D009062,Mouth Neoplasms,4.0,293,1,293,0.0875,0.3234
+D058405,Desmoplastic Small Round Cell Tumor,5.0,292,1,292,0.0434,0.3793
+D018268,Adrenocortical Carcinoma,6.0,141,1,282,0.0041,0.0266
+D009373,"Neoplasms, Germ Cell and Embryonal",3.0,279,1,279,0.0047,0.0251
+D054747,Histiocytic Sarcoma,4.0,279,1,279,0.0092,0.2336
+D009208,Myoepithelioma,4.0,277,1,277,0.0554,0.3769
+D018304,"Esthesioneuroblastoma, Olfactory",8.0,276,1,276,0.0873,0.3764
+D015175,Prolactinoma,5.0,137,1,274,0.0255,0.4643
+D009808,Odontogenic Tumors,3.0,274,1,274,0.0062,0.0337
+D018291,"Cystadenoma, Mucinous",6.0,135,1,270,0.004,0.02
+D018222,Desmoid Tumors,7.0,269,1,269,0.0377,0.7632
+D004701,Endocrine Gland Neoplasms,3.0,254,2,268,0.1059,0.654
+D009506,Nevus,4.0,265,1,265,0.0301,0.467
+D002283,"Carcinoma, Bronchogenic",7.0,265,1,265,0.0055,0.0746
+D018289,"Carcinoma, Verrucous",5.0,132,1,264,0.0242,0.0924
+D018217,"Osteosarcoma, Juxtacortical",6.0,258,1,258,0.0078,0.2778
+D018217,"Osteosarcoma, Juxtacortical",7.0,258,1,258,0.0078,0.2778
+D009214,Myoma,5.0,252,1,252,0.0252,0.3683
+D005350,Fibroma,6.0,250,1,250,0.0091,0.279
+D003557,Phyllodes Tumor,5.0,250,1,250,0.0057,0.0634
+D000077777,Myopericytoma,5.0,124,1,248,0.0049,0.1877
+D018211,"Chondrosarcoma, Mesenchymal",6.0,123,1,246,0.028,0.3783
+D018813,Multiple Endocrine Neoplasia Type 2a,4.0,123,1,246,0.0192,0.8591
+D000231,"Adenocarcinoma, Papillary",6.0,241,1,241,0.0154,0.3284
+D018318,"Neurofibroma, Plexiform",6.0,234,1,234,0.018,0.4774
+D054973,Perivascular Epithelioid Cell Neoplasms,4.0,233,1,233,0.0231,0.3787
+D018266,"Adenocarcinoma, Sebaceous",5.0,233,1,233,0.05,0.2859
+D018266,"Adenocarcinoma, Sebaceous",6.0,233,1,233,0.05,0.2859
+D055653,Muir-Torre Syndrome,5.0,116,1,232,0.056,0.7678
+D005134,Eye Neoplasms,3.0,209,2,229,0.0098,0.2587
+D018567,"Breast Neoplasms, Male",4.0,225,1,225,0.0583,0.5326
+D009375,"Neoplasms, Glandular and Epithelial",3.0,224,1,224,0.0042,0.1874
+D015463,"Leukemia, Prolymphocytic",5.0,224,1,224,0.0174,0.1051
+D009807,Odontogenic Cysts,5.0,223,1,223,0.0092,0.3027
+D006392,"Hemangioma, Cavernous",5.0,222,1,222,0.0114,0.413
+D007948,"Leukemia, Monocytic, Acute",6.0,219,1,219,0.0597,0.4066
+D018305,Ganglioneuroblastoma,8.0,213,1,213,0.0496,0.4033
+D000071960,Breast Carcinoma In Situ,4.0,213,1,213,0.0225,0.3001
+D000071960,Breast Carcinoma In Situ,6.0,213,1,213,0.0225,0.3001
+D007952,"Leukemia, Plasma Cell",4.0,208,1,208,0.0203,0.1062
+D007952,"Leukemia, Plasma Cell",5.0,208,1,208,0.0203,0.1062
+D010610,Pharyngeal Neoplasms,5.0,204,1,204,0.0285,0.3683
+D018315,"Glioma, Subependymal",8.0,101,2,202,0.0162,0.0674
+D018761,Multiple Endocrine Neoplasia Type 1,5.0,199,1,199,0.0208,0.8653
+D006222,Hamartoma,2.0,198,1,198,0.0153,0.5261
+D018235,Smooth Muscle Tumor,5.0,196,1,196,0.0102,0.282
+D010307,Parotid Neoplasms,6.0,167,2,193,0.0093,0.2851
+D002804,Chondroblastoma,5.0,190,1,190,0.0582,0.3755
+D018273,"Carcinoma, Islet Cell",6.0,186,1,186,0.0263,0.3364
+D018237,Germinoma,4.0,183,2,185,0.0083,0.1183
+D057091,Poroma,6.0,92,1,184,0.0417,0.2811
+D014328,Trophoblastic Neoplasms,4.0,183,1,183,0.0053,0.0325
+D014328,Trophoblastic Neoplasms,3.0,183,1,183,0.0053,0.0325
+D007984,Leydig Cell Tumor,7.0,180,1,180,0.0048,0.0452
+D011553,Pseudomyxoma Peritonei,6.0,178,1,178,0.0797,0.3726
+D011553,Pseudomyxoma Peritonei,7.0,178,1,178,0.0797,0.3726
+D013005,Somatostatinoma,6.0,89,1,178,0.0167,0.0746
+D013005,Somatostatinoma,7.0,89,1,178,0.0167,0.0746
+D018328,"Melanoma, Amelanotic",7.0,87,1,174,0.0036,0.0152
+D018296,Pilomatrixoma,5.0,173,1,173,0.02,0.7856
+D005706,Gallbladder Neoplasms,5.0,169,1,169,0.0317,0.3202
+D018253,"Adenoma, Villous",5.0,169,1,169,0.0052,0.0324
+D058527,Enteropathy-Associated T-Cell Lymphoma,6.0,169,1,169,0.0111,0.0852
+D000235,Adenolymphoma,4.0,168,1,168,0.0072,0.1897
+D050398,Adamantinoma,4.0,162,1,162,0.0272,0.0889
+D014516,Ureteral Neoplasms,5.0,122,2,158,0.044,0.2396
+D018326,Nevi and Melanomas,3.0,156,1,156,0.0705,0.3729
+D004407,Dysgerminoma,5.0,154,1,154,0.0097,0.1614
+D004387,Dupuytren Contracture,7.0,152,1,152,0.1814,0.4633
+D018302,"Neoplasms, Neuroepithelial",4.0,151,1,151,0.0102,0.2772
+D001752,Blast Crisis,5.0,150,1,150,0.1514,0.5745
+D001752,Blast Crisis,6.0,150,1,150,0.1514,0.5745
+D010534,Peritoneal Neoplasms,4.0,74,1,148,0.1901,0.4981
+D018307,"Neoplasms, Squamous Cell",4.0,147,1,147,0.0035,0.0165
+D002820,"Hydatidiform Mole, Invasive",6.0,143,1,143,0.0228,0.1848
+D002817,Chordoma,4.0,143,1,143,0.1601,0.3945
+D002820,"Hydatidiform Mole, Invasive",7.0,143,1,143,0.0228,0.1848
+D008202,Lymphangioma,4.0,140,1,140,0.0432,0.381
+D006390,Hemangioendothelioma,5.0,140,1,140,0.0053,0.0743
+D007946,"Leukemia, Mast-Cell",4.0,134,1,134,0.092,0.5711
+D009372,"Neoplasms, Connective Tissue",4.0,134,1,134,0.1169,0.3888
+D007946,"Leukemia, Mast-Cell",6.0,134,1,134,0.092,0.5711
+D018323,"Hemangioendothelioma, Epithelioid",6.0,133,1,133,0.0195,0.1848
+D018306,Neurocytoma,5.0,132,1,132,0.013,0.2786
+D018308,"Papilloma, Inverted",6.0,132,1,132,0.0117,0.0462
+D018252,Syringoma,6.0,66,1,132,0.0055,0.0205
+D008577,Meningeal Neoplasms,5.0,131,1,131,0.067,0.4917
+D018202,Pulmonary Blastoma,4.0,127,1,127,0.1252,0.3759
+D018202,Pulmonary Blastoma,6.0,127,1,127,0.1252,0.3759
+D005097,"Exostoses, Multiple Hereditary",3.0,123,2,126,0.0524,0.7906
+D020288,"Papilloma, Choroid Plexus",8.0,126,1,126,0.0545,0.724
+D005097,"Exostoses, Multiple Hereditary",8.0,123,2,126,0.0524,0.7906
+D002528,Cerebellar Neoplasms,7.0,116,2,124,0.0036,0.0206
+D018813,Multiple Endocrine Neoplasia Type 2a,5.0,123,1,123,0.0192,0.8591
+D018286,"Carcinoma, Giant Cell",5.0,122,1,122,0.0223,0.3705
+D018219,"Histiocytoma, Benign Fibrous",7.0,121,1,121,0.0106,0.2808
+D010997,Pleural Neoplasms,5.0,120,1,120,0.0043,0.0414
+D047868,Pulmonary Sclerosing Hemangioma,6.0,120,1,120,0.0868,0.3752
+D018250,Acrospiroma,6.0,59,1,118,0.0037,0.0174
+D018280,"Carcinoma, Skin Appendage",6.0,116,1,116,0.0566,0.3696
+D018280,"Carcinoma, Skin Appendage",5.0,116,1,116,0.0566,0.3696
+D012626,Sebaceous Gland Neoplasms,4.0,112,1,112,0.0064,0.041
+D009464,"Neuroma, Acoustic",6.0,111,1,111,0.0101,0.6103
+D009464,"Neuroma, Acoustic",5.0,111,1,111,0.0101,0.6103
+D047688,Breast Cyst,3.0,108,1,108,0.0138,0.2967
+D005918,Glomus Tumor,4.0,107,1,107,0.013,0.2858
+D001005,Anus Neoplasms,8.0,104,1,104,0.105,0.5261
+D018814,Multiple Endocrine Neoplasia Type 2b,4.0,52,1,104,0.0205,0.8196
+D018312,Sex Cord-Gonadal Stromal Tumors,4.0,104,1,104,0.0147,0.4161
+D018282,"Cystadenocarcinoma, Mucinous",6.0,102,1,102,0.0045,0.0152
+D018282,"Cystadenocarcinoma, Mucinous",7.0,102,1,102,0.0045,0.0152
+D014625,Vaginal Neoplasms,5.0,102,1,102,0.0397,0.3696
+D018315,"Glioma, Subependymal",7.0,101,2,101,0.0162,0.0674
+D018195,Adenosarcoma,5.0,99,1,99,0.0075,0.0372
+D018195,Adenosarcoma,4.0,99,1,99,0.0075,0.0372
+D034701,"Mastocytosis, Cutaneous",6.0,94,1,94,0.0438,0.8103
+D018251,Hidrocystoma,6.0,47,1,94,0.0032,0.0152
+D034701,"Mastocytosis, Cutaneous",4.0,94,1,94,0.0438,0.8103
+D051642,Histiocytoma,6.0,93,1,93,0.0226,0.3715
+D020339,Optic Nerve Glioma,7.0,31,1,93,0.0301,0.5017
+D036821,Endometrial Stromal Tumors,5.0,46,1,92,0.0051,0.0209
+D009383,"Neoplasms, Vascular Tissue",3.0,92,1,92,0.0052,0.0222
+D003536,Cystadenocarcinoma,5.0,92,1,92,0.013,0.4607
+D003536,Cystadenocarcinoma,6.0,92,1,92,0.013,0.4607
+D002286,"Carcinoma, Ehrlich Tumor",5.0,91,1,91,0.0055,0.0503
+D002286,"Carcinoma, Ehrlich Tumor",3.0,91,1,91,0.0055,0.0503
+D055756,Meningeal Carcinomatosis,6.0,88,1,88,0.0657,0.5315
+D018191,"Lymphangioma, Cystic",5.0,87,1,87,0.0312,0.34
+D018328,"Melanoma, Amelanotic",5.0,87,1,87,0.0036,0.0152
+D018322,Angiofibroma,4.0,86,1,86,0.0282,0.6402
+D010524,Peripheral Nervous System Neoplasms,4.0,82,1,82,0.0075,0.0739
+D014571,Urologic Neoplasms,4.0,82,1,82,0.1784,0.3696
+D004379,Duodenal Neoplasms,6.0,79,2,80,0.0118,0.5494
+D003884,Dermoid Cyst,5.0,78,1,78,0.0045,0.0261
+D003884,Dermoid Cyst,3.0,78,1,78,0.0045,0.0261
+D013544,Sweat Gland Neoplasms,4.0,78,1,78,0.0047,0.02
+D054740,"Dendritic Cell Sarcoma, Follicular",4.0,73,1,73,0.0515,0.2782
+D013586,"Synovitis, Pigmented Villonodular",7.0,72,1,72,0.041,0.3623
+D001650,Bile Duct Neoplasms,5.0,72,1,72,0.0064,0.0453
+D016483,"Lymphoma, AIDS-Related",6.0,71,1,71,0.0597,0.372
+D018300,"Papilloma, Intraductal",5.0,71,1,71,0.0052,0.017
+D002275,Carcinoid Heart Disease,8.0,23,1,69,0.0494,0.2587
+D012207,Rhabdomyoma,6.0,69,1,69,0.0091,0.2685
+D009379,"Neoplasms, Muscle Tissue",4.0,61,2,66,0.0039,0.0123
+D014846,Vulvar Neoplasms,5.0,66,1,66,0.0387,0.1006
+D012142,Respiratory Tract Neoplasms,4.0,64,1,64,0.0919,0.3352
+D062689,Lipoblastoma,6.0,63,1,63,0.035,0.3783
+D020339,Optic Nerve Glioma,6.0,31,1,62,0.0301,0.5017
+D010412,Penile Neoplasms,5.0,60,1,60,0.0295,0.0924
+D018214,"Fibroma, Ossifying",6.0,60,1,60,0.0463,0.3696
+D018214,"Fibroma, Ossifying",7.0,60,1,60,0.0463,0.3696
+D010144,"Paget's Disease, Mammary",6.0,57,1,57,0.0062,0.0209
+D002759,"Adenoma, Bile Duct",5.0,57,1,57,0.0162,0.2807
+D010144,"Paget's Disease, Mammary",7.0,57,1,57,0.0062,0.0209
+D018194,Adenomyoma,4.0,57,1,57,0.0048,0.0157
+D007725,Krukenberg Tumor,7.0,56,1,56,0.0139,0.1866
+D013120,Spinal Cord Neoplasms,5.0,56,1,56,0.0053,0.037
+D007725,Krukenberg Tumor,6.0,56,1,56,0.0139,0.1866
+D019042,Muscle Neoplasms,4.0,54,1,54,0.004,0.0123
+D018193,"Neoplasms, Complex and Mixed",3.0,53,1,53,0.0147,0.0739
+D018814,Multiple Endocrine Neoplasia Type 2b,5.0,52,1,52,0.0205,0.8196
+D018321,Neurothekeoma,6.0,52,1,52,0.0058,0.0317
+D018321,Neurothekeoma,5.0,52,1,52,0.0058,0.0317
+D020295,Brain Stem Neoplasms,7.0,49,2,50,0.0156,0.0739
+D018329,"Nevus, Blue",6.0,50,1,50,0.0837,0.371
+D018229,Angiomyoma,6.0,44,2,47,0.0056,0.0281
+D010016,Osteoma,6.0,47,1,47,0.0049,0.0414
+D018295,"Neoplasms, Basal Cell",4.0,46,1,46,0.0043,0.02
+D002345,Carotid Body Tumor,8.0,23,1,46,0.0068,0.0189
+D008204,Lymphangiosarcoma,5.0,45,1,45,0.0669,0.1848
+D018209,Myelolipoma,5.0,45,1,45,0.0073,0.036
+D008204,Lymphangiosarcoma,4.0,45,1,45,0.0669,0.1848
+D002281,"Carcinoma, Basosquamous",5.0,22,1,44,0.0491,0.2772
+D002812,Chondroma,5.0,43,1,43,0.0488,0.3718
+D054752,Langerhans Cell Sarcoma,4.0,42,1,42,0.0085,0.1874
+D007012,Hypopharyngeal Neoplasms,6.0,41,1,41,0.0132,0.2716
+D005142,Eyelid Neoplasms,5.0,41,1,41,0.0061,0.0443
+D008048,Lip Neoplasms,5.0,39,1,39,0.0177,0.1896
+D014067,Tonsillar Neoplasms,7.0,38,1,38,0.0332,0.187
+D001984,Bronchial Neoplasms,6.0,38,1,38,0.0789,0.3544
+D009918,Orbital Neoplasms,5.0,37,1,37,0.0026,0.0079
+D009918,Orbital Neoplasms,4.0,37,1,37,0.0026,0.0079
+D055882,"Nevus, Halo",5.0,37,1,37,0.0088,0.0814
+D017733,"Leukoplakia, Hairy",6.0,36,1,36,0.0043,0.0129
+D017733,"Leukoplakia, Hairy",5.0,36,1,36,0.0043,0.0129
+D018206,Angiolipoma,5.0,34,1,34,0.0204,0.1848
+D007029,Hypothalamic Neoplasms,7.0,33,1,33,0.0151,0.3696
+D018201,"Nephroma, Mesoblastic",6.0,32,1,32,0.0045,0.0102
+D000232,Adenofibroma,5.0,32,1,32,0.0037,0.0125
+D018201,"Nephroma, Mesoblastic",4.0,32,1,32,0.0045,0.0102
+D018301,"Neoplasms, Mesothelial",4.0,32,1,32,0.0085,0.0988
+D000232,Adenofibroma,7.0,32,1,32,0.0037,0.0125
+D018228,"Sarcoma, Small Cell",5.0,16,1,32,0.004,0.0074
+D000182,"ACTH Syndrome, Ectopic",4.0,31,1,31,0.0136,0.0743
+D018225,"Neoplasms, Fibroepithelial",4.0,30,1,30,0.0038,0.0118
+D018245,"Trophoblastic Tumor, Placental Site",5.0,30,1,30,0.065,0.1848
+D018225,"Neoplasms, Fibroepithelial",6.0,30,1,30,0.0038,0.0118
+D055847,Lynch Syndrome II,4.0,30,1,30,0.0688,0.5117
+D018245,"Trophoblastic Tumor, Placental Site",7.0,30,1,30,0.065,0.1848
+D018245,"Trophoblastic Tumor, Placental Site",6.0,30,1,30,0.065,0.1848
+D001063,Appendiceal Neoplasms,7.0,30,1,30,0.0162,0.1855
+D007078,Ileal Neoplasms,6.0,29,1,29,0.0044,0.0185
+D014523,Urethral Neoplasms,5.0,28,1,28,0.0222,0.037
+D005185,Fallopian Tube Neoplasms,5.0,27,1,27,0.2207,0.3696
+D019292,Skull Base Neoplasms,5.0,27,1,27,0.0035,0.0074
+D018231,Leiomyomatosis,6.0,26,1,26,0.0045,0.0155
+D004919,Erythroplasia,3.0,25,1,25,0.0058,0.0291
+D002293,"Adenocarcinoma, Scirrhous",6.0,24,1,24,0.0032,0.0148
+D018283,"Cystadenocarcinoma, Papillary",7.0,22,1,22,0.0026,0.0074
+D018292,"Cystadenoma, Papillary",6.0,11,1,22,0.0102,0.0206
+D000238,"Adenoma, Chromophobe",6.0,11,1,22,0.0077,0.0167
+D018283,"Cystadenocarcinoma, Papillary",6.0,22,1,22,0.0026,0.0074
+D008479,Mediastinal Neoplasms,4.0,21,1,21,0.0815,0.2587
+D017600,"Neuroectodermal Tumor, Melanotic",5.0,10,1,20,0.0044,0.0074
+D049309,Acanthoma,5.0,19,1,19,0.0324,0.3696
+D049309,Acanthoma,4.0,19,1,19,0.0324,0.3696
+D008039,Linitis Plastica,7.0,19,1,19,0.004,0.0177
+D005925,Glomus Jugulare Tumor,8.0,9,1,18,0.0025,0.0044
+D000794,Angiokeratoma,4.0,18,1,18,0.0294,0.2772
+D013365,Submandibular Gland Neoplasms,6.0,18,1,18,0.0037,0.0103
+D013330,Struma Ovarii,5.0,18,1,18,0.0063,0.0193
+D018255,"Adenomatosis, Pulmonary",5.0,17,1,17,0.0026,0.0074
+D019046,Bone Marrow Neoplasms,4.0,16,1,16,0.0542,0.4989
+D018265,"Carcinoma, Papillary, Follicular",7.0,7,1,14,0.0022,0.003
+D002287,"Carcinoma, Krebs 2",5.0,13,1,13,0.003,0.0037
+D002287,"Carcinoma, Krebs 2",3.0,13,1,13,0.003,0.0037
+D015811,Iris Neoplasms,5.0,12,2,13,0.0021,0.0037
+D008203,Lymphangiomyoma,4.0,12,1,12,0.0031,0.0069
+D009507,Nevus of Ota,6.0,12,1,12,0.0421,0.2785
+D000239,"Adenoma, Acidophil",6.0,6,1,12,0.0039,0.0057
+D014134,Tracheal Neoplasms,5.0,12,1,12,0.0037,0.0074
+D014134,Tracheal Neoplasms,4.0,12,1,12,0.0037,0.0074
+D015456,"Leukemia, Biphenotypic, Acute",5.0,11,1,11,0.0072,0.0152
+D000238,"Adenoma, Chromophobe",5.0,11,1,11,0.0077,0.0167
+D007580,Jejunal Neoplasms,6.0,11,1,11,0.0034,0.0074
+D018330,"Nevus, Intradermal",5.0,11,1,11,0.1025,0.3696
+D014604,Uveal Neoplasms,4.0,11,1,11,0.0452,0.462
+D012186,Retroperitoneal Neoplasms,4.0,10,1,10,0.1272,0.5233
+D018297,"Neoplasms, Cystic, Mucinous, and Serous",4.0,10,1,10,0.037,0.037
+D013955,Thyroglossal Cyst,3.0,10,1,10,0.004,0.0102
+D018220,"Fibroma, Desmoplastic",7.0,9,1,9,0.0432,0.1869
+D019572,Retinal Neoplasms,4.0,9,1,9,0.0027,0.0059
+D002430,Cecal Neoplasms,6.0,9,1,9,0.1203,0.3793
+D003390,Cranial Nerve Neoplasms,4.0,8,1,8,0.0643,0.243
+D003390,Cranial Nerve Neoplasms,5.0,8,1,8,0.0643,0.243
+D000314,Adrenal Rest Tumor,5.0,8,1,8,0.0023,0.0059
+D008476,Mediastinal Cyst,3.0,8,1,8,0.0036,0.0111
+D012888,Skull Neoplasms,4.0,7,1,7,0.002,0.0037
+D018230,"Leiomyoma, Epithelioid",6.0,7,1,7,0.0032,0.0078
+D018198,"Mixed Tumor, Malignant",4.0,7,2,7,0.0937,0.2772
+D062625,Cystadenofibroma,8.0,7,1,7,0.0041,0.0046
+D008637,Mesenchymoma,4.0,7,1,7,0.0018,0.0022
+D062625,Cystadenofibroma,6.0,7,1,7,0.0041,0.0046
+D062625,Cystadenofibroma,5.0,7,1,7,0.0041,0.0046
+D008441,Maxillary Neoplasms,6.0,7,1,7,0.0094,0.0212
+D001935,Branchioma,3.0,6,1,6,0.0038,0.0103
+D000239,"Adenoma, Acidophil",5.0,6,1,6,0.0039,0.0057
+D019574,Optic Nerve Neoplasms,5.0,6,1,6,0.0034,0.0074
+D019574,Optic Nerve Neoplasms,6.0,6,1,6,0.0034,0.0074
+D051527,"Odontogenic Tumor, Squamous",4.0,6,1,6,0.0033,0.0074
+D010178,Pancoast Syndrome,6.0,5,1,5,0.0046,0.0116
+D006338,Heart Neoplasms,4.0,5,1,5,0.0041,0.0074
+D008444,Maxillary Sinus Neoplasms,7.0,5,1,5,0.0044,0.0074
+D012811,Sigmoid Neoplasms,8.0,5,1,5,0.2423,0.3285
+D000237,"Adenoma, Basophil",6.0,2,1,4,0.0038,0.0054
+D031954,"Choriocarcinoma, Non-gestational",5.0,4,1,4,0.0018,0.0022
+D062688,Buschke-Lowenstein Tumor,6.0,2,1,4,0.0015,0.0015
+D031954,"Choriocarcinoma, Non-gestational",6.0,4,1,4,0.0018,0.0022
+D058617,Composite Lymphoma,4.0,2,1,4,0.0022,0.0022
+D031954,"Choriocarcinoma, Non-gestational",7.0,4,1,4,0.0018,0.0022
+D052958,Tarlov Cysts,3.0,3,1,3,0.0032,0.0037
+D005887,Gingival Neoplasms,5.0,3,1,3,0.0061,0.0081
+D010157,Palatal Neoplasms,5.0,2,1,2,0.0022,0.0022
+D013160,Splenic Neoplasms,3.0,2,1,2,0.0037,0.0037
+D010157,Palatal Neoplasms,6.0,2,1,2,0.0022,0.0022
+D018221,"Fibromatosis, Abdominal",7.0,2,1,2,0.0018,0.0022
+D000237,"Adenoma, Basophil",5.0,2,1,2,0.0038,0.0054
+D004428,Ear Neoplasms,5.0,1,1,1,0.0015,0.0015
+D007573,Jaw Neoplasms,5.0,1,1,1,0.0037,0.0037
+D018199,"Mixed Tumor, Mesodermal",4.0,1,1,1,0.0067,0.0067
+D002551,Cerebral Ventricle Neoplasms,6.0,1,1,1,0.0022,0.0022
+D018199,"Mixed Tumor, Mesodermal",5.0,1,1,1,0.0067,0.0067
+D008339,Mandibular Neoplasms,6.0,1,1,1,0.0015,0.0015
+D020786,"Hemangioma, Cavernous, Central Nervous System",6.0,1,1,1,0.0185,0.0185

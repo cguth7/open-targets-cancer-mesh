@@ -1,0 +1,48 @@
+# Open Targets Cancer MeSH Pipeline Configuration
+# All paths are relative to the repository root
+
+paths:
+  data_dir: data
+  processed_dir: data/processed
+  opentargets_dir: data/opentargets
+  mesh_dir: data/mesh
+  ncbi_dir: data/ncbi
+
+# Open Targets configuration
+opentargets:
+  # EFO ID for neoplasm (cancer) therapeutic area
+  cancer_therapeutic_area: EFO_0000616
+  # Platform version
+  version: "25.12"
+  # FTP base URL
+  ftp_base: "ftp.ebi.ac.uk::pub/databases/opentargets/platform/25.12/output/etl/parquet"
+
+# MeSH configuration
+mesh:
+  # C04.588 = Neoplasms by Site (anatomical hierarchy)
+  site_prefix: "C04.588"
+  # Full C04 = all neoplasms
+  neoplasm_prefix: "C04"
+
+# NCBI Gene configuration
+ncbi:
+  # gene2ensembl mapping file
+  gene2ensembl_url: "https://ftp.ncbi.nlm.nih.gov/gene/DATA/gene2ensembl.gz"
+  # Taxonomy ID for Homo sapiens
+  human_tax_id: 9606
+
+# Output configuration
+output:
+  # Minimum association score to include
+  min_score: 0.0
+  # MeSH hierarchy levels to include (3-4 is clinical trial level)
+  target_levels: [3, 4, 5]
+
+# Pipeline flags
+pipeline:
+  # Use site-only (C04.588) or full C04 hierarchy
+  site_only: true
+  # Include Entrez Gene ID mapping
+  include_entrez: true
+  # Generate summary statistics
+  generate_summaries: true

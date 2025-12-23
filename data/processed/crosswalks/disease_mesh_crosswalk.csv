@@ -1,0 +1,182 @@
+diseaseId,diseaseName,meshId,mesh_name,tree_number,level
+EFO_0000181,head and neck squamous cell carcinoma,D000077195,Squamous Cell Carcinoma of Head and Neck,C04.588.443.177,4
+EFO_0000182,hepatocellular carcinoma,D006528,"Carcinoma, Hepatocellular",C04.588.274.623.160,5
+EFO_0000308,bronchoalveolar adenocarcinoma,D002282,"Adenocarcinoma, Bronchiolo-Alveolar",C04.588.894.797.520.055.500,7
+EFO_0000326,central nervous system cancer,D016543,Central Nervous System Neoplasms,C04.588.614.250,4
+EFO_0000571,lung adenocarcinoma,D000077192,Adenocarcinoma of Lung,C04.588.894.797.520.055,6
+EFO_0000681,renal cell carcinoma,D002292,"Carcinoma, Renal Cell",C04.588.945.947.535.160,6
+EFO_0000702,small cell lung carcinoma,D055752,Small Cell Lung Carcinoma,C04.588.894.797.520.109.220.624,8
+EFO_0000756,melanoma,D008545,Melanoma,C04.588.805.377,4
+EFO_0000762,hepatocellular adenoma,D018248,"Adenoma, Liver Cell",C04.588.274.623.040,5
+EFO_0002429,polycythemia vera,D011087,Polycythemia Vera,C04.588.448.200.500,5
+EFO_0002431,tumour of cranial and spinal nerves,D010524,Peripheral Nervous System Neoplasms,C04.588.614.596,4
+EFO_0003060,non-small cell lung carcinoma,D002289,"Carcinoma, Non-Small-Cell Lung",C04.588.894.797.520.109.220.249,8
+EFO_0003104,adrenocortical adenoma,D018246,Adrenocortical Adenoma,C04.588.322.078.265.500,6
+EFO_0003769,endocrine neoplasm,D004701,Endocrine Gland Neoplasms,C04.588.322,3
+EFO_0003817,laryngeal neoplasm,D007822,Laryngeal Neoplasms,C04.588.443.665.481,5
+EFO_0003820,bone neoplasm,D001859,Bone Neoplasms,C04.588.149,3
+EFO_0003824,eye neoplasm,D005134,Eye Neoplasms,C04.588.364,3
+EFO_0003828,spinal cord neoplasm,D013120,Spinal Cord Neoplasms,C04.588.614.250.803,5
+EFO_0003833,brain neoplasm,D001932,Brain Neoplasms,C04.588.614.250.195,5
+EFO_0003835,anal neoplasm,D001005,Anus Neoplasms,C04.588.274.476.411.307.790.040,8
+EFO_0003841,thyroid neoplasm,D013964,Thyroid Neoplasms,C04.588.322.894,4
+EFO_0003844,ureteral neoplasm,D014516,Ureteral Neoplasms,C04.588.945.947.940,5
+EFO_0003846,urethral neoplasm,D014523,Urethral Neoplasms,C04.588.945.947.945,5
+EFO_0003849,palatal neoplasm,D010157,Palatal Neoplasms,C04.588.443.591.692,5
+EFO_0003850,adrenal gland neoplasm,D000310,Adrenal Gland Neoplasms,C04.588.322.078,4
+EFO_0003851,meningeal neoplasm,D008577,Meningeal Neoplasms,C04.588.614.250.580,5
+EFO_0003853,respiratory system neoplasm,D012142,Respiratory Tract Neoplasms,C04.588.894.797,4
+EFO_0003859,uterine neoplasm,D014594,Uterine Neoplasms,C04.588.945.418.948,5
+EFO_0003860,pancreatic neoplasm,D010190,Pancreatic Neoplasms,C04.588.322.475,4
+EFO_0003863,urogenital neoplasm,D014565,Urogenital Neoplasms,C04.588.945,3
+EFO_0003865,kidney neoplasm,D007680,Kidney Neoplasms,C04.588.945.947.535,5
+EFO_0003868,mouth neoplasm,D009062,Mouth Neoplasms,C04.588.443.591,4
+EFO_0003869,breast neoplasm,D001943,Breast Neoplasms,C04.588.180,3
+EFO_0003871,tongue neoplasm,D014062,Tongue Neoplasms,C04.588.443.591.925,5
+EFO_0003873,parotid neoplasm,D010307,Parotid Neoplasms,C04.588.443.591.824.695,6
+EFO_0003880,appendiceal neoplasm,D001063,Appendiceal Neoplasms,C04.588.274.476.411.184.290,7
+EFO_0003893,ovarian neoplasm,D010051,Ovarian Neoplasms,C04.588.322.455,4
+EFO_0003897,stomach neoplasm,D013274,Stomach Neoplasms,C04.588.274.476.767,5
+EFO_0004142,colorectal neoplasm,D015179,Colorectal Neoplasms,C04.588.274.476.411.307,6
+EFO_0004198,skin neoplasm,D012878,Skin Neoplasms,C04.588.805,3
+EFO_0004230,endometrial neoplasm,D016889,Endometrial Neoplasms,C04.588.945.418.948.585,6
+EFO_0004252,nasopharyngeal neoplasm,D009303,Nasopharyngeal Neoplasms,C04.588.443.665.710.650,6
+EFO_0004281,testicular neoplasm,D013736,Testicular Neoplasms,C04.588.322.762,4
+EFO_0004288,colonic neoplasm,D003110,Colonic Neoplasms,C04.588.274.476.411.307.180,7
+EFO_0004606,gallbladder neoplasm,D005706,Gallbladder Neoplasms,C04.588.274.120.401,5
+EFO_0005088,testicular carcinoma,D013736,Testicular Neoplasms,C04.588.322.762,4
+EFO_0005537,triple-negative breast cancer,D064726,Triple Negative Breast Neoplasms,C04.588.180.788,4
+EFO_0005577,pharynx cancer,D010610,Pharyngeal Neoplasms,C04.588.443.665.710,5
+EFO_0005716,retinal cancer,D019572,Retinal Neoplasms,C04.588.364.818,4
+EFO_0005922,esophageal squamous cell carcinoma,D000077277,Esophageal Squamous Cell Carcinoma,C04.588.443.353.500,5
+EFO_0006318,breast ductal adenocarcinoma,D018270,"Carcinoma, Ductal, Breast",C04.588.180.390,4
+EFO_0006861,male breast carcinoma,D018567,"Breast Neoplasms, Male",C04.588.180.260,4
+EFO_0007197,cecal benign neoplasm,D002430,Cecal Neoplasms,C04.588.274.476.411.184,6
+EFO_0007201,cerebral ventricle cancer,D002551,Cerebral Ventricle Neoplasms,C04.588.614.250.195.205,6
+EFO_0007206,choroid plexus cancer,D016545,Choroid Plexus Neoplasms,C04.588.614.250.195.205.200,7
+EFO_0007270,femoral cancer,D005266,Femoral Neoplasms,C04.588.149.276,4
+EFO_0007321,hypopharynx cancer,D007012,Hypopharyngeal Neoplasms,C04.588.443.665.710.485,6
+EFO_0007330,intestinal cancer,D007414,Intestinal Neoplasms,C04.588.274.476.411,5
+EFO_0007331,islet cell tumor,D007516,"Adenoma, Islet Cell",C04.588.274.761.249,5
+EFO_0007333,jaw cancer,D007573,Jaw Neoplasms,C04.588.149.721.450,5
+EFO_0007355,male reproductive organ cancer,D005834,"Genital Neoplasms, Male",C04.588.945.440,4
+EFO_0007356,mandibular cancer,D008339,Mandibular Neoplasms,C04.588.149.721.450.583,6
+EFO_0007360,maxillary neoplasm,D008441,Maxillary Neoplasms,C04.588.149.721.450.601,6
+EFO_0007362,mediastinal cancer,D008479,Mediastinal Neoplasms,C04.588.894.479,4
+EFO_0007365,mesoblastic nephroma,D018201,"Nephroma, Mesoblastic",C04.588.945.947.535.790,6
+EFO_0007392,nervous system cancer,D009423,Nervous System Neoplasms,C04.588.614,3
+EFO_0007408,orbital cancer,D009918,Orbital Neoplasms,C04.588.364.659,4
+EFO_0007416,pancreatic endocrine carcinoma,D018273,"Carcinoma, Islet Cell",C04.588.274.761.500,5
+EFO_0007458,pulmonary blastoma,D018202,Pulmonary Blastoma,C04.588.894.797.520.867,6
+EFO_0007466,retroperitoneal cancer,D012186,Retroperitoneal Neoplasms,C04.588.033.731,4
+EFO_0007491,spleen cancer,D013160,Splenic Neoplasms,C04.588.842,3
+EFO_0008549,digestive system neoplasm,D005770,Gastrointestinal Neoplasms,C04.588.274.476,4
+EFO_0009254,optic nerve glioblastoma,D020339,Optic Nerve Glioma,C04.588.614.300.600.600,6
+EFO_0009255,cecal neoplasm,D002430,Cecal Neoplasms,C04.588.274.476.411.184,6
+EFO_1000015,aldosterone-producing adenoma,D018246,Adrenocortical Adenoma,C04.588.322.078.265.500,6
+EFO_1000026,diffuse intrinsic pontine glioma,D000080443,Diffuse Intrinsic Pontine Glioma,C04.588.614.250.195.411.100.500,8
+EFO_1000032,granulosa cell tumor,D006106,Granulosa Cell Tumor,C04.588.322.455.398,5
+EFO_1000321,Leydig Cell Tumor,D007984,Leydig Cell Tumor,C04.588.322.762.500.249,6
+EFO_1000337,Lung Sclerosing Hemangioma,D047868,Pulmonary Sclerosing Hemangioma,C04.588.894.797.520.933,6
+EFO_1000350,Malignant Bone Neoplasm,D001859,Bone Neoplasms,C04.588.149,3
+EFO_1000355,Malignant Mesothelioma,D000086002,"Mesothelioma, Malignant",C04.588.894.797.640.350,6
+EFO_1000496,Prolactin-Producing Pituitary Gland Adenoma,D015175,Prolactinoma,C04.588.322.609.792,5
+EFO_1000581,Thymoma,D013945,Thymoma,C04.588.894.949.500,5
+EFO_1000804,anal gland neoplasm,D000694,Anal Gland Neoplasms,C04.588.083,3
+EFO_1000835,benign fibrous mesothelioma,D054363,"Solitary Fibrous Tumor, Pleural",C04.588.894.797.640.800,6
+EFO_1000849,bronchial neoplasm,D001984,Bronchial Neoplasms,C04.588.894.797.520.109,6
+EFO_1000856,central neurocytoma,D018306,Neurocytoma,C04.588.614.250.195.648,6
+EFO_1000858,cerebellum cancer,D002528,Cerebellar Neoplasms,C04.588.614.250.195.411.211,7
+EFO_1000866,choroid cancer,D002830,Choroid Neoplasms,C04.588.364.978.223,5
+EFO_1000876,common bile duct neoplasm,D003138,Common Bile Duct Neoplasms,C04.588.274.120.250.250,6
+EFO_1000884,cranial nerve malignant neoplasm,D003390,Cranial Nerve Neoplasms,C04.588.614.300,4
+EFO_1000886,cutaneous mastocytosis,D034701,"Mastocytosis, Cutaneous",C04.588.805.309,4
+EFO_1000907,duodenal benign neoplasm,D004379,Duodenal Neoplasms,C04.588.274.476.411.445,6
+EFO_1000923,epidural neoplasm,D015174,Epidural Neoplasms,C04.588.614.250.803.342,6
+EFO_1000934,eyelid neoplasm,D005142,Eyelid Neoplasms,C04.588.443.392.500,5
+EFO_1000979,hypothalamic neoplasm,D007029,Hypothalamic Neoplasms,C04.588.614.250.195.885.500,7
+EFO_1000981,ileal neoplasm,D007078,Ileal Neoplasms,C04.588.274.476.411.501,6
+EFO_1000984,inflammatory breast carcinoma,D058922,Inflammatory Breast Neoplasms,C04.588.180.576,4
+EFO_1000996,iris cancer,D015811,Iris Neoplasms,C04.588.364.978.400,5
+EFO_1001012,leptomeningeal metastasis,D055756,Meningeal Carcinomatosis,C04.588.614.250.580.150,6
+EFO_1001019,lip cancer,D008048,Lip Neoplasms,C04.588.443.591.550,5
+EFO_1001035,maxillary sinus neoplasm,D008444,Maxillary Sinus Neoplasms,C04.588.443.665.650.693.575,7
+EFO_1001073,optic nerve neoplasm,D019574,Optic Nerve Neoplasms,C04.588.614.300.600,5
+EFO_1001080,Pancoast tumor,D010178,Pancoast Syndrome,C04.588.894.797.520.734,6
+EFO_1001094,penile neoplasm,D010412,Penile Neoplasms,C04.588.945.440.715,5
+EFO_1001100,peritoneal neoplasm,D010534,Peritoneal Neoplasms,C04.588.033.513,4
+EFO_1001172,sebaceous gland neoplasm,D012626,Sebaceous Gland Neoplasms,C04.588.805.578,4
+EFO_1001181,sigmoid neoplasm,D012811,Sigmoid Neoplasms,C04.588.274.476.411.307.180.800,8
+EFO_1001187,somatostatinoma,D013005,Somatostatinoma,C04.588.322.475.500.500,6
+EFO_1001204,sweat gland neoplasm,D013544,Sweat Gland Neoplasms,C04.588.805.776,4
+EFO_1001214,tonsil cancer,D014067,Tonsillar Neoplasms,C04.588.443.665.710.684.800,7
+EFO_1001230,uveal cancer,D014604,Uveal Neoplasms,C04.588.364.978,4
+EFO_1001360,"Leukoplakia, Hairy",D017733,"Leukoplakia, Hairy",C04.588.443.591.545.500,6
+EFO_1001430,Sublingual Gland Neoplasms,D013362,Sublingual Gland Neoplasms,C04.588.443.591.824.882,6
+EFO_1001437,Tracheal neoplasm,D014134,Tracheal Neoplasms,C04.588.443.925,4
+EFO_1001513,liver neoplasm,D008113,Liver Neoplasms,C04.588.274.623,4
+EFO_1001767,brain stem neoplasm,D020295,Brain Stem Neoplasms,C04.588.614.250.195.411.100,7
+EFO_1001844,skin mastocytoma,D054705,"Mastocytoma, Skin",C04.588.805.309.500,5
+EFO_1001853,submandibular gland neoplasm,D013365,Submandibular Gland Neoplasms,C04.588.443.591.824.885,6
+EFO_1001931,oropharynx cancer,D009959,Oropharyngeal Neoplasms,C04.588.443.665.710.684,6
+EFO_1001942,bronchogenic carcinoma,D002283,"Carcinoma, Bronchogenic",C04.588.894.797.520.109.220,7
+MONDO_0000920,duodenum cancer,D004379,Duodenal Neoplasms,C04.588.274.476.411.445,6
+MONDO_0001340,heart cancer,D006338,Heart Neoplasms,C04.588.894.309,4
+MONDO_0001398,ureter benign neoplasm,D014516,Ureteral Neoplasms,C04.588.945.947.940,5
+MONDO_0001402,vaginal cancer,D014625,Vaginal Neoplasms,C04.588.945.418.955,5
+MONDO_0001528,vulva cancer,D014846,Vulvar Neoplasms,C04.588.945.418.968,5
+MONDO_0001569,acoustic neuroma,D009464,"Neuroma, Acoustic",C04.588.614.300.015,5
+MONDO_0001657,brain cancer,D001932,Brain Neoplasms,C04.588.614.250.195,5
+MONDO_0002071,supratentorial cancer,D015173,Supratentorial Neoplasms,C04.588.614.250.195.885,6
+MONDO_0002093,acanthoma,D049309,Acanthoma,C04.588.805.040,4
+MONDO_0002165,rectal neoplasm,D012004,Rectal Neoplasms,C04.588.274.476.411.307.790,7
+MONDO_0002236,ocular cancer,D005134,Eye Neoplasms,C04.588.364,3
+MONDO_0002334,hematopoietic and lymphoid system neoplasm,D019337,Hematologic Neoplasms,C04.588.448,3
+MONDO_0002367,kidney cancer,D007680,Kidney Neoplasms,C04.588.945.947.535,5
+MONDO_0002422,adamantinoma,D050398,Adamantinoma,C04.588.149.030,4
+MONDO_0002564,jejunal neoplasm,D007580,Jejunal Neoplasms,C04.588.274.476.411.523,6
+MONDO_0002633,cranial nerve neoplasm,D003390,Cranial Nerve Neoplasms,C04.588.614.300,4
+MONDO_0002715,uterine cancer,D014594,Uterine Neoplasms,C04.588.945.418.948,5
+MONDO_0002785,skull base neoplasm,D019292,Skull Base Neoplasms,C04.588.149.721.828,5
+MONDO_0002814,adrenal carcinoma,D018268,Adrenocortical Carcinoma,C04.588.322.078.265.750,6
+MONDO_0002817,adrenal gland cancer,D000310,Adrenal Gland Neoplasms,C04.588.322.078,4
+MONDO_0002912,brainstem cancer,D020295,Brain Stem Neoplasms,C04.588.614.250.195.411.100,7
+MONDO_0002913,cerebellar neoplasm,D002528,Cerebellar Neoplasms,C04.588.614.250.195.411.211,7
+MONDO_0003107,infratentorial cancer,D015192,Infratentorial Neoplasms,C04.588.614.250.195.411,6
+MONDO_0003277,malignant ear neoplasm,D004428,Ear Neoplasms,C04.588.443.665.312,5
+MONDO_0003525,pancreatic gastrin-producing neuroendocrine tumor,D015408,Gastrinoma,C04.588.274.761.500.124,6
+MONDO_0004180,benign urinary system neoplasm,D014571,Urologic Neoplasms,C04.588.945.947,4
+MONDO_0004532,auditory system cancer,D004428,Ear Neoplasms,C04.588.443.665.312,5
+MONDO_0004631,tongue cancer,D014062,Tongue Neoplasms,C04.588.443.591.925,5
+MONDO_0004658,breast carcinoma in situ,D000071960,Breast Carcinoma In Situ,C04.588.180.130,4
+MONDO_0004669,salivary gland cancer,D012468,Salivary Gland Neoplasms,C04.588.443.591.824,5
+MONDO_0004700,parotid gland cancer,D010307,Parotid Neoplasms,C04.588.443.591.824.695,6
+MONDO_0005184,pancreatic ductal adenocarcinoma,D021441,"Carcinoma, Pancreatic Ductal",C04.588.274.761.750,5
+MONDO_0005374,bone marrow neoplasm,D019046,Bone Marrow Neoplasms,C04.588.448.200,4
+MONDO_0006058,Wilms tumor,D009396,Wilms Tumor,C04.588.945.947.535.585,6
+MONDO_0007540,multiple endocrine neoplasia type 1,D018761,Multiple Endocrine Neoplasia Type 1,C04.588.322.400.500,5
+MONDO_0008018,Muir-Torre syndrome,D055653,Muir-Torre Syndrome,C04.588.805.578.500,5
+MONDO_0008082,multiple endocrine neoplasia type 2B,D018814,Multiple Endocrine Neoplasia Type 2b,C04.588.322.400.510,5
+MONDO_0008170,ovarian cancer,D010051,Ovarian Neoplasms,C04.588.322.455,4
+MONDO_0008234,multiple endocrine neoplasia type 2A,D018813,Multiple Endocrine Neoplasia Type 2a,C04.588.322.400.505,5
+MONDO_0008315,prostate cancer,D011471,Prostatic Neoplasms,C04.588.945.440.770,5
+MONDO_0008380,retinoblastoma,D012175,Retinoblastoma,C04.588.364.818.760,5
+MONDO_0008627,ureter cancer,D014516,Ureteral Neoplasms,C04.588.945.947.940,5
+MONDO_0009837,choroid plexus papilloma,D020288,"Papilloma, Choroid Plexus",C04.588.614.250.195.205.200.500,8
+MONDO_0015459,nasopharyngeal carcinoma,D000077274,Nasopharyngeal Carcinoma,C04.588.443.665.710.650.500,7
+MONDO_0015528,congenital epulis,D005887,Gingival Neoplasms,C04.588.443.591.402,5
+MONDO_0016642,meningioma,D008579,Meningioma,C04.588.614.250.580.500,6
+MONDO_0021065,pleural neoplasm,D010997,Pleural Neoplasms,C04.588.894.797.640,5
+MONDO_0021069,malignant endocrine neoplasm,D004701,Endocrine Gland Neoplasms,C04.588.322,3
+MONDO_0021092,fallopian tube neoplasm,D005185,Fallopian Tube Neoplasms,C04.588.945.418.365,5
+MONDO_0021117,lung neoplasm,D008175,Lung Neoplasms,C04.588.894.797.520,5
+MONDO_0021148,female reproductive system neoplasm,D005833,"Genital Neoplasms, Female",C04.588.945.418,4
+MONDO_0021224,iris neoplasm,D015811,Iris Neoplasms,C04.588.364.978.400,5
+MONDO_0021251,endometrium neoplasm,D016889,Endometrial Neoplasms,C04.588.945.418.948.585,6
+MONDO_0021545,myomatous neoplasm,D019042,Muscle Neoplasms,C04.588.839.500,4
+MONDO_0021662,bile duct neoplasm,D001650,Bile Duct Neoplasms,C04.588.274.120.250,5
+MONDO_0024653,skull neoplasm,D012888,Skull Neoplasms,C04.588.149.721,4
+MONDO_0024677,pancreatic insulinoma,D007340,Insulinoma,C04.588.322.475.249.500,6
+MONDO_0036591,adrenal cortex neoplasm,D000306,Adrenal Cortex Neoplasms,C04.588.322.078.265,5
+Orphanet_145,Hereditary breast and ovarian cancer syndrome,D061325,Hereditary Breast and Ovarian Cancer Syndrome,C04.588.180.483,4
+Orphanet_654,Nephroblastoma,D009396,Wilms Tumor,C04.588.945.947.535.585,6
