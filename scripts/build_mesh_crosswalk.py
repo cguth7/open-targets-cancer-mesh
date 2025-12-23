@@ -137,25 +137,58 @@ def create_summaries(final: pd.DataFrame) -> None:
 
 
 def create_site_only(crosswalk: pd.DataFrame, final: pd.DataFrame) -> None:
-    """Create site-only versions (C04.588 hierarchy only, not histologic type)."""
+    """
+    Create site-only versions (C04.588 hierarchy only, not histologic type).
+
+    Deduplication:
+    1. One row per (disease, meshId) in crosswalk, keeping lowest level (most specific)
+    2. Aggregate gene associations by (gene, meshId): MAX score, SUM evidenceCount
+       This collapses multiple OT diseases that map to the same MeSH term.
+
+    NOTE: For non-site (full) data, multiple tree_numbers per meshId are preserved
+    since the same MeSH concept can appear in different hierarchies (polyhierarchy).
+    If you need deduped full data, apply similar logic there.
+    """
     # Filter crosswalk to site-based MeSH only
     site_crosswalk = crosswalk[
         crosswalk['tree_number'].str.startswith('C04.588', na=False)
     ].copy()
+
+    # Dedupe crosswalk: one row per (disease, meshId), keep lowest level (most specific)
+    site_crosswalk = site_crosswalk.sort_values('level', ascending=False)  # highest first
+    site_crosswalk = site_crosswalk.drop_duplicates(
+        subset=['diseaseId', 'meshId'],
+        keep='last'  # keeps lowest level after sort
+    ).sort_values(['diseaseId', 'level'])
+
     site_crosswalk.to_csv(PROCESSED_DIR / 'cancer_mesh_crosswalk_site_only.csv', index=False)
 
-    # Filter final dataset
+    # Join associations with crosswalk
     final_base = final[['diseaseId', 'targetId', 'score', 'evidenceCount']].drop_duplicates()
-    site_final = final_base.merge(
-        site_crosswalk[['diseaseId', 'diseaseName', 'meshId', 'mesh_name', 'tree_number', 'level']],
+    site_joined = final_base.merge(
+        site_crosswalk[['diseaseId', 'meshId', 'mesh_name', 'tree_number', 'level']],
         on='diseaseId',
         how='inner'
     )
+
+    # Aggregate by (gene, meshId): MAX score, SUM evidenceCount
+    # This collapses multiple OT diseases → same MeSH into one row per gene-mesh pair
+    site_final = site_joined.groupby(['targetId', 'meshId']).agg({
+        'score': 'max',
+        'evidenceCount': 'sum',
+        'mesh_name': 'first',
+        'tree_number': 'first',
+        'level': 'first'
+    }).reset_index()
+
+    # Reorder columns
+    site_final = site_final[['targetId', 'meshId', 'mesh_name', 'tree_number', 'level', 'score', 'evidenceCount']]
+
     site_final.to_parquet(PROCESSED_DIR / 'cancer_gene_disease_mesh_site_only.parquet', index=False)
     site_final.to_csv(PROCESSED_DIR / 'cancer_gene_disease_mesh_site_only.csv', index=False)
 
-    print(f"  Site-only crosswalk: {len(site_crosswalk)} rows, {site_crosswalk['diseaseId'].nunique()} diseases")
-    print(f"  Site-only final: {len(site_final):,} rows")
+    print(f"  Site-only crosswalk: {len(site_crosswalk)} rows, {site_crosswalk['diseaseId'].nunique()} diseases, {site_crosswalk['meshId'].nunique()} MeSH terms")
+    print(f"  Site-only final: {len(site_final):,} rows (gene-mesh pairs, aggregated)")
 
 
 def main():
